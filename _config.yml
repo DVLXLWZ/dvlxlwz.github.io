@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "LIU Xiaolong"
-  avatar           : "profile.png"
+  avatar           : "/images/MyPhoto.JPG"
   bio              : "I’m an undergraduate student who is learning algebraic geometry."
   location         : "China"
   employer         :
