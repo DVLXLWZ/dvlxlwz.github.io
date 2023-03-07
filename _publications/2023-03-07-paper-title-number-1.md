@@ -2,7 +2,7 @@
 title: "I Have No Papers Yet!!!"
 collection: publications
 permalink: /publication/2023-03-07-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'I Have No Papers Yet!!!'
 date: 2023-03-07
 venue: 'Journal XXX'
 paperurl: 'Need to add'
