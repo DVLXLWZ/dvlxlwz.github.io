@@ -12,6 +12,7 @@ I'm a forth year undergraduate student from [Taishan Collage](https://www.tsxt.s
 I will begin my M.S. study at Academy of Mathematics and System Sciences in CAS in Sept. 2023.
 
 Learn from the master:
+[grr](../images/grr.png)
 
 
 ## Links of My Friends
