@@ -11,7 +11,7 @@ I'm a forth year undergraduate student from [Taishan Collage](https://www.tsxt.s
 
 I will begin my M.S. study at Academy of Mathematics and System Sciences in CAS in Sept. 2023.
 
-My E-mail: 15834015310 AT 163 DOT com
+My e-mail: 201900170025 AT sdu DOT edu DOT com
 
 ## Links of My Friends
 > [Lyu Junzhe’s Homepage](https://taiataiat.github.io/)
