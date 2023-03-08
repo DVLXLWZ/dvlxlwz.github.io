@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in China, Shandong University, 2019 - 2023
-* M.S. in Beijing, Academy of Mathematics and System Sciences in CAS, 2023 -
+* B.S. in Shandong-China, Shandong University, 2019 - 2023
+* M.S. in Beijing-China, Academy of Mathematics and System Sciences in CAS, 2023 - now
 
 Publications
 ======
