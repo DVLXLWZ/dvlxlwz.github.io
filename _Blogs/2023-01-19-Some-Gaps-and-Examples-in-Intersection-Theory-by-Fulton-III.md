@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Some Gaps and Examples in Intersection Theory by Fulton III
-date: 2023-01-19
-last_modified_at: 2023-02-26
-tags: [Algebraic Geometry]
-toc:  true
-math: true
+title: "Some Gaps and Examples in Intersection Theory by Fulton III"
+collection: Blogs
+permalink: /Blogs/2023-01-19-Some-Gaps-and-Examples-in-Intersection-Theory-by-Fulton-III
 excerpt_separator: <!--more-->
+date: 2023-01-19
 ---
 This is one of a series of blogs aiming to complete some details of the examples in this book (*Intersection Theory, 2nd edition* by William Fulton[^1]) and give some comments. This blog we consider chapter 10 to chapter 13.
 
