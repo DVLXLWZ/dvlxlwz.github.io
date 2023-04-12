@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Generic vanishing theorem I - Hacon's approach
-date: 2022-12-01
-last_modified_at: 2022-12-03
-tags: [Algebraic Geometry]
-toc:  true
-math: true
+title: "Generic vanishing theorem I - Hacon's approach"
+collection: Blogs
+permalink: /Blogs/2022-12-01-Generic-vanishing-theorem-I-Hacon-approach
 excerpt_separator: <!--more-->
+date: 2022-12-01
 ---
 This is the first blog aim to introduce the generic vanishing theorem, follows Hacon's proof. He use the Fourier-Mukai transform and something about Abelian varieties to solve this problem:
 
