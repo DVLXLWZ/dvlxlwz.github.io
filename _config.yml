@@ -190,6 +190,9 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
+  Blogs:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
