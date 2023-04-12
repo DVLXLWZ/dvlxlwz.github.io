@@ -1,12 +1,9 @@
 ---
-layout: post
-title: A Quick Tour of Géométrie algébrique et géométrie analytique
-date: 2022-12-10
-last_modified_at: 2022-12-17
-tags: [Algebraic Geometry]
-toc:  true
-math: true
+title: "A Quick Tour of Géométrie algébrique et géométrie analytique"
+collection: Blogs
+permalink: /Blogs/2022-12-10-A-Quick-Tour-of-Géométrie-algébrique-et-géométrie-analytique
 excerpt_separator: <!--more-->
+date: 2022-12-10
 ---
 In this blog, we will introduce some basic fact about GAGA-principle. Actually I only vaguely knew that this is a correspondence between analytic geometry and algebraic geometry over $\mathbb{C}$ before. So as we may use GAGA frequently, we will summarize in this blog to facilitate learning and use.
 <!--more-->
