@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Birational Geometry Reading Seminar
-date: 2023-01-03
-last_modified_at: 2023-03-07
-tags: [Math Seminars]
-toc:  true
-math: true
+title: "Birational Geometry Reading Seminar"
+collection: Blogs
+permalink: /Blogs/2023-01-03-Birational-Geometry-Reading-Seminar
 excerpt_separator: <!--more-->
+date: 2023-01-03
 ---
 This is my plan of the reading program of birational geometry for the beginner of this area! Aiming to read the basic aspect in the birational geometry, both lower dimensional ($\dim X=2$) and higher dimensional ($\dim X\geq 3$) in algebraic geometry.
 <!--more-->
