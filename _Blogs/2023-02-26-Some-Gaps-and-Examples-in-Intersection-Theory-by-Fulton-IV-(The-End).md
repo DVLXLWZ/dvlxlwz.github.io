@@ -2,9 +2,12 @@
 title: "Some Gaps and Examples in Intersection Theory by Fulton IV (The End)"
 collection: Blogs
 permalink: /Blogs/2023-02-26-Some-Gaps-and-Examples-in-Intersection-Theory-by-Fulton-IV-(The-End)
+excerpt_separator: <!--more-->
 date: 2023-02-26
 ---
 This is one of a series of blogs aiming to complete some details of the examples in this book (*Intersection Theory, 2nd edition* by William Fulton[^1]) and give some comments. This blog we consider chapter 14 to chapter 17.
+
+<!--more-->
 
 > Previously on these:
 >
