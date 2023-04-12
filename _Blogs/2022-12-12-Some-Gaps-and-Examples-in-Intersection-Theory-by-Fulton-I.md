@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Some Gaps and Examples in Intersection Theory by Fulton I
-date: 2022-12-12
-last_modified_at: 2023-02-26
-tags: [Algebraic Geometry]
-toc:  true
-math: true
+title: "Some Gaps and Examples in Intersection Theory by Fulton I"
+collection: Blogs
+permalink: /Blogs/2022-12-12-Some-Gaps-and-Examples-in-Intersection-Theory-by-Fulton-I
 excerpt_separator: <!--more-->
+date: 2022-12-12
 ---
 This is one of a series of blogs aiming to complete some details of the examples in this book (*Intersection Theory, 2nd edition* by William Fulton[^2]) and give some comments. This blog we consider chapter 1 to chapter 6.
 
