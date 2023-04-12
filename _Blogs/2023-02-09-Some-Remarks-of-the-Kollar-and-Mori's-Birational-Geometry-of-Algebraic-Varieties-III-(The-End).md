@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Some Remarks of the Kollar and Mori's Birational Geometry of Algebraic Varieties III (The End)
-date: 2023-02-09
-last_modified_at: 2023-02-28
-tags: [Algebraic Geometry]
-toc:  true
-math: true
+title: "Some Remarks of the Kollar and Mori's Birational Geometry of Algebraic Varieties III (The End)"
+collection: Blogs
+permalink: /Blogs/2023-02-09-Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-III-(The-End)
 excerpt_separator: <!--more-->
+date: 2023-02-09
 ---
 This blog aim to give some remarks and complete some details in this book (Kollar and Mori's Birational Geometry of Algebraic Varieties). I will read first five chapters of this book. This is the third blog which about chapter 4 and chapter 5.
 <!--more-->
