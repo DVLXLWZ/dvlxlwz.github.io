@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Reading program on moduli space of curves
-date: 2022-11-15
-last_modified_at: 2023-04-03
-tags: [Math Programs]
-toc:  true
-math: true
+title: "Reading program on moduli space of curves"
+collection: Blogs
+permalink: /Blogs/2022-11-15-Reading-program-on-moduli-space-of-curves
 excerpt_separator: <!--more-->
+date: 2022-11-15
 ---
 This is my plan of the reading program of the moduli space of curves, aiming to discover the geometrical properties of stacks $\mathscr{M}\_{g,n}$ and $\overline{\mathscr{M}}\_{g,n}$ and their coarse moduli spaces.
 
