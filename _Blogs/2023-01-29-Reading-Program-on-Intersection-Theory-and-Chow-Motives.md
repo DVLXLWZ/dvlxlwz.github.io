@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Reading Program on Intersection Theory and Motives
-date: 2023-01-29
-last_modified_at: 2023-03-26
-tags: [Math Programs]
-toc:  true
-math: true
+title: "Reading Program on Intersection Theory and Motives"
+collection: Blogs
+permalink: /Blogs/2023-01-29-Reading-Program-on-Intersection-Theory-and-Chow-Motives
 excerpt_separator: <!--more-->
+date: 2023-01-29
 ---
 This is my plan of the reading program of the intersection theory and Chow motives.
 
