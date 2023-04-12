@@ -13,7 +13,7 @@ main:
 #    url: /teaching/
         
   - title: "Blog Posts"
-    url: https://dvlxlwz.github.io/MyBlogs/
+    url: /Blogs/
     
   - title: "CV"
     url: /cv/
