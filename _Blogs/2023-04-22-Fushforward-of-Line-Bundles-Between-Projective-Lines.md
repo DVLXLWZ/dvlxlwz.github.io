@@ -21,7 +21,7 @@ f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
 $$
 
 By projection formula, we have $f\_* (\mathscr{O}(m-nk))\cong f\_* (\mathscr{O}(m))\otimes\mathscr{O}(-k)$, hence we get $\ell(m,k)=\ell(m-nk,0)$.
-Taking $h^0$ we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
+Taking $h^0$ at (1) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
 <html>
 <head>
   <meta charset="utf-8">
