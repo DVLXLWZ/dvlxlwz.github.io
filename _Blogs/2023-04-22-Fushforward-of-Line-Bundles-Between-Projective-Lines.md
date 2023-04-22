@@ -12,3 +12,9 @@ Now we want to find the following:
 
 > Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat covering of degree $n$, what is $f\_* \mathscr{O}(m)$?
 
+Here we give a proof which the method I saw a long time ago as follows:
+
+【Proof.】We know that $f\_* \mathscr{O}(m)$ is a vector bundle over $\mathbb{P}^1$. By the classification of vector bundles we can let
+$$
+f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
+$$
