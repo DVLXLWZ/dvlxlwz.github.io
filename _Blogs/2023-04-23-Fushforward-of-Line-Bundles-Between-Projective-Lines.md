@@ -1,9 +1,9 @@
 ---
 title: "Fushforward of Line Bundles Between Projective Lines"
 collection: Blogs
-permalink: /Blogs/2023-04-22-Fushforward-of-Line-Bundles-Between-Projective-Lines
+permalink: /Blogs/2023-04-23-Fushforward-of-Line-Bundles-Between-Projective-Lines
 excerpt_separator: <!--more-->
-date: 2023-04-22
+date: 2023-04-23
 ---
 This is an interesting problem is that for any finite flat covering $f:\mathbb{P}^1\to \mathbb{P}^1$, how to compute $f\_* \mathscr{O}(m)$?
 <!--more-->
