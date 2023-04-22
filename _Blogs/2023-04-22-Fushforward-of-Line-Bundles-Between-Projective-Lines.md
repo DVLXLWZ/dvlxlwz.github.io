@@ -10,11 +10,11 @@ This is an interesting problem is that for any finite flat covering $f:\mathbb{P
 
 Now we want to find the following:
 
-> Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat covering of degree $n$, what is $f\_* \mathscr{O}(m)$ where $m\geq 0$?
+> Proposition. Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$, what is $f\_* \mathscr{O}(m)$ where $m\geq 0$?
 
 Here we give a proof which the method I saw a long time ago as follows:
 
-【Proof.】We know that $f\_* \mathscr{O}(m)$ is a vector bundle over $\mathbb{P}^1$. By the classification of vector bundles we can let
+*Proof.* We know that $f\_* \mathscr{O}(m)$ is a vector bundle over $\mathbb{P}^1$. By the classification of vector bundles we can let
 
 $$
 f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
@@ -38,8 +38,37 @@ Taking $h^0$ at (1) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
   &=\sum_{m\geq 0}\sum_{k\geq 0}(k+1)x^{nk}\ell(m,k)x^{m-nk}\\
   &=\sum_{k\geq 0}(k+1)x^{nk}\sum_{m\geq 0}\ell(m,k)x^{m-nk}\\
   &=\sum_{k\geq 0}(k+1)x^{nk}\sum_{m\geq 0}\ell(m-nk,0)x^{m-nk}\\
-  &=\sum_{k\geq 0}(k+1)x^{nk}\sum_{m\geq 0}\ell(m-nk,0)x^{m-nk}
+  &=\sum_{k\geq 0}(k+1)x^{nk}\sum_{m\geq 0}\ell(m,0)x^{m}
 \end{align*}
 </p>
 </body>
 </html>
+where the last equation holds because for any $j<0$ we have $\ell(j,0)=0$ by checking global sections and then $\sum\_{m\geq 0}\ell(m-nk,0)x^{m-nk}$
+will be a constant when $k$ varies.
+
+Hence by taking $m$ to be $m-nk$, we have
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+<p>
+\begin{align*}
+\ell(m,k)&=\mathrm{coeff}_{x^{m-nk}}\frac{\sum_{m\geq 0}(m+1)x^m}{\sum_{k\geq 0}(k+1)x^{nk}}\\
+  &=\mathrm{coeff}_{x^{m-nk}}\left(\frac{1-x^n}{1-x}\right)^2\\
+  &=\mathrm{coeff}_{x^{m-nk}}(1+x+...+x^{n-1})^2.
+\end{align*}
+</p>
+</body>
+</html>
+and we get the solution! $\blacksquare$
+
+> Corollary. 
+
+
+
