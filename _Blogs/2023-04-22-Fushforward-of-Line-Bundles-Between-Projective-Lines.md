@@ -15,6 +15,9 @@ Now we want to find the following:
 Here we give a proof which the method I saw a long time ago as follows:
 
 【Proof.】We know that $f\_* \mathscr{O}(m)$ is a vector bundle over $\mathbb{P}^1$. By the classification of vector bundles we can let
+
 $$
 f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
 $$
+By projection formula, we have $f\_* (\mathscr{O}(m-nk))\cong f\_* (\mathscr{O}(m))\otimes\mathscr{O}(-k)$, hence we get $\ell(m,k)=\ell(m-nk,0)$.
+Taking $h^0$ we have $m+1=\sum\_{k\geq 0}\ell(m,k)$
