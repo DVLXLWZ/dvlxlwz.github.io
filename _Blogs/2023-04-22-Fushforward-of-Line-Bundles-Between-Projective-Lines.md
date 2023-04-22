@@ -14,7 +14,7 @@ Now we want to find the following:
 
 Here we give a proof which the method I saw a long time ago as follows:
 
-*Proof.* We know that $f\_* \mathscr{O}(m)$ is a vector bundle over $\mathbb{P}^1$. By the classification of vector bundles we can let
+*Proof.* We know that $f\_* \mathscr{O}(m)$ is a vector bundle of rank $n$ over $\mathbb{P}^1$. By the classification of vector bundles we can let
 
 $$
 f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
@@ -46,7 +46,7 @@ Taking $h^0$ at (1) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
 where the last equation holds because for any $j<0$ we have $\ell(j,0)=0$ by checking global sections and then $\sum\_{m\geq 0}\ell(m-nk,0)x^{m-nk}$
 will be a constant when $k$ varies.
 
-Hence by taking $m$ to be $m-nk$, we have
+Hence by taking $m$ to be $m-nk$, hence when $k\geq 0$ we have
 <html>
 <head>
   <meta charset="utf-8">
@@ -66,9 +66,15 @@ Hence by taking $m$ to be $m-nk$, we have
 </p>
 </body>
 </html>
+Now we consider the case when $k<0$. Actually when $k\leq -2$ we get $h^1(\mathbb{P}^1,\mathscr{O}(k))>0$. Hence taking $h^1$ at (1) again we get $\ell(m,k)=0$ in this case! Hence we let
+
+$$
+\ell(m,1)=n-\sum_{k\geq 0}\ell(m,k)
+$$
+
 and we get the solution! $\blacksquare$
 
-> Corollary. 
+> Corollary. In this case we have $f\_* \mathscr{O}\cong \mathscr{O}\oplus\mathscr{O}(-1)^{\oplus(n-1)}$ and $f\_* \mathscr{O}(1)\cong \mathscr{O}^{\oplus 2}\oplus\mathscr{O}(-1)^{\oplus(n-2)}$.
 
 
 
