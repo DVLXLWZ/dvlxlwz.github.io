@@ -34,8 +34,9 @@ Consider $g:B:=\mathbb{P}(\mathscr{E})\to \mathbb{P}(W)$ with $\mathscr{L}:=\mat
 This induce the following diagram:
 ![placeholder](/Images-of-Blogs/B2023-04-22-002.png){: height="20px" .align-center}
 
-> **Proposition 1.** $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
-> Hence $h^* \mathscr{O}\_{\mathbb{P}(V)}(1)\cong\mathscr{L}$.
+> **Proposition 1.** We have $h^* \mathscr{O}\_{\mathbb{P}(V)}(1)\cong\mathscr{L}$, hence $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
+
+> *Proof.* 
 
 Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 We also have $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$ and the following commutative diagram
