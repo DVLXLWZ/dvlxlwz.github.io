@@ -38,4 +38,4 @@ This induce the following diagram:
 
 *Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 
-
+First we find that $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$
