@@ -8,17 +8,17 @@ date: 2023-04-23
 This is an interesting problem is that for any finite flat covering $f:\mathbb{P}^1\to \mathbb{P}^1$, how to compute $f\_* \mathscr{O}(m)$?
 <!--more-->
 
-Now we want to find the following:
+Now we want to find out the following:
 
-> Proposition. Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$, what is $f\_* \mathscr{O}(m)$ where $m\geq 0$?
+> **Question.** Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$, what is $f\_* \mathscr{O}(m)$ where $m\geq 0$?
 
-Here we give a proof which the method I saw a long time ago as follows:
+Actually there is a proof which the method I saw a long time ago as follows.
+
+> **Proposition.** Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$ and let $m\geq 0$. Then for $k\geq 0$ if we let \\[\ell(m,k)=\mathrm{coeff}\_{x^{m-nk}}(1+x+...+x^{n-1})^2,\\] then we have \\[f\_* \mathscr{O}(m)\cong\mathscr{O}(-1)^{\oplus \left(n-\sum\_{k\geq 0}\ell(m,k)\right)}\oplus\bigoplus\_{k\geq 0}\mathscr{O}(k)^{\oplus \sum\_{k\geq 0}\ell(m,k)}.\\]
 
 *Proof.* We know that $f\_* \mathscr{O}(m)$ is a vector bundle of rank $n$ over $\mathbb{P}^1$. By the classification of vector bundles we can let
 
-$$
-f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.
-$$
+$$f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.$$
 
 By projection formula, we have $f\_* (\mathscr{O}(m-nk))\cong f\_* (\mathscr{O}(m))\otimes\mathscr{O}(-k)$, hence we get $\ell(m,k)=\ell(m-nk,0)$.
 Taking $h^0$ at (1) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
