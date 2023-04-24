@@ -59,3 +59,5 @@ Actually we have the following result:
 > Any points $x\in B$ given by a point $y=g(x)\in \mathbb{P}(W)$, i.e., a nonzero map $y:W\to k$ and a nonzero map \\[\mathscr{E}\_y=\mathscr{O}\_{\mathbb{P}(W)}(1)\_y\oplus V/W=W/\ker(y)\oplus V/W\to k.\\] Also by the definition $h(x)$ given by \\[V=W\oplus V/W\twoheadrightarrow W/\ker y\oplus V/W\to k.\\]
 > Hence $B$ is the graph of $\phi$, in particuler $h$ is an isomorphism over $\mathbb{P}(V)\backslash \mathbb{P}(V/W)$. Now by **Lemma 2**, using the universal property of blowing up, we have $h$ factored as $\alpha:B\to \mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ and $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)\to \mathbb{P}(V)$. Now by **Lemma 2** again we know that the exceptional divisor of $\alpha$ is $0$, hence $\alpha$ is an isomorphism. $\blacksquare$
 
+> **Remark.** 
+
