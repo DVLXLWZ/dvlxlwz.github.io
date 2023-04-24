@@ -10,7 +10,7 @@ This is an interesting problem is that for any finite flat covering $f:\mathbb{P
 
 Now we want to find out the following:
 
-> **Question.** Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$, what is $f\_* \mathscr{O}(m)$ where $m\geq 0$?
+> **Question.** Let $f:\mathbb{P}^1\to\mathbb{P}^1$ be a finite flat morphism of degree $n$, How to compute $f\_* \mathscr{O}(m)$ when $m\geq 0$?
 
 Actually there is a proof which the method I saw a long time ago as follows.
 
