@@ -5,7 +5,7 @@ permalink: /Blogs/2023-04-22-Projections-from-the-Subspaces-of-Projective-Spaces
 excerpt_separator: <!--more-->
 date: 2023-04-22
 ---
-Here we give some detailed construction about the projections from the subspaces $\mathbb{P}(V/W)$ of projective spaces $\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$.
+Here we give some detailed construction about the projections from the subspaces $\mathbb{P}(V/W)$ of projective spaces $\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$. We follows notes [Math 732: Topics in Algebraic Geometry II](https://www.math.purdue.edu/~murayama/Rationality.pdf) and [Math 732. Rationality of algebraic varieties](http://www-personal.umich.edu/~mmustata/lectures_rationality.html).
 <!--more-->
 
 Here we fix some field $k$ and doing geometry over it.
@@ -39,13 +39,17 @@ This induce the following diagram:
 
 > *Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 >
-> First we find that $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$, then we claim that $h^{-1}(\mathbb{P}(V/W))=E$. Consider the following well-known fact:
+> First we find that $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$, then we claim that $h^{-1}(\mathbb{P}(V/W))=E$.
+
+> **Lemma 2.** In this case we have $h^{-1}(\mathbb{P}(V/W))=E$.
+
+> *Proof.* Consider the following well-known fact:
 >
 >> **Fact.** Surjection $\psi:\mathscr{E}\_1\twoheadrightarrow\mathscr{E}\_2$ over some scheme $Y$ induce $\mathbb{P}(\mathscr{E}\_2)\hookrightarrow\mathbb{P}(\mathscr{E}\_1)$ as a closed subscheme defined by the zero locus of \\[\pi^* (\ker\psi)\hookrightarrow\pi^* \mathscr{E}\_1\twoheadrightarrow\mathscr{O}\_Y(1)\\] where $\pi:\mathbb{P}(\mathscr{E}\_1)\to Y$.
 >
 > Back to the proof.
 
-> **Theorem 2.** $h$ is the blowing up $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ described before and $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)$ be its exceptional divisor. Hence $g\circ h^{-1}$ gives $\phi:\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$.
->
+> **Theorem 3.** $h$ is the blowing up $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ described before and $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)$ be its exceptional divisor. Hence $g\circ h^{-1}$ gives $\phi:\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$.
+
 > *Proof.*
 
