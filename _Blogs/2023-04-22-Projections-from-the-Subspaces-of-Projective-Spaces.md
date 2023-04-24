@@ -37,15 +37,15 @@ This induce the following diagram:
 > **Proposition 1.** $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
 > Hence $h^* \mathscr{O}\_{\mathbb{P}(V)}(1)\cong\mathscr{L}$.
 
-*Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
-
-First we find that $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$, then we claim that $h^{-1}(\mathbb{P}(V/W))=E$. Consider the following well-known fact:
-
-> **Fact.** Surjection $\psi:\mathscr{E}\_1\twoheadrightarrow\mathscr{E}\_2$ over some scheme $Y$ induce $\mathbb{P}(\mathscr{E}\_2)\hookrightarrow\mathbb{P}(\mathscr{E}\_1)$ as a closed subscheme defined by the zero locus of \\[\pi^* (\ker\psi)\hookrightarrow\pi^* \mathscr{E}\_1\twoheadrightarrow\mathscr{O}\_Y(1)\\] where $\pi:\mathbb{P}(\mathscr{E}\_1)\to Y$.
-
-Back to the proof.
+> *Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
+>
+> First we find that $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$, then we claim that $h^{-1}(\mathbb{P}(V/W))=E$. Consider the following well-known fact:
+>
+>> **Fact.** Surjection $\psi:\mathscr{E}\_1\twoheadrightarrow\mathscr{E}\_2$ over some scheme $Y$ induce $\mathbb{P}(\mathscr{E}\_2)\hookrightarrow\mathbb{P}(\mathscr{E}\_1)$ as a closed subscheme defined by the zero locus of \\[\pi^* (\ker\psi)\hookrightarrow\pi^* \mathscr{E}\_1\twoheadrightarrow\mathscr{O}\_Y(1)\\] where $\pi:\mathbb{P}(\mathscr{E}\_1)\to Y$.
+>
+> Back to the proof.
 
 > **Theorem 2.** $h$ is the blowing up $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ described before and $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)$ be its exceptional divisor. Hence $g\circ h^{-1}$ gives $\phi:\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$.
-
-*Proof.*
+>
+> *Proof.*
 
