@@ -36,6 +36,6 @@ This induce the following diagram:
 
 > **Proposition.** $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
 
-*Proof.*
+*Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 
 
