@@ -21,7 +21,7 @@ Actually there is a proof which the method I saw a long time ago as follows.
 $$f_* \mathscr{O}(m)=\bigoplus_{k\in\mathbb{Z}}\mathscr{O}(k)^{\ell(m,k)}.$$
 
 By projection formula, we have $f\_* (\mathscr{O}(m-nk))\cong f\_* (\mathscr{O}(m))\otimes\mathscr{O}(-k)$, hence we get $\ell(m,k)=\ell(m-nk,0)$.
-Taking $h^0$ at (1) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
+Taking $h^0$ at (3) we have $m+1=\sum\_{k\geq 0}(k+1)\ell(m,k)$. Hence we have
 <html>
 <head>
   <meta charset="utf-8">
@@ -66,7 +66,7 @@ Hence by taking $m$ to be $m-nk$, hence when $k\geq 0$ we have
 </p>
 </body>
 </html>
-Now we consider the case when $k<0$. Actually when $k\leq -2$ we get $h^1(\mathbb{P}^1,\mathscr{O}(k))>0$. Hence taking $h^1$ at (1) again we get $\ell(m,k)=0$ in this case! Hence we let
+Now we consider the case when $k<0$. Actually when $k\leq -2$ we get $h^1(\mathbb{P}^1,\mathscr{O}(k))>0$. Hence taking $h^1$ at (3) again we get $\ell(m,k)=0$ in this case! Hence we let
 
 $$
 \ell(m,1)=n-\sum_{k\geq 0}\ell(m,k)
