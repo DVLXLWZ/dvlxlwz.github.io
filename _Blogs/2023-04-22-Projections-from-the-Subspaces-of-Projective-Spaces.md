@@ -20,7 +20,7 @@ $$
 
 which called **the projection with center $\mathbb{P}(V/W)$**.
 
-> Geometrically, one can choose a splitting of $W\hookrightarrow V$ which gives $\mathbb{P}(W)\hookrightarrow \mathbb{P}(V)$ such that $\mathbb{P}(W)\cap \mathbb{P}(V/W)=\emptyset$. The $\phi$ maps $p$ into the linear span of $p$ and $\mathbb{P}(V/W)$ in $\mathbb{P}(W)$! In coordinates, if $\mathbb{P}(W)=V\_+(x\_{r+1},...,x\_n)$ and $\mathbb{P}(V/W)=V\_+(x\_{0},...,x\_r)$, then $\phi(x\_{0},...,x\_n)=(x\_{0},...,x\_r)$.
+> **Remark.** Geometrically, one can choose a splitting of $W\hookrightarrow V$ which gives $\mathbb{P}(W)\hookrightarrow \mathbb{P}(V)$ such that $\mathbb{P}(W)\cap \mathbb{P}(V/W)=\emptyset$. The $\phi$ maps $p$ into the linear span of $p$ and $\mathbb{P}(V/W)$ in $\mathbb{P}(W)$! In coordinates, if $\mathbb{P}(W)=V\_+(x\_{r+1},...,x\_n)$ and $\mathbb{P}(V/W)=V\_+(x\_{0},...,x\_r)$, then $\phi(x\_{0},...,x\_n)=(x\_{0},...,x\_r)$.
 
 Our goal is following:
 > **Main Goal.** Consider the blowing up: ![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: height="20px" .align-center}
@@ -34,7 +34,7 @@ Consider $g:B:=\mathbb{P}(\mathscr{E})\to \mathbb{P}(W)$ with $\mathscr{L}:=\mat
 This induce the following diagram:
 ![placeholder](/Images-of-Blogs/B2023-04-22-002.png){: height="20px" .align-center}
 
-> **Proposition.** $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
+> **Proposition 1.** $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
 
 *Proof.* Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 
