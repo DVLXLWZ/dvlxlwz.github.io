@@ -23,5 +23,9 @@ which called **the projection with center $\mathbb{P}(V/W)$**.
 > Geometrically, one can choose a splitting of $W\hookrightarrow V$ which gives $\mathbb{P}(W)\hookrightarrow \mathbb{P}(V)$ such that $\mathbb{P}(W)\cap \mathbb{P}(V/W)=\emptyset$. The $\phi$ maps $p$ into the linear span of $p$ and $\mathbb{P}(V/W)$ in $\mathbb{P}(W)$! In coordinates, if $\mathbb{P}(W)=V\_+(x\_{r+1},...,x\_n)$ and $\mathbb{P}(V/W)=V\_+(x\_{0},...,x\_r)$, then $\phi(x\_{0},...,x\_n)=(x\_{0},...,x\_r)$.
 
 Our goal is following:
-> Consider the blowing up: ![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: height="30px" .align-center}
+> **Main Goal.** Consider the blowing up: ![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: height="20px" .align-center}
 > Then the lifting realizes $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ as a projective bundle $\mathbb{P}(\mathscr{E})$ over $\mathbb{P}(W)$ and we need to describe this $\mathbb{P}(\mathscr{E})$ and use this to find the exceptional divisor of this blowing up.
+
+Fix a splitting of $W\hookrightarrow V$ which gives $V\cong W\oplus V/W$. Consider the bundle
+\\[\mathscr{E}:=\mathscr{O}\_{\mathbb{P}(W)}(1)\oplus(V/W\otimes \mathscr{O}\_{\mathbb{P}(W)}).\\]
+
