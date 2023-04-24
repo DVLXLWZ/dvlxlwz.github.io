@@ -10,4 +10,12 @@ Here we give some detailed construction about the projections from the subspaces
 
 Here we fix some field $k$.
 
-![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: .align-center}
+Consider a projective space $\mathbb{P}(V)$ with an exact sequence
+\\[0\to W\to V\to V/W.\\]
+This induce a rational map
+
+$$
+\phi:\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W).
+$$
+
+![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: height="50px" .align-center}
