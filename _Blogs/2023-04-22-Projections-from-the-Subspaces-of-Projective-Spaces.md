@@ -10,4 +10,4 @@ Here we give some detailed construction about the projections from the subspaces
 
 Here we fix some field $k$.
 
-![placeholder](/Images-of-Blogs/B2023-04-22-001.png{: .align-center}
+![placeholder](/Images-of-Blogs/B2023-04-22-001.png){: .align-center}
