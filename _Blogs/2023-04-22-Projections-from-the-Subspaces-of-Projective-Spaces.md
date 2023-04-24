@@ -36,7 +36,7 @@ This induce the following diagram:
 
 > **Proposition 1.** We have $h^* \mathscr{O}\_{\mathbb{P}(V)}(1)\cong\mathscr{L}$, hence $h$ is the morphism defined by $\mathscr{L}=\mathscr{O}\_B(1)$ and the surjection \\[H^0(B,\mathscr{L})\otimes\mathscr{O}\_B=H^0(\mathbb{P}(W),\mathscr{E})\otimes\mathscr{O}\_B=V\otimes\mathscr{O}\_B\twoheadrightarrow \mathscr{L}.\\]
 
-> *Proof.* 
+> *Proof.* Easy to see. Omitted. $\blacksquare$
 
 Consider surjection $\mathscr{E}\twoheadrightarrow V/W\otimes\mathscr{O}\_{\mathbb{P}(W)}$ which induce $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)\hookrightarrow B$ which is a projective subbundle. Easy to see that $E$ is a smooth irreducible divisor in $B$.
 We also have $\mathscr{L}\|\_{E}\cong \mathrm{pr}\_1^* \mathscr{O}\_{\mathbb{P}(V/W)}(1)$ and the following commutative diagram
@@ -49,7 +49,9 @@ Actually we have the following result:
 >
 >> **Fact.** Surjection $\psi:\mathscr{E}\_1\twoheadrightarrow\mathscr{E}\_2$ over some scheme $Y$ induce $\mathbb{P}(\mathscr{E}\_2)\hookrightarrow\mathbb{P}(\mathscr{E}\_1)$ as a closed subscheme defined by the zero locus of \\[\pi^* (\ker\psi)\hookrightarrow\pi^* \mathscr{E}\_1\twoheadrightarrow\mathscr{O}\_Y(1)\\] where $\pi:\mathbb{P}(\mathscr{E}\_1)\to Y$.
 >
-> Back to the proof.
+> Back to the proof. By fact we have $\mathbb{P}(V/W)$ be the zero locus of \\[W\otimes\mathscr{O}\_{\mathbb{P}(V)}\hookrightarrow V\otimes\mathscr{O}\_{\mathbb{P}(V)}\twoheadrightarrow\mathscr{O}\_{\mathbb{P}(V)}(1)\\] and so $h^{-1}(\mathbb{P}(V/W))$ be the zero locus of \\[W\otimes\mathscr{O}\_{B}\hookrightarrow V\otimes\mathscr{O}\_{B}\twoheadrightarrow h^* \mathscr{O}\_{\mathbb{P}(V)}(1)=\mathscr{L}.\\] Similarly $E$ be the zero locus of \\[g^* \mathscr{O}\_{\mathbb{P}(W)}(1)\hookrightarrow g^* \mathscr{E}\twoheadrightarrow\mathscr{L}.\\]
+> Now we have the following commutative diagram: ![placeholder](/Images-of-Blogs/B2023-04-22-004.png){: height="20px" .align-center}
+> Hence as the left vertical map is surjective, then these two zero loci are the same! $\blacksquare$
 
 > **Theorem 3.** $h$ is the blowing up $\mathrm{Bl}\_{\mathbb{P}(V/W)}\mathbb{P}(V)$ described before and $E:=\mathbb{P}(V/W)\times\mathbb{P}(W)$ be its exceptional divisor. Hence $g\circ h^{-1}$ gives $\phi:\mathbb{P}(V)\backslash \mathbb{P}(V/W)\to\mathbb{P}(W)$.
 
