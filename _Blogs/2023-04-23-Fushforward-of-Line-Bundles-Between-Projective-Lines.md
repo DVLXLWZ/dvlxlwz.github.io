@@ -5,16 +5,16 @@ permalink: /Blogs/2023-04-23-Fushforward-of-Line-Bundles-Between-Projective-Line
 excerpt_separator: <!--more-->
 date: 2023-04-23
 ---
-This is an interesting problem is that for any finite flat covering $f:\mathbb{P}^1\to \mathbb{P}^1$, how to compute $f\_* \mathscr{O}(m)$?
+This is an interesting problem is that for any finite covering $f:\mathbb{P}^1\to \mathbb{P}^1$, how to compute $f\_* \mathscr{O}(m)$?
 <!--more-->
 
 Now we want to find out the following:
 
-> **Question.** Let $f:\mathbb{P}^1\to\mathbb{P}^1$ be a finite flat morphism of degree $n$, How to compute $f\_* \mathscr{O}(m)$ when $m\geq 0$?
+> **Question.** Let $f:\mathbb{P}^1\to\mathbb{P}^1$ be a finite morphism of degree $n$, How to compute $f\_* \mathscr{O}(m)$ when $m\geq 0$?
 
 Actually there is a proof which the method I saw a long time ago as follows.
 
-> **Proposition.** Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite flat map of degree $n$ and let $m\geq 0$. Then for $k\geq 0$ if we let \\[\ell(m,k)=\mathrm{coeff}\_{x^{m-nk}}(1+x+...+x^{n-1})^2,\\] then we have \\[f\_* \mathscr{O}(m)\cong\mathscr{O}(-1)^{\oplus \left(n-\sum\_{k\geq 0}\ell(m,k)\right)}\oplus\bigoplus\_{k\geq 0}\mathscr{O}(k)^{\oplus \sum\_{k\geq 0}\ell(m,k)}.\\]
+> **Proposition.** Let $f:\mathbb{P}^1\to \mathbb{P}^1$ be a finite map of degree $n$ and let $m\geq 0$. Then we know that $f$ is flat automatically since modules over some Dedekind ring is flat if and only if it is torsion free. Then for $k\geq 0$ if we let \\[\ell(m,k)=\mathrm{coeff}\_{x^{m-nk}}(1+x+...+x^{n-1})^2,\\] then we have \\[f\_* \mathscr{O}(m)\cong\mathscr{O}(-1)^{\oplus \left(n-\sum\_{k\geq 0}\ell(m,k)\right)}\oplus\bigoplus\_{k\geq 0}\mathscr{O}(k)^{\oplus \sum\_{k\geq 0}\ell(m,k)}.\\]
 
 *Proof.* We know that $f\_* \mathscr{O}(m)$ is a vector bundle of rank $n$ over $\mathbb{P}^1$. By the classification of vector bundles we can let
 
