@@ -1,7 +1,7 @@
 ---
-title: "The 27 lines over smooth cubic surface and its generalizations"
+title: "The 27 lines on smooth cubic surface and its generalizations"
 collection: Blogs
-permalink: /Blogs/2023-05-05-The-27-lines-over-smooth-cubic-surface-and-its-generalizations
+permalink: /Blogs/2023-05-05-The-27-lines-on-smooth-cubic-surface-and-its-generalizations
 excerpt_separator: <!--more-->
 date: 2023-05-05
 ---
