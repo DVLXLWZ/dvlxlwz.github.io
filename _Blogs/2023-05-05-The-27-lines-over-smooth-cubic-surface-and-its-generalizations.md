@@ -14,6 +14,6 @@ In the classical algebraic geometry, we know that every smooth cubic surface in 
 
 ## The modern proofs and generalizations
 XXX
-### Dimension analysis
+### Method 1. Dimension analysis
 
-### Intersection theory and generalizations
+### Method 2. Intersection theory and generalizations
