@@ -9,7 +9,7 @@ This is my plan of the reading program of the moduli space of curves, aiming to 
 
 <!--more-->
 
-Here is our notes: [Moduli space of algebraic curves](https://dvlxlwz.github.io/files/ModuliSpaceCurves.pdf), **finished at 2023/05/07** (in [Page01](https://dvlxlwz.github.io//notes/2022-09-07-note-1)).
+Here is our notes: [Moduli space of algebraic curves](https://dvlxlwz.github.io/files/ModuliSpaceCurves.pdf), **finished at 2023/05/07** (in [HomePage01](https://dvlxlwz.github.io//notes/2022-09-07-note-1)).
 
 (Old version: [Notes on moduli space of curves](https://dvlxlwz.github.io/MyBlogs/my_notes/ModuliSpaceCurvesReadingNotes.pdf), update at 2023/04/03).
 
