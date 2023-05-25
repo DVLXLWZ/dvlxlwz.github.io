@@ -21,4 +21,32 @@ Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed fie
 
 > **Theorem 2.** The group $\mathrm{Aut}(X)$ is finite.
 
+> *Proof 1. Deformation theory.* We need two following lemmas:
+>
+>> **Lemma A.** If $X$ be a proper smooth curve, then $\underline{\mathrm{Aut}}(X)\to\mathrm{Spec}k$ is unramified if and only if $\mathrm{Der}\_k(\mathscr{O}\_X,\mathscr{O}\_X)=0$.
+>> 
+>> *Proof of Lemma A.* Actually $\underline{\mathrm{Aut}}(X)\to\mathrm{Spec}k$ is unramified if and only if $\Omega\_{\underline{\mathrm{Aut}}(X)/k}=0$ if and only if $T\_{\underline{\mathrm{Aut}}(X)/k}=0$ if and only if any automorphism $\alpha:X\times_k\mathrm{Spec}k[\varepsilon]\to X\times_k\mathrm{Spec}k[\varepsilon]$ over $\mathrm{Spec}k[\varepsilon]$ whose restriction to $\mathrm{Spec}k$ is $id$. By [St 0DY9](https://stacks.math.columbia.edu/tag/0DY9) this if and only if $\mathrm{Der}\_k(\mathscr{O}\_X,\mathscr{O}\_X)=0$. $\blacksquare$
+>>
+>> **Lemma B.** If $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$, then $\mathrm{Der}\_k(\mathscr{O}\_X,\mathscr{O}\_X)=0$.
+>> 
+>> *Proof of Lemma B.* As $\deg (T\_{X/k})=2-2g<0$, we get 
+>> 
+>> $$
+>> \mathrm{Der}\_k(\mathscr{O}\_X,\mathscr{O}\_X)=\hom\_{\mathscr{O}\_X}(\Omega\_{X/k},\mathscr{O}\_X)=\Gamma(X,T\_{X/k})=0.
+>> $$
+>> 
+>> Well done. $\blacksquare$
+>
+> Then the proof finish by Lemma A and B. $\blacksquare$
+
+> *Proof 2. Using ramification and hyperosculations (for $\mathrm{char}(k)=0$).*
+
+> *Proof 3. Using graph trick and numerical equivalence.*
+
+Moreover, for $\mathrm{char}(k)=0$, we have:
+
+> **Theorem 3.** If $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$ with $\mathrm{char}(k)=0$, then $\#(\mathrm{Aut}(X))\leq 84g − 84$.
+
+> *Proof.*
+
 ## Moduli space of curves
