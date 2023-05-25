@@ -17,5 +17,8 @@ Let $X$ be a proper smooth curve of genus $1$ over an algebraic closed field $k$
 > **Theorem 1.**
 
 ## For $g\geq 2$
+Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$. We have the following well-known result:
+
+> **Theorem 2.** The group $\mathrm{Aut}(X)$ is finite.
 
 ## Moduli space of curves
