@@ -9,7 +9,7 @@ Here we will introduce some well-known results about the automorphisms of algebr
 <!--more-->
 
 ## For $g=0$
-If $X$ be a proper smooth curve of genus $0$ over an algebraic closed field $k$, then one can easy to see $X\cong\bb{P}^1$ as any two points in $X$ are linear equivalent (consider Jacobian variety). Then we can easy to see that $\mathrm{Aut}(X)=\mathrm{PGL}\_2$. Moreover, if we consider the subgroup fixed $n$ points in $X$, then this subgroup is finite if and only if $n\geq 3$ by easy linear algebra.
+If $X$ be a proper smooth curve of genus $0$ over an algebraic closed field $k$, then one can easy to see $X\cong\mathbb{P}^1$ as any two points in $X$ are linear equivalent (consider Jacobian variety). Then we can easy to see that $\mathrm{Aut}(X)=\mathrm{PGL}\_2$. Moreover, if we consider the subgroup fixed $n$ points in $X$, then this subgroup is finite if and only if $n\geq 3$ by easy linear algebra.
 
 ## For $g=1$
 Let $X$ be a proper smooth curve of genus $1$ over an algebraic closed field $k$. As $X$ is a group variety, then any closed point in $X$ can act on $X$ which forms an automorphism. Hence $\mathrm{Aut}(X)$ is also an infinity group! But if we consider the subgroup fixed $1$ points in $X$, that is, the automorphism group of elliptic curves, then we have:
