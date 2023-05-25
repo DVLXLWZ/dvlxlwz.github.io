@@ -39,7 +39,7 @@ Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed fie
 >
 > Then the proof finish by Lemma A and B. $\blacksquare$
 
-> *Proof 2. Using ramification and hyperosculations (for $\mathrm{char}(k)=0$).*
+> *Proof 2. Using ramification and hyperosculations (for charactristic zero).*
 
 > *Proof 3. Using graph trick and numerical equivalence.*
 
