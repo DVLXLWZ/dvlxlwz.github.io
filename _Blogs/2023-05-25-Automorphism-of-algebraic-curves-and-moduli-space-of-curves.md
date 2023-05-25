@@ -45,7 +45,7 @@ Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed fie
 
 Moreover, for $\mathrm{char}(k)=0$, we have:
 
-> **Theorem 3.** If $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$ with $\mathrm{char}(k)=0$, then $\#(\mathrm{Aut}(X))\leq 84g − 84$.
+> **Theorem 3.** If $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$ with $\mathrm{char}(k)=0$, then $\sharp(\mathrm{Aut}(X))\leq 84g − 84$.
 
 > *Proof.*
 
