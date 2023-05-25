@@ -14,7 +14,9 @@ If $X$ be a proper smooth curve of genus $0$ over an algebraic closed field $k$,
 ## For $g=1$
 Let $X$ be a proper smooth curve of genus $1$ over an algebraic closed field $k$. As $X$ is a group variety, then any closed point in $X$ can act on $X$ which forms an automorphism. Hence $\mathrm{Aut}(X)$ is also an infinity group! But if we consider the subgroup fixed $1$ points in $X$, that is, the automorphism group of elliptic curves, then we have:
 
-> **Theorem 1.**
+> **Theorem 1.** Let $X$ be a proper smooth elliptic curve over an algebraic closed field $k$ for $\mathrm{char}(k)\neq 2$. Pick $p\in X$, then $\mathrm{Aut}(X;p)$ is finite of order: $2$ if $j\neq 0,1728$; $4$ if $j=1728$ and $\mathrm{char}(k)\neq 3$; $6$ if $j=0$ and $\mathrm{char}(k)\neq 3$; $12$ if $j=0=1728$ and $\mathrm{char}(k)=3$.
+
+> *Proof.* Omitted, see [Har77][^1] Corollary IV.4.7.
 
 ## For $g\geq 2$
 Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed field $k$. We have the following well-known result:
@@ -50,3 +52,6 @@ Moreover, for $\mathrm{char}(k)=0$, we have:
 > *Proof.*
 
 ## Moduli space of curves
+
+
+[^1]: [Har77] Robin Hartshorne. Algebraic Geometry. Springer, 1977.
