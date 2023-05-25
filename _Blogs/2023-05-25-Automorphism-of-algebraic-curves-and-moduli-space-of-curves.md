@@ -34,7 +34,7 @@ Let $X$ be a proper smooth curve of genus $g\geq 2$ over an algebraic closed fie
 >> *Proof of Lemma B.* As $\deg (T\_{X/k})=2-2g<0$, we get 
 >> 
 >> $$
->> \mathrm{Der}\_k(\mathscr{O}\_X,\mathscr{O}\_X)=\hom\_{\mathscr{O}\_X}(\Omega\_{X/k},\mathscr{O}\_X)=\Gamma(X,T\_{X/k})=0.
+>> \mathrm{Der}_k(\mathscr{O}_X,\mathscr{O}_X)=\hom_{\mathscr{O}_X}(\Omega_{X/k},\mathscr{O}_X)=\Gamma(X,T_{X/k})=0.
 >> $$
 >> 
 >> Well done. $\blacksquare$
