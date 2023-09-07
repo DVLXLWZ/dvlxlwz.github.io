@@ -7,9 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a forth year undergraduate student from [Taishan Collage](https://www.tsxt.sdu.edu.cn/) in [Shandong University](https://www.sdu.edu.cn/). I'm interested in higher dimensional algebraic geometry, birational geometry, some special varieties, moduli space of varieties and bundles and derived categories of sheaves.
-
-I will begin my M.S. study at Academy of Mathematics and System Sciences in CAS in Sept. 2023.
+I'm a first year graduate student from Academy of Mathematics and System Sciences in CAS. I'm interested in higher dimensional algebraic geometry, birational geometry, some special varieties, moduli space of varieties and bundles and derived categories of sheaves.
 
 Learn from the master:
 ![placeholder](/images/grr.png){: .align-center}
