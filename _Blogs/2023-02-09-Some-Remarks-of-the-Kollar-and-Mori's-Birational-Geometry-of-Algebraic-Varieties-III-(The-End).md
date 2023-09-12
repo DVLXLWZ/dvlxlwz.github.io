@@ -122,13 +122,27 @@ which is an injection, well done. $\blacksquare$
 
 **Proposition 5.20.(1)(2)(3)/Corollary 5.21.** For the some details in the proofs of these, we refer the whole section 2.3 in [Kol13][^5]! For example, 2.40 for (1) and 2.41-2.42 for (2)(3) and 2.49-2.51 for Corollary 5.21. $\blacksquare$
 
-**Corollary 5.24.** Here is the kind of converse of comments of Corollary 3.53 in [KMII](https://dvlxlwz.github.io/2023/01/18/Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-II/), taken from 7.12 in the book [HDAG01][^6]:
+**Corollary 5.24.** Here we use some kind of converse of comments of Corollary 3.53 in [KMII](https://dvlxlwz.github.io/2023/01/18/Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-II/), taken from 7.12 in the book [HDAG01][^6]:
 
 *Lemma.* If $f:Y\to X$ is proper birational where $X$ is normal and $Y$ is normal which satisfied that any Cartier divisor can be the difference of two effective Cartier divisors with no common component. Then for any exceptional Cartier $F$ in $Y$, we have $f\_* \mathscr{O}\_Y(F)\cong\mathscr{O}\_X$ if and only if $F$ effective.
 
 *Proof.* Let $F=F\_1-F\_2$ be the difference of two effective Cartier divisors with no common component. Hence $f\_* \mathscr{O}\_Y(F)\subset f\_* \mathscr{O}\_Y(F\_1)\cong\mathscr{O}\_X$. It is therefore a sheaf of ideals that defines a subscheme of $X$ supported on $f(F\_2)$, follows from the definition of the ideal sheaf of the scheme-theoric image. Well done. $\blacksquare$
 
-For the condition of $Y$ in *Lemma*, we can not always have, but if $Y$ admits an ample line bundle or using the Fulton's trick (after some blowing up of ideal of denominators, in the proof in Section 2.4 of his famous book), we can get it. $\blacksquare$
+> Remark. (i) For the condition of $Y$ in *Lemma*, we can not always have, but if $Y$ admits an ample line bundle or using the Fulton's trick (after some blowing up of ideal of denominators, in the proof in Section 2.4 of his famous book), we can get it. 
+>
+>(ii) We have more interesting things like these:
+>
+> From [KMM87][^8] Lemma 1-3-2, we have the following result due to Fujita, aiming to prove the vanishing theorem of Elkik and Fujita:
+>
+>> [Lemma] If $f:Y\to X$ be a proper birational map from a smooth variety $Y$ onto $X$. Let $L,E$ be the Cartier divisor on $Y$ and $D$ is a $\mathbb{Q}$-Cartier divisor on $Y$. 
+>>Assume that the support of $D$ is a divisor with only simple normal crossings, $\lfloor D \rfloor=0$, $-L-D$ is $f$-nef, and that $E$ is effective and exceptional for $f$.
+>>Then $f\_*(\mathscr{O}_E(L+E))=0$.
+>
+>Now we consider the case: if$f:Y\to X$ be a proper birational map from a smooth variety $Y$ onto a normal variety $X$, Let $P,N$ effective on $Y$ without common components and 
+>$P$ is exceptional for $f$. We claim that $f\_*\mathscr{O}_Y(P-N)=f\_*\mathscr{O}_Y(-N)$.
+>
+>Indeed, use this Lemma to $L=D=0$ and $E=P$, then $f\_*\mathscr{O}_P(P-N)\subset f\_*(\mathscr{O}_P(P))=0$. Consider the exact sequence $0\to f\_*\mathscr{O}_Y(-N)\to f\_*\mathscr{O}_Y(P-N)\tof\_*\mathscr{O}_P(P-N)=0$. Hence $f\_*\mathscr{O}_Y(P-N)=f\_*\mathscr{O}_Y(-N)$. Well done.
+
 
 ### Section 5.4. Inversion of Adjunction
 **Proposition 5.46/Remark 5.47.** Not that the condition that $S$ is Cartier in codimension $2$ aiming to use the adjunction formula (see Remark 5.47). For some more general case this needs some correction terms. Here we refer [JK92][^7] section 16 (and section 17 is the conclusions of inversion of adjunction) and more advanced [Kol13][^5] chapter 4 (or more precisely, section 4.1). $\blacksquare$
