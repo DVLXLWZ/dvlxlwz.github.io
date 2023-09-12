@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first year graduate student from Academy of Mathematics and System Sciences in CAS. I'm interested in higher dimensional algebraic geometry, birational geometry, some special varieties, moduli space of varieties and bundles and derived categories of sheaves.
+I'm a first year graduate student from Academy of Mathematics and System Sciences in CAS (advisor: Baohua Fu). I'm interested in higher dimensional algebraic geometry, some special varieties, moduli space of varieties, coherent sheaves and derived categories of sheaves and their related enumerative geometry.
 
 Learn from the master:
 ![placeholder](/images/grr.png){: .align-center}
