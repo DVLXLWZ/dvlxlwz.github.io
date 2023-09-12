@@ -162,3 +162,5 @@ which is an injection, well done. $\blacksquare$
 [^6]: [HDAG01] Olivier Debarre. Higher-Dimensional Algebraic Geometry, Springer. 2001.
 
 [^7]: [JK92] JÁNOS KOLLÁR (éd.). Flips and abundance for algebraic threefolds - A summer seminar at the University of Utah (Salt Lake City, 1991). Astérisque, tome 211 (1992).
+
+[^8]: [KMM87] Yujiro Kawamata, Katsumi Matsuda and Kenji Matsuki, Introduction to the Minimal Model Problem. Advanced Studies in Pure Mathematics 10, pp. 283-360. 1987.
