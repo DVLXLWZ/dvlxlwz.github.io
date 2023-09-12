@@ -136,12 +136,12 @@ which is an injection, well done. $\blacksquare$
 >
 >> [Lemma] If $f:Y\to X$ be a proper birational map from a smooth variety $Y$ onto $X$. Let $L,E$ be the Cartier divisor on $Y$ and $D$ is a $\mathbb{Q}$-Cartier divisor on $Y$. 
 >>Assume that the support of $D$ is a divisor with only simple normal crossings, $\lfloor D \rfloor=0$, $-L-D$ is $f$-nef, and that $E$ is effective and exceptional for $f$.
->>Then $f\_*(\mathscr{O}_E(L+E))=0$.
+>>Then $f\_* (\mathscr{O}_E(L+E))=0$.
 >
 >Now we consider the case: if$f:Y\to X$ be a proper birational map from a smooth variety $Y$ onto a normal variety $X$, Let $P,N$ effective on $Y$ without common components and 
->$P$ is exceptional for $f$. We claim that $f\_*\mathscr{O}_Y(P-N)=f\_*\mathscr{O}_Y(-N)$.
+>$P$ is exceptional for $f$. We claim that $f\_* \mathscr{O}_Y(P-N)=f\_* \mathscr{O}_Y(-N)$.
 >
->Indeed, use this Lemma to $L=D=0$ and $E=P$, then $f\_*\mathscr{O}_P(P-N)\subset f\_*(\mathscr{O}_P(P))=0$. Consider the exact sequence $0\to f\_*\mathscr{O}_Y(-N)\to f\_*\mathscr{O}_Y(P-N)\tof\_*\mathscr{O}_P(P-N)=0$. Hence $f\_*\mathscr{O}_Y(P-N)=f\_*\mathscr{O}_Y(-N)$. Well done.
+>Indeed, use this Lemma to $L=D=0$ and $E=P$, then $f\_* \mathscr{O}_P(P-N)\subset f\_* (\mathscr{O}_P(P))=0$. Consider the exact sequence $0\to f\_* \mathscr{O}_Y(-N)\to f\_* \mathscr{O}_Y(P-N)\to f\_* \mathscr{O}_P(P-N)=0$. Hence $f\_* \mathscr{O}_Y(P-N)=f\_* \mathscr{O}_Y(-N)$. Well done.
 
 
 ### Section 5.4. Inversion of Adjunction
