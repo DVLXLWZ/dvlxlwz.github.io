@@ -126,7 +126,7 @@ which is an injection, well done. $\blacksquare$
 
 *Lemma.* If $f:Y\to X$ is proper birational where $X$ is normal and $Y$ is normal which satisfied that any Cartier divisor can be the difference of two effective Cartier divisors with no common component. Then for any exceptional Cartier $F$ in $Y$, we have $f\_* \mathscr{O}\_Y(F)\cong\mathscr{O}\_X$ if and only if $F$ effective.
 
-*Proof.* Let $F=F\_1-F\_2$ be the difference of two effective Cartier divisors with no common component. Hence $f\_* \mathscr{O}\_Y(F)\subset f\_* \mathscr{O}\_Y(F\_1)\cong\mathscr{O}\_X$. It is therefore a sheaf of ideals that defines a subscheme of $X$ supported on $f(F\_2)$. Well done. $\blacksquare$
+*Proof.* Let $F=F\_1-F\_2$ be the difference of two effective Cartier divisors with no common component. Hence $f\_* \mathscr{O}\_Y(F)\subset f\_* \mathscr{O}\_Y(F\_1)\cong\mathscr{O}\_X$. It is therefore a sheaf of ideals that defines a subscheme of $X$ supported on $f(F\_2)$, follows from the definition of the ideal sheaf of the scheme-theoric image. Well done. $\blacksquare$
 
 For the condition of $Y$ in *Lemma*, we can not always have, but if $Y$ admits an ample line bundle or using the Fulton's trick (after some blowing up of ideal of denominators, in the proof in Section 2.4 of his famous book), we can get it. $\blacksquare$
 
