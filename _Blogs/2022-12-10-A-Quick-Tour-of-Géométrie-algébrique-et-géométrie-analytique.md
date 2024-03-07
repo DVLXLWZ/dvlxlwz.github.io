@@ -182,7 +182,30 @@ induces an equivalence.
 
 *Proof.* Omitted, see Théorème XII.5.1 in [SGA-I][^2]. $\blacksquare$
 
-Actually, using Riemann’s existence theorem we can show that $\pi_1^{\mathrm{ét}}(X,x)\cong(\pi_1(X^{\mathrm{an}},x))^{\wedge}$, the profinite completion, see Corollaire XII.5.2 in [SGA-I][^2].
+**Corollary 4.5.** Let $X$ be a $\mathbb{C}$-scheme locally of finite type and $x\in X(\mathbb{C})$, then $\pi_1^{\mathrm{ét}}(X,x)\cong(\pi_1(X^{\mathrm{an}},x))^{\wedge}$, the profinite completion.
+
+*Proof.* We refer Corollaire XII.5.2 in [SGA-I][^2]. Note that we have 
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+<p>
+\begin{align*}
+\pi_1^{\mathrm{ét}}(X,x)&=\varinjlim_{(\mathcal{X}\to X)\in\mathbf{Fét}(X)}\mathrm{Aut}_{X}\mathcal{X}=\varinjlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\mathrm{Aut}_{X^{\mathrm{an}}}\mathcal{X}^{\mathrm{an}}\\
+  &=\varinjlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\pi_1(X^{\mathrm{an}},x)/\pi_1(\mathcal{X}^{\mathrm{an}},x)
+  =(\pi_1(X^{\mathrm{an}},x))^{\wedge}.
+\end{align*}
+</p>
+</body>
+</html>
+
+Well done. $\blacksquare$
 
 [^1]: [Serre56] Jean-Pierre Serre, Géométrie algébrique et géométrie analytique Université de Grenoble. Annales de l’Institut Fourier 6: 1–42, (1956) doi:10.5802/aif.59, ISSN 0373-0956, MR 0082175.
 
