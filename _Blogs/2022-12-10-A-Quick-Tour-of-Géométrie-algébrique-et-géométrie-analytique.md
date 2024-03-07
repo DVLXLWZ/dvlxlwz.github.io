@@ -197,8 +197,8 @@ induces an equivalence.
 <body>
 <p>
 \begin{align*}
-\pi_1^{\mathrm{ét}}(X,x)&=\varinjlim_{(\mathcal{X}\to X)\in\mathbf{Fét}(X)}\mathrm{Aut}_{X}\mathcal{X}=\varinjlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\mathrm{Aut}_{X^{\mathrm{an}}}\mathcal{X}^{\mathrm{an}}\\
-  &=\varinjlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\pi_1(X^{\mathrm{an}},x)/\pi_1(\mathcal{X}^{\mathrm{an}},x)
+\pi_1^{\mathrm{ét}}(X,x)&=\varprojlim_{(\mathcal{X}\to X)\in\mathbf{Fét}(X)}\mathrm{Aut}_{X}\mathcal{X}=\varprojlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\mathrm{Aut}_{X^{\mathrm{an}}}\mathcal{X}^{\mathrm{an}}\\
+  &=\varprojlim_{(\mathcal{X}^{\mathrm{an}}\to X^{\mathrm{an}})\in\mathbf{Fét}(X^{\mathrm{an}})}\pi_1(X^{\mathrm{an}},x)/\pi_1(\mathcal{X}^{\mathrm{an}},x)
   =(\pi_1(X^{\mathrm{an}},x))^{\wedge}.
 \end{align*}
 </p>
