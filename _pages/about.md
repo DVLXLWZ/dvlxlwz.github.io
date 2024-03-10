@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first-year graduate student from Academy of Mathematics and System Sciences in CAS (advisor: Baohua Fu). I'm interested in Fano varieties, rational curves on varieties, moduli space of coherent sheaves, derived categories of sheaves and their related enumerative geometry.
+I'm a first-year graduate student from Academy of Mathematics and System Sciences in CAS (supervisor: Baohua Fu). I'm now interested in Fano varieties, rational curves on varieties, moduli space of coherent sheaves, derived categories of sheaves and their related enumerative geometry.
 
 Learn from the master:
 ![placeholder](/images/grr.png){: .align-center}
