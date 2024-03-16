@@ -22,10 +22,6 @@ Chinese calligraphy：
 
 ![placeholder](/images/MyLike-02.jpg){: .align-center}
 
-![placeholder](/images/MyLike-03.jpg){: .align-center}
-
-![placeholder](/images/MyLike-04.jpg){: .align-center}
-
 
 ## Links of My Friends
 > [Lyu Junzhe’s Homepage](https://taiataiat.github.io/)
