@@ -18,9 +18,9 @@ Some of my personal hobbies:
 
 Chinese calligraphy：
 
-![placeholder](/images/MyLike-01.jpg){: .align-center}
+![placeholder](/images/My-Like-01.jpg){: .align-center}
 
-![placeholder](/images/MyLike-02.jpg){: .align-center}
+![placeholder](/images/My-Like-02.jpg){: .align-center}
 
 
 ## Links of My Friends
