@@ -7,12 +7,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first-year graduate student from [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) (see also [Institute of Mathematics](http://www.math.ac.cn/english/)). My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
+I'm a first-year graduate student from [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) (see also [MCM](http://www.mcm.ac.cn/) or [Institute of Mathematics](http://www.math.ac.cn/)). My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
 
 I'm now interested in Fano varieties, rational curves on varieties, moduli spaces and derived categories.
 
-Learn from the master:
+Learn from the great master -- Alexander Grothendieck:
 ![placeholder](/images/grr.png){: .align-center}
+
+Some of my personal hobbies: 
+
+Chinese calligraphy：
+
+![placeholder](/images/MyLike-01.jpg){: .align-center}
+
+![placeholder](/images/MyLike-02.jpg){: .align-center}
+
+![placeholder](/images/MyLike-03.jpg){: .align-center}
+
+![placeholder](/images/MyLike-04.jpg){: .align-center}
 
 
 ## Links of My Friends
