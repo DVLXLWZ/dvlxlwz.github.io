@@ -20,6 +20,10 @@ Chinese calligraphy：
 
 ![placeholder](/images/My-Like-01.jpg){: .align-center}
 
+![placeholder](/images/My-Like-03.jpg){: .align-center}
+
+![placeholder](/images/My-Like-04.jpg){: .align-center}
+
 ![placeholder](/images/My-Like-02.jpg){: .align-center}
 
 
