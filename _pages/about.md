@@ -24,6 +24,8 @@ Chinese calligraphy：
 
 ![placeholder](/images/My-Like-04.jpg){: .align-center}
 
+![placeholder](/images/My-Like-05.jpg){: .align-center}
+
 ![placeholder](/images/My-Like-02.jpg){: .align-center}
 
 
