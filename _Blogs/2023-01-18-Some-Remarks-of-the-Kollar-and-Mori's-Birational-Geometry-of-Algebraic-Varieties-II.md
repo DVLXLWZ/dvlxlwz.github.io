@@ -10,7 +10,7 @@ This blog aim to give some remarks and complete some details in this book (Kolla
 
 > Previously on these:
 >
-> [Some Remarks of the Kollar and Mori's Birational Geometry of Algebraic Varieties I](https://dvlxlwz.github.io/MyBlogs/2023/01/10/Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-I/).
+> [Some Remarks of the Kollar and Mori's Birational Geometry of Algebraic Varieties I](https://dvlxlwz.github.io//Blogs/2023-01-10-Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-I).
 
 ## Chapter 3. Cone Theorems
 ### Section 3.2. Basepoint-free Theorem
@@ -131,7 +131,7 @@ where the last inclusion is strict. As $E$ is $f^+$-exceptional and sheaf $\math
 \\[H^0(X\backslash\mathrm{Ex}(f),f^* D+E)\cong H^0(X\backslash\mathrm{Ex}(f),f^* D)\cong H^0(Y\backslash f(\mathrm{Ex}(f)),D)\cong H^0(Y,D)\\]
 as $\mathrm{codim}\_Yf(\mathrm{Ex}(f))\geq2$. Hence well done. $\blacksquare$
 
-*Remark.* (1) For some kind of converse, see the comments of Corollary 5.24 in [KMIII](https://dvlxlwz.github.io/2023/02/09/Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-III/);
+*Remark.* (1) For some kind of converse, see the comments of Corollary 5.24 in [KMIII](https://dvlxlwz.github.io//Blogs/2023-02-09-Some-Remarks-of-the-Kollar-and-Mori's-Birational-Geometry-of-Algebraic-Varieties-III-(The-End));
 
 (2) I don't know whether this lemma is right for general divisor $D$ or not. Actually I'm not sure if the projection formula holds for reflexive rank $1$-module (or more precisely, injective object tensoring a reflexive rank $1$-module is always an injective object?). $\blacksquare$
 
