@@ -44,10 +44,15 @@ $$
 p_P:\mathsf{BPC}(X,\mathscr{L}):=\underline{\mathrm{Proj}}_X\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m \mathscr{L}^{\otimes r}\otimes\mathscr{O}_X^{\oplus m-r}\right)\to\mathsf{PC}(X,\mathscr{L})=\mathrm{Proj}\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m H^0(X,\mathscr{L}^{\otimes r})x^{m-r}\right).
 $$
 
+## 2. Properties
+
 Now we will discuss some more results about them and we mainly focus on $\mathsf{AC}(X,\mathscr{L})$.
 
-
-
+> **[Proposition 2.1]** Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. Then 
+> 
+> $$
+> \mathbf{R}^ip_{A,*}\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}\cong\bigoplus_{m\geq0}H^i(X,\mathscr{L}^{\otimes m}).
+> $$
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
