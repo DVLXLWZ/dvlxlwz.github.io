@@ -62,6 +62,18 @@ $$
 
 Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 
+> **[Proposition 2.2]** Let $X$ be a normal projective scheme with an ample line bundle $\scr{L}$. Then
+>
+> (i) We have $\mathrm{Pic}(\mathsf{AC}(X,\mathscr{L}))=0$ and $\mathrm{Cl}(\mathsf{AC}(X,\mathscr{L}))=\mathrm{Cl}(X)/\mathbb{Z}\cdot\mathscr{L}$.
+>
+> (ii) Let $\Delta\_X$ be a $\mathbb{Q}$-divisor on $X$. By pull-back, we get $\mathbb{Q}$-divisors $\Delta_{\mathsf{AC}(X,\mathscr{L})}$ and $\Delta_{\mathsf{BAC}(X,\mathscr{L})}$. Assume that $K_X + \Delta_X$ is $\mathbb{Q}$-Cartier. Then we have
+> 
+> $$
+> K_{\mathsf{BAC}(X,\mathscr{L})}+\Delta_{\mathsf{BAC}(X,\mathscr{L})}=\pi^*(K_X+\Delta_X)-E
+> $$
+>
+> where $\pi:\mathsf{BAC}(X,\mathscr{L})\to X$ is projection from the vertex and $E\cong X$ is the exceptional divisor of $p_A$.
+
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
 
