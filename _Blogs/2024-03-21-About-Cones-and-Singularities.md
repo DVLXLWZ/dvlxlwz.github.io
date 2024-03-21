@@ -28,8 +28,16 @@ Here we will follow the book [Kol13][^1].
 [Remark 1.2] Note that we let $X\subset\mathbb{P}^n$, then we also have the classical affine cone in $\mathbb{A}^{n+1}$ and its closure $\mathsf{PC}(X)$ in $\mathbb{P}^{n+1}$ which is the classical projective cone (see also the more general case of classical cones in [GW1][^2]). Now consider $\mathsf{PC}(X,\mathscr{O}(1))\to\mathsf{PC}(X)$ is a natural finite morphism which is an isomorphism away from the vertex. If $X$ normal, then this is a normalization. So an advantage of our general notion is that if $X$ is normal (resp. S2) then
 $\mathsf{AC}(X,\mathscr{L})$ and $\mathsf{PC}(X,\mathscr{L})$ are also normal (resp. S2). $\blacktriangleleft$
 
+Now we a natural partial resolution in both cases:
 
+(i) We have
 
+$$
+p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}\_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m})
+$$
+which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$.
+
+(ii)
 
 
 
