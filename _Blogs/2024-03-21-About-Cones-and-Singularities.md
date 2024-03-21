@@ -13,7 +13,11 @@ Here we will follow the book [Kol13][^1].
 
 > [Def 1.1] Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. The **affine cone over $X$ with conormal bundle $\scr{L}$** is
 > $$
-> \mathsf{AffineCone}(X,\mathscr{L}):=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m}).
+> \mathsf{AC}(X,\mathscr{L}):=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m}).
+> $$
+> The **projective cone over $X$ with conormal bundle $\scr{L}$** is
+> $$
+> \mathsf{PC}(X,\mathscr{L}):=\mathrm{Proj}\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m H^0(X,\mathscr{L}^{\otimes r})x^{m-r}\right).
 > $$
 
 
