@@ -25,7 +25,7 @@ Here we will follow the book [Kol13][^1]. We just consider $\mathrm{char}(k)=0$.
 > \mathsf{PC}(X,\mathscr{L}):=\mathrm{Proj}\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m H^0(X,\mathscr{L}^{\otimes r})x^{m-r}\right).
 > $$
 
-**[Remark 1.2]** Note that we let $X\subset\mathbb{P}^n$, then we also have the classical affine cone in $\mathbb{A}^{n+1}$ and its closure $\mathsf{PC}(X)$ in $\mathbb{P}^{n+1}$ which is the classical projective cone (see also the more general case of classical cones in [GW1][^2]). Now consider $\mathsf{PC}(X,\mathscr{O}(1))\to\mathsf{PC}(X)$ is a natural finite morphism which is an isomorphism away from the vertex. If $X$ normal, then this is a normalization. So an advantage of our general notion is that if $X$ is normal (resp. S2) then
+**[Remark 1.2]** Note that we let $X\subset\mathbb{P}^n$, then we also have the classical affine cone in $\mathbb{A}^{n+1}$ and its closure $\mathsf{PC}(X)$ in $\mathbb{P}^{n+1}$ which is the classical projective cone (see also the more general case of classical cones in 13.37 in [GW1][^2]). Now consider $\mathsf{PC}(X,\mathscr{O}(1))\to\mathsf{PC}(X)$ is a natural finite morphism which is an isomorphism away from the vertex. If $X$ normal, then this is a normalization. So an advantage of our general notion is that if $X$ is normal (resp. S2) then
 $\mathsf{AC}(X,\mathscr{L})$ and $\mathsf{PC}(X,\mathscr{L})$ are also normal (resp. S2). $\blacktriangleleft$
 
 Now we a natural partial resolution in both cases:
@@ -54,15 +54,17 @@ Now we will discuss some more results about them and we mainly focus on $\mathsf
 > \mathbf{R}^ip_{A,*}\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}\cong\bigoplus_{m\geq0}H^i(X,\mathscr{L}^{\otimes m}).
 > $$
 
-[Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$. We first claim that we have 
+[Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$. Actually by construction of $\mathsf{BAC}(X,\mathscr{L})$, we can easy to see that
 
 $$
 \mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\oplus\mathscr{L}^{\otimes m-1}.
 $$
 
-Indeed, as we have $\mathsf{BAC}(X,\mathscr{L})=\underline{\mathrm{Spec}}\_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}$
+Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
 
 [^2]: [GW1] Ulrich Görtz and Torsten Wedhorn. Algebraic Geometry I: Schemes. Springer Spektrum Wiesbaden, 2020.
+
+[^3]: [GW2] Ulrich Görtz and Torsten Wedhorn. Algebraic Geometry II: Cohomology of Schemes. Springer Spektrum Wiesbaden, 2023.
