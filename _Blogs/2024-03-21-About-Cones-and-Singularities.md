@@ -35,6 +35,7 @@ Now we a natural partial resolution in both cases:
 $$
 p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}\_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m})
 $$
+
 which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$.
 
 (ii)
