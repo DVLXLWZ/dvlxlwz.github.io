@@ -9,7 +9,9 @@ Here we will introduce some well-known results about the cones which is the simp
 Here we follows book[^1].
 <!--more-->
 
+## 1. Basic Constructions
 
+> [Def 1.1] Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. The **affine cone over $X$ with conormal bundle $\scr{L}$** is
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
