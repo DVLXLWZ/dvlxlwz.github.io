@@ -60,7 +60,7 @@ $$
 \mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\oplus\mathscr{L}^{\otimes m-1}.
 $$
 
-Indeed, as we have $\mathsf{BAC}(X,\mathscr{L})=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}$
+Indeed, as we have $\mathsf{BAC}(X,\mathscr{L})=\underline{\mathrm{Spec}}\_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}$
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
