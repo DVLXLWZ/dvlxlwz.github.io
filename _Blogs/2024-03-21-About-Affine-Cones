@@ -1,7 +1,7 @@
 ---
-title: "About Cones and Singularities"
+title: "About Affine Cones"
 collection: Blogs
-permalink: /Blogs/2024-03-21-About-Cones-and-Singularities
+permalink: /Blogs/2024-03-21-About-Affine-Cones
 excerpt_separator: <!--more-->
 date: 2024-03-21
 ---
@@ -53,6 +53,8 @@ Now we will discuss some more results about them and we mainly focus on $\mathsf
 > $$
 > \mathbf{R}^ip_{A,*}\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}\cong\bigoplus_{m\geq0}H^i(X,\mathscr{L}^{\otimes m}).
 > $$
+
+[Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$.
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
