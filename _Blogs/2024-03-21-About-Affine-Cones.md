@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 date: 2024-03-21
 ---
 Here we will introduce some well-known results about the cones which is the simplest examples of terminal, canonical, etc. singularities.
-Here we will follow the book [Kol13][^1].
+Here we will follow the book [Kol13][^1]. We just consider $\mathrm{char}(k)=0$.
 <!--more-->
 
 ## 1. Basic Constructions
@@ -57,10 +57,10 @@ Now we will discuss some more results about them and we mainly focus on $\mathsf
 [Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$. We first claim that we have 
 
 $$
-\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\mathscr{L}^{\otimes m-1}.
+\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\oplus\mathscr{L}^{\otimes m-1}.
 $$
 
-Indeed,
+Indeed, as we have $\mathsf{BAC}(X,\mathscr{L})=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}$
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
