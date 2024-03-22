@@ -62,7 +62,7 @@ $$
 
 Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 
-> **[Proposition 2.2]** Let $X$ be a normal projective scheme with an ample line bundle $\scr{L}$. Then
+> **[Proposition 2.2]** Let $X$ be a normal projective variety with an ample line bundle $\scr{L}$. Then
 >
 > (i) We have $\mathrm{Pic}(\mathsf{AC}(X,\mathscr{L}))=0$ and $\mathrm{Cl}(\mathsf{AC}(X,\mathscr{L}))=\mathrm{Cl}(X)/\mathbb{Z}\cdot\mathscr{L}$.
 >
@@ -73,6 +73,18 @@ Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 > $$
 >
 > where $\pi:\mathsf{BAC}(X,\mathscr{L})\to X$ is projection from the vertex and $E\cong X$ is the exceptional divisor of $p_A$.
+
+[Proof] 
+
+> **[Proposition 2.3]** Let $X$ be a Cohen-Macaulay projective variety with an ample line bundle $\scr{L}$. Then $\mathsf{AC}(X,\mathscr{L})$ is Cohen-Macaulay if and only if $H^i(X,\mathscr{L}^{\otimes m})=0$ for any $m$ and any $0<i<\dim X$.
+
+[Proof]
+
+> **[Proposition 2.4]** Let $X$ be projective variety with rational singularities with an ample line bundle $\scr{L}$. Then the cone $\mathsf{AC}(X,\mathscr{L})$ has rational singularities if and only if $H^i(X,\mathscr{L}^{\otimes m})=0$ for any $m$ and any $0<i\leq\dim X$.
+
+[Proof]
+
+**[Example 2.5]** Here we will introduce a log-canonical (lc) pair which is not a rational singularity and not Cohen-Macaulay using our theory.
 
 
 [^1]: [Kol13] János Kollár. Singularities of the Minimal Model Program. Cambridge University Press, 2013.
