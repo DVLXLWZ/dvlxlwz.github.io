@@ -1,5 +1,5 @@
 ---
-title: "About Affine Cones associated to ample line-bundles"
+title: "About Affine Cones associated to ample line bundles"
 collection: Blogs
 permalink: /Blogs/2024-03-21-About-Affine-Cones-associated-to-ample-line-bundles
 excerpt_separator: <!--more-->
@@ -32,7 +32,7 @@ $\mathsf{AC}(X,\mathscr{L})$ and $\mathsf{PC}(X,\mathscr{L})$ are also normal (r
 
 Here we mainly consider $\mathsf{AC}(X,\mathscr{L})$ and we have a natural partial resolution:
 
-> **[Proposition 1.3]** Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. Then we have
+> **[Proposition 1.3]** Let $X$ be a projective variety with an ample line bundle $\scr{L}$. Then we have
 >
 > $$
 > p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m})
