@@ -28,17 +28,19 @@ Here we will follow the book [Kol13][^1]. We just consider $\mathrm{char}(k)=0$.
 **[Remark 1.2]** Note that we let $X\subset\mathbb{P}^n$, then we also have the classical affine cone in $\mathbb{A}^{n+1}$ and its closure $\mathsf{PC}(X)$ in $\mathbb{P}^{n+1}$ which is the classical projective cone (see also the more general case of classical cones in 13.37 in [GW1][^2]). Now consider $\mathsf{PC}(X,\mathscr{O}(1))\to\mathsf{PC}(X)$ is a natural finite morphism which is an isomorphism away from the vertex. If $X$ normal, then this is a normalization. So an advantage of our general notion is that if $X$ is normal (resp. S2) then
 $\mathsf{AC}(X,\mathscr{L})$ and $\mathsf{PC}(X,\mathscr{L})$ are also normal (resp. S2). $\blacktriangleleft$
 
-Now we a natural partial resolution in both cases:
+Here we mainly consider $\mathsf{AC}(X,\mathscr{L})$ and we have a natural partial resolution:
 
-(i) We have
+> **[Proposition 1.3]** Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. Then we have
+>
+> $$
+> p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m})
+> $$
+>
+> which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$ which is the zero section of $X$ in $\mathsf{BAC}(X,\mathscr{L})$.
 
-$$
-p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m})
-$$
+[Proof]
 
-which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$ which is the zero section of $X$ in $\mathsf{BAC}(X,\mathscr{L})$.
-
-(ii) We have 
+**[Remark 1.4]** For projective case we also have the similar construction: we have 
 
 $$
 p_P:\mathsf{BPC}(X,\mathscr{L}):=\underline{\mathrm{Proj}}_X\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m \mathscr{L}^{\otimes r}\otimes\mathscr{O}_X^{\oplus m-r}\right)\to\mathsf{PC}(X,\mathscr{L})=\mathrm{Proj}\bigoplus_{m\geq0}\left(\bigoplus_{r=0}^m H^0(X,\mathscr{L}^{\otimes r})x^{m-r}\right).
