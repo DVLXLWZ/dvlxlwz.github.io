@@ -1,7 +1,7 @@
 ---
-title: "About Affine Cones"
+title: "About Affine Cones associated to ample line-bundles"
 collection: Blogs
-permalink: /Blogs/2024-03-21-About-Affine-Cones
+permalink: /Blogs/2024-03-21-About-Affine-Cones-associated-to-ample-line-bundles
 excerpt_separator: <!--more-->
 date: 2024-03-21
 ---
@@ -40,7 +40,7 @@ Here we mainly consider $\mathsf{AC}(X,\mathscr{L})$ and we have a natural parti
 >
 > which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$ which is the zero section of $X$ in $\mathsf{BAC}(X,\mathscr{L})$.
 >
->> *Proof.*
+>> *Proof.* 
 
 **[Remark 1.4]** For projective case we also have the similar construction: we have 
 
