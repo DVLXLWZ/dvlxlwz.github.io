@@ -48,7 +48,11 @@ $$
 
 ## 2. Properties
 
-Now we will discuss some more results about them and we mainly focus on $\mathsf{AC}(X,\mathscr{L})$.
+Now we will discuss some more results about them and we mainly focus on $\mathsf{AC}(X,\mathscr{L})$. Recall that we have a partial resolution:
+
+$$
+p_A:\mathsf{BAC}(X,\mathscr{L}):=\underline{\mathrm{Spec}}_X \bigoplus_{m\geq0}\mathscr{L}^{\otimes m}\to\mathsf{AC}(X,\mathscr{L})=\mathrm{Spec}\bigoplus_{m\geq0}H^0(X,\mathscr{L}^{\otimes m}).
+$$
 
 > **[Proposition 2.1]** Let $X$ be a projective scheme with an ample line bundle $\scr{L}$. Then 
 > 
