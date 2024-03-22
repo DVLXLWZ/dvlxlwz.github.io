@@ -37,8 +37,8 @@ Here we mainly consider $\mathsf{AC}(X,\mathscr{L})$ and we have a natural parti
 > $$
 >
 > which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$ which is the zero section of $X$ in $\mathsf{BAC}(X,\mathscr{L})$.
-
-[Proof]
+>
+>> [Proof]
 
 **[Remark 1.4]** For projective case we also have the similar construction: we have 
 
@@ -55,14 +55,14 @@ Now we will discuss some more results about them and we mainly focus on $\mathsf
 > $$
 > \mathbf{R}^ip_{A,*}\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}\cong\bigoplus_{m\geq0}H^i(X,\mathscr{L}^{\otimes m}).
 > $$
-
-[Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$. Actually by construction of $\mathsf{BAC}(X,\mathscr{L})$, we can easy to see that
-
-$$
-\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\oplus\mathscr{L}^{\otimes m-1}.
-$$
-
-Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
+>
+>>[Proof] Now the exceptional divisor is $E$, we let its ideal sheaf is $\mathscr{I}\subset\mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}$. Actually by construction of $\mathsf{BAC}(X,\mathscr{L})$, we can easy to see that
+>>
+>> $$
+>> \mathscr{O}_{\mathsf{BAC}(X,\mathscr{L})}/\mathscr{I}^m\cong\mathscr{O}_X\oplus\mathscr{L}\oplus\cdots\oplus\mathscr{L}^{\otimes m-1}.
+>> $$
+>>
+>> Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 
 > **[Proposition 2.2]** Let $X$ be a normal projective variety with an ample line bundle $\scr{L}$. Then
 >
@@ -75,16 +75,20 @@ Hence by Theorem on formal functions (c.f. Chapter 24 in [GW2][^3])
 > $$
 >
 > where $\pi:\mathsf{BAC}(X,\mathscr{L})\to X$ is projection from the vertex and $E\cong X$ is the exceptional divisor of $p_A$.
-
-[Proof] 
+>
+>>[Proof]
+>>
+>>
 
 > **[Proposition 2.3]** Let $X$ be a Cohen-Macaulay projective variety with an ample line bundle $\scr{L}$. Then $\mathsf{AC}(X,\mathscr{L})$ is Cohen-Macaulay if and only if $H^i(X,\mathscr{L}^{\otimes m})=0$ for any $m$ and any $0<i<\dim X$.
-
-[Proof]
+>
+>>[Proof]
+>>
 
 > **[Proposition 2.4]** Let $X$ be projective variety with rational singularities with an ample line bundle $\scr{L}$. Then the cone $\mathsf{AC}(X,\mathscr{L})$ has rational singularities if and only if $H^i(X,\mathscr{L}^{\otimes m})=0$ for any $m$ and any $0<i\leq\dim X$.
-
-[Proof]
+>
+>>[Proof]
+>>
 
 **[Example 2.5]** Here we will introduce a log-canonical (lc) pair which is not a rational singularity and not Cohen-Macaulay using our theory.
 
