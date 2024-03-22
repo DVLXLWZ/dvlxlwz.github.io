@@ -10,7 +10,7 @@ This is one of a series of blogs aiming to complete some details of the examples
 <!--more-->
 ## Part 0. Some notations
 In this book we consider vector bundle as a geometric object (locally as $U\times\mathbb{A}^n$ with some cocycle condition) instead of a locally free $\mathscr{O}\_X$-module, although they are equivalent:
-we may always let $E=\underline{\mathrm{Spec}}\_X\mathrm{Sym}(\mathscr{E})$ where $\mathscr{E}$ be the sheaf of sections of $E$.
+we may always let $E=\underline{\mathrm{Spec}}\_X\mathrm{Sym}(\mathscr{E}^{\vee})$ where $\mathscr{E}$ be the sheaf of sections of $E$.
 
 Chow groups in book denoted by $A\_* (X)$ and here we denote it $\mathrm{CH}\_* (X)$ as a more modern notation. 
 
