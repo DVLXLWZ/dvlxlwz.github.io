@@ -40,7 +40,6 @@ Here we mainly consider $\mathsf{AC}(X,\mathscr{L})$ and we have a natural parti
 >
 > which is an isomorphism over the punctured affine cone $\mathsf{AC}(X,\mathscr{L})\backslash\{\text{vertex}\}$. The exceptional divisor is $E\cong X$ which is the zero section of $X$ in $\mathsf{BAC}(X,\mathscr{L})$.
 >
->> *Proof.* 
 
 **[Remark 1.4]** For projective case we also have the similar construction: we have 
 
