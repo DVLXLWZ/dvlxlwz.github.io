@@ -5,14 +5,28 @@ permalink: /Blogs/2024-03-26-Some-Interesting-Papers-and-Notes-and-Websites
 excerpt_separator: <!--more-->
 date: 2024-03-26
 ---
-ere we will introduce some interesting papers and notes here. I may or may not read them.
+Here we will introduce some interesting papers and notes here. I may or may not read them.
 <!--more-->
 
 ## 1. Notes
 ### 1.1. Algebraic geometry
 
+> - **Ravi Vakil. [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/)
+>
+>> **Introduction**. A standard and nice introduction of fundamental theory of algebraic geometry, including scheme theory and its cohomology.
 
-### 1.2. Others
+> - **J.S. Milne. [Lie Algebras, Algebraic Groups, and Lie Groups](https://www.jmilne.org/math/CourseNotes/LAG.pdf)
+>
+>> **Introduction**. A breif and fast introduction of Lie Algebras and Algebraic Groups.
+
+> - **J.S. Milne. [Lectures on Etale Cohomology](https://www.jmilne.org/math/CourseNotes/LEC.pdf)
+>
+>> **Introduction**. In comparison with his book, the emphasis is on heuristic arguments rather than formal proofs and on varieties rather than schemes. The notes also discuss the proof of the Weil conjectures (Grothendieck and Deligne).
+
+
+
+
+### 1.2. Other Areas
 
 > - **Allen Hatcher. [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT+.pdf)
 >
