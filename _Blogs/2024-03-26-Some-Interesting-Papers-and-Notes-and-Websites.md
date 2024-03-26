@@ -13,19 +13,19 @@ Here we will introduce some interesting papers and notes here. I may or may not 
 
 https://math.stanford.edu/~vakil/245/
 
-> - **Ravi Vakil. [Introduction to intersection theory in algebraic geometry](https://math.stanford.edu/~vakil/245/)
+> - **Ravi Vakil. [Introduction to intersection theory in algebraic geometry](https://math.stanford.edu/~vakil/245/)**
 >
 >> **Introduction**. A nice introduction of intersection theory developed by Fulton etc. This including chapter 1-6 and chapter 15 in the Fulton's book, including the basic construction and the theorem of Grothendieck-Riemann-Roch.
 
-> - **Ravi Vakil. [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/)
+> - **Ravi Vakil. [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/)**
 >
 >> **Introduction**. A standard and nice introduction of fundamental theory of algebraic geometry, including scheme theory and its cohomology.
 
-> - **J.S. Milne. [Lie Algebras, Algebraic Groups, and Lie Groups](https://www.jmilne.org/math/CourseNotes/LAG.pdf)
+> - **J.S. Milne. [Lie Algebras, Algebraic Groups, and Lie Groups](https://www.jmilne.org/math/CourseNotes/LAG.pdf)**
 >
 >> **Introduction**. A breif and fast introduction of Lie Algebras and Algebraic Groups.
 
-> - **J.S. Milne. [Lectures on Etale Cohomology](https://www.jmilne.org/math/CourseNotes/LEC.pdf)
+> - **J.S. Milne. [Lectures on Etale Cohomology](https://www.jmilne.org/math/CourseNotes/LEC.pdf)**
 >
 >> **Introduction**. In comparison with his book, the emphasis is on heuristic arguments rather than formal proofs and on varieties rather than schemes. The notes also discuss the proof of the Weil conjectures (Grothendieck and Deligne).
 
@@ -34,7 +34,7 @@ https://math.stanford.edu/~vakil/245/
 
 ### 1.2. Other Areas
 
-> - **Allen Hatcher. [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT+.pdf)
+> - **Allen Hatcher. [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT+.pdf)**
 >
 >> **Introduction**. A graduate-level textbook on algebraic topology from a fairly classical point of view which including theory of fundamental groups, covering spaces, homology groups, cohomology groups and basic homotopy theory.
 
