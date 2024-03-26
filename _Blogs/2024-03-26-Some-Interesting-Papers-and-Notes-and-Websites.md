@@ -8,7 +8,7 @@ date: 2024-03-26
 Here we will introduce some interesting papers and notes here. I may or may not read them.
 <!--more-->
 
-## 1. Notes (or books)
+## 1. Notes and Books
 ### 1.1. Algebraic geometry
 
 > - **Jarod Alper. [Notes on stacks and moduli](https://sites.math.washington.edu/~jarod/moduli.pdf)**
@@ -65,7 +65,11 @@ Here we will introduce some interesting papers and notes here. I may or may not 
 
 > - **[Stacks Project](https://stacks.math.columbia.edu/)**
 >
->> **Introduction**. The Stacks project is an ever growing open source textbook and reference work on algebraic stacks and the algebraic geometry needed to define them. 
+>> **Introduction**. The Stacks project is an ever growing open source textbook and reference work on algebraic stacks and the algebraic geometry needed to define them.
+
+> - **[kerodon](https://kerodon.net/)**
+>
+>> **Introduction**. Kerodon is an online textbook on categorical homotopy theory, infinity categories and related mathematics.
 
 
 **updated at 2024-03-26**.
