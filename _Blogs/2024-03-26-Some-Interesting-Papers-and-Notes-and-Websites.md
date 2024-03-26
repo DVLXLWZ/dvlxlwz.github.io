@@ -15,9 +15,13 @@ Here we will introduce some interesting papers and notes here. I may or may not 
 >
 >> **Introduction**. A very detailed note about moduli space, providing a detailed introduction to the stack theory and its applications. This note including the basic theory of Deligne-Mumford stacks, algebraic stacks and the construction of moduli space of curves. Furthermore, this book introduce the theory of good moduli space and GIT theory.
 
+> - **Jon Eugster and Jonathan Pridham. [An introduction to derived (algebraic) geometry](https://www.maths.ed.ac.uk/~jpridham/2021lect.pdf).**
+>
+>> **Introduction**. Mostly aimed at an audience with backgrounds in geometry and homological algebra, these notes offer an introduction to derived geometry based on a lecture course given by the second author. The focus is on derived algebraic geometry, mainly in characteristic $0$, but we also see the tweaks which extend most of the content to analytic and differential settings.
+
 > - **Yujiro Kawamata. [Algebraic Varieties: Minimal Models and Finite Generation](https://chenjiangfudan.github.io/home/pdf/kawamata_book_2024.3.pdf), Translated by Chen Jiang.**
 >
->> **Introduction** A nice introduction text book of birational geometry from basic MMP theory to recent BCHM theory.
+>> **Introduction**. A nice introduction text book of birational geometry from basic MMP theory to recent BCHM theory.
 
 > - **Chenyang Xu. [K-stability of Fano varieties](https://web.math.princeton.edu/~chenyang/Kstabilitybook.pdf).**
 >
@@ -187,6 +191,20 @@ in which rational homogeneous spaces play a prominent rˆole. This selection is 
 >> **Introduction**. This survey paper discusses some of the recent progress in the study of rational curves on algebraic varieties.To start, we discuss existence results for rational curves on foliated manifolds. We construct the tangent morphism, define the variety of minimal rational tangents (VMRT) and name a number of results that show that many of the geometry properies of a uniruled variety are encoded in the projective geometry of the VMRT.
 The results are then applied in two different settings. For one, we discuss the geometry of chains of rational curves on uniruled varieties, show how the length of a variety can be determined from the VMRT and discuss the concrete example of the moduli space of vector bundles on a curve.
 On the other hand, the existence results for rational curves can be also be used to study manifolds which are known NOT to contain rational curves. We employ this method to study deformations of morphisms. Finally, we look at families of varieties of canonically polarized manifolds over complex surfaces, and use non-existence results for rational curves on the base to relate the variation of the family with the logarithmic Kodaira dimension of the base.
+
+> - **James Milne. [Motives — Grothendieck’s Dream](https://www.jmilne.org/math/xnotes/MOT.pdf).**
+>
+>> **Introduction**. Grothendieck introduced the notion of a “motif” in a letter to Serre in 1964. Later he wrote that, among the objects he had been privileged to discover, they were the most charged with mystery and formed perhaps the most powerful instrument of discovery. In this article, I shall explain what motives are, and why Grothendieck valued them so highly. （亦有中文版，刊于数学译林，2009年第3期，徐克舰译，付保华校对）
+
+> - **Bertrand Toën. [Derived Algebraic Geometry](https://arxiv.org/pdf/1401.1044.pdf).**
+>
+>> **Introduction**. This text is a survey of derived algebraic geometry. It covers a variety of general notions and results from the subject with a view on the recent developments at the interface with deformation quantization.
+
+> - **Jacob Lurie. [Derived Algebraic Geometry](https://people.math.harvard.edu/~lurie/papers/DAG.pdf).**
+>
+>> **Introduction**. A survey about derived algebraic geometry.
+
+- Need to add.
 
 ## 4. Websites
 
