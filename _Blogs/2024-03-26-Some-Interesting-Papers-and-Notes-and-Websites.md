@@ -8,9 +8,15 @@ date: 2024-03-26
 ere we will introduce some interesting papers and notes here. I may or may not read them.
 <!--more-->
 
-## Notes
+## 1. Notes
+### 1.1. Algebraic geometry
 
 
+### 1.2. Others
+
+> - **Allen Hatcher. [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT+.pdf)
+>
+>> **Introduction**. A graduate-level textbook on algebraic topology from a fairly classical point of view which including theory of fundamental groups, covering spaces, homology groups, cohomology groups and basic homotopy theory.
 
 ## Papers
 
