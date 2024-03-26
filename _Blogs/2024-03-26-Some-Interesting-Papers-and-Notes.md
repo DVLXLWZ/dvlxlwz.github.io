@@ -1,0 +1,28 @@
+---
+title: "Some Interesting Papers and Notes"
+collection: Blogs
+permalink: /Blogs/2024-03-26-Some-Interesting-Papers-and-Notes
+excerpt_separator: <!--more-->
+date: 2024-03-26
+---
+ere we will introduce some interesting papers and notes here. I may or may not read them.
+<!--more-->
+
+## Notes
+
+
+
+## Papers
+
+> - **Diletta Martinelli, Juan Carlos Naranjo, Gian Pietro Pirola. [Connectedness Bertini Theorem via numerical equivalence](https://arxiv.org/pdf/1412.1978.pdf). Advances in Geometry, 2017.**
+>
+>> **Brief**. Let $X$ be an irreducible projective variety and $f$ a morphism $X\to\mathbb{P}^n$. They give a new proof of the fact that the preimage of any linear variety of dimension $k\geq n + 1 − \dim f(X)$ is connected, by using the Generalized Hodge Index Theorem and de Jong's altration theorem that hold in any characteristic. They also prove the connectedness Theorem of Fulton and Hansen as application of our main theorem.
+
+
+- 
+- 
+- 
+- 
+
+
+**updated at 2024-03-26**.
