@@ -13,7 +13,7 @@ Here we will introduce some interesting papers and notes here. I may or may not 
 
 > - **Jarod Alper. [Notes on stacks and moduli](https://sites.math.washington.edu/~jarod/moduli.pdf)**
 >
->> **Introduction**.
+>> **Introduction**. A very detailed note about moduli space, providing a detailed introduction to the stack theory and its applications. This note including the basic theory of Deligne-Mumford stacks, algebraic stacks and the construction of moduli space of curves. Furthermore, this book introduce the theory of good moduli space and GIT theory.
 
 
 > - **Ravi Vakil. [Introduction to intersection theory in algebraic geometry](https://math.stanford.edu/~vakil/245/)**
