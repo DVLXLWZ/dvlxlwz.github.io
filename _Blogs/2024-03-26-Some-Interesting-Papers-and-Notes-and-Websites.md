@@ -80,6 +80,7 @@ birational.
 
 > - **Others, like [Patrick Le's notes](https://www.math.columbia.edu/~plei/notes.html) and [Daniel Murfet's notes](http://therisingsea.org/).**
 
+- Need to add.
 
 ### 1.2. Other Areas
 
@@ -99,6 +100,7 @@ birational.
 >
 >> **Introduction**. 全面的介绍了同调代数的内容，比其他的书都要多出很多有趣的东西。
 
+- Need to add.
 
 ## Papers
 
@@ -106,10 +108,19 @@ birational.
 >
 >> **Introduction**. Let $X$ be an irreducible projective variety and $f$ a morphism $X\to\mathbb{P}^n$. They give a new proof of the fact that the preimage of any linear variety of dimension $k\geq n + 1 − \dim f(X)$ is connected, by using the Generalized Hodge Index Theorem and de Jong's altration theorem that hold in any characteristic. They also prove the connectedness Theorem of Fulton and Hansen as application of our main theorem.
 
+> - **Alexander Perry. [The integral Hodge conjecture for two-dimensional Calabi-Yau categories](https://arxiv.org/pdf/2004.03163.pdf). Compositio Math. 158 (2022) 287–333.**
+>
+>> **Introduction**. We formulate a version of the integral Hodge conjecture for categories, prove the conjecture for two-dimensional Calabi-Yau categories which are suitably deformation equivalent to the derived category of a K3 or abelian surface, and use this to deduce cases of the usual integral Hodge conjecture for varieties. Along the way, we prove a version of the variational integral Hodge conjecture for families of two-dimensional Calabi-Yau categories, as well as a general smoothness result for relative moduli spaces of objects in such families. Our machinery also has applications to the structure of intermediate Jacobians, such as a criterion in terms of derived categories for when they split as a sum of Jacobians of curves.
 
-- 
-- 
-- 
+> - **Alexander Perry. [Rationality does not specialize among terminal fourfolds](https://arxiv.org/pdf/1608.00951v1.pdf). Algebra & Number Theory, vol 11. 2017.**
+>
+>> **Introduction**. We show that rationality does not specialize in flat projective families of complex fourfolds with terminal singularities. This answers a question of Totaro, who established the analogous result in all dimensions greater than $4$.
+
+> - **Lev A. Borisov, Andrei Căldăraru and Alexander Perry. [Intersections of two Grassmannians in $\mathbb{P}^9$](https://arxiv.org/pdf/1707.00534.pdf).  Journal für die reine und angewandte Mathematik, 2018.**
+>
+>> **Introduction**. We study the intersection of two copies of $\mathsf{Gr(2, 5)}$ embedded in $\mathbb{P}^9$, and the intersection of the two projectively dual Grassmannians in the dual projective space. These intersections are deformation equivalent, derived equivalent Calabi–Yau threefolds. We prove that generically they are not birational. As a consequence, we obtain a counterexample to the birational Torelli problem for Calabi–Yau threefolds. We also show that these threefolds give a new pair of varieties whose classes in the Grothendieck ring of varieties are not equal, but whose difference is annihilated by a power of the class of the affine line. Our proof of non-birationality involves a detailed study of the moduli stack of Calabi–Yau threefolds of the above type, which may be of independent interest.
+
+- Need to add.
 
 ## Websites
 
@@ -121,5 +132,6 @@ birational.
 >
 >> **Introduction**. Kerodon is an online textbook on categorical homotopy theory, infinity categories and related mathematics.
 
+- Need to add.
 
 **updated at 2024-03-26**.
