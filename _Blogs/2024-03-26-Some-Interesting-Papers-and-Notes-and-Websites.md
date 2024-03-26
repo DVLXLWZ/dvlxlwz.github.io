@@ -8,10 +8,13 @@ date: 2024-03-26
 Here we will introduce some interesting papers and notes here. I may or may not read them.
 <!--more-->
 
-## 1. Notes
+## 1. Notes (or books)
 ### 1.1. Algebraic geometry
 
-https://math.stanford.edu/~vakil/245/
+> - **Jarod Alper. [Notes on stacks and moduli](https://sites.math.washington.edu/~jarod/moduli.pdf)**
+>
+>> **Introduction**.
+
 
 > - **Ravi Vakil. [Introduction to intersection theory in algebraic geometry](https://math.stanford.edu/~vakil/245/)**
 >
@@ -37,6 +40,15 @@ https://math.stanford.edu/~vakil/245/
 > - **Allen Hatcher. [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT+.pdf)**
 >
 >> **Introduction**. A graduate-level textbook on algebraic topology from a fairly classical point of view which including theory of fundamental groups, covering spaces, homology groups, cohomology groups and basic homotopy theory.
+
+> - **李文威. [代数学方法：卷一, 基础架构](https://www.wwli.asia/downloads/books/Al-jabr-1.pdf)**
+>
+>> **Introduction**. 介绍基本的代数学基础的很好的书，详尽的介绍了基础的范畴理论还有代数学基础。
+
+> - **李文威. [代数学方法：卷二, 线性代数](https://www.wwli.asia/downloads/books/Al-jabr-2.pdf)**
+>
+>> **Introduction**. 全面的介绍了同调代数的内容，比其他的书都要多出很多有趣的东西。
+
 
 ## Papers
 
