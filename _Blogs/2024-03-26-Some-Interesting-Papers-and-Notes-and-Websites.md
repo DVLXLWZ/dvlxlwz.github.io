@@ -11,6 +11,12 @@ Here we will introduce some interesting papers and notes here. I may or may not 
 ## 1. Notes
 ### 1.1. Algebraic geometry
 
+https://math.stanford.edu/~vakil/245/
+
+> - **Ravi Vakil. [Introduction to intersection theory in algebraic geometry](https://math.stanford.edu/~vakil/245/)
+>
+>> **Introduction**. A nice introduction of intersection theory developed by Fulton etc. This including chapter 1-6 and chapter 15 in the Fulton's book, including the basic construction and the theorem of Grothendieck-Riemann-Roch.
+
 > - **Ravi Vakil. [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/)
 >
 >> **Introduction**. A standard and nice introduction of fundamental theory of algebraic geometry, including scheme theory and its cohomology.
