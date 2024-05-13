@@ -16,17 +16,11 @@ Learn from the great master -- Alexander Grothendieck:
 
 Some of my personal hobbies: 
 
-Chinese calligraphy：
+Greatest Chinese calligraphy from master -- WANG Xizhi：
 
-![placeholder](/images/My-Like-01.jpg){: .align-center}
+![placeholder](/images/sangluan.jpg){: .align-center}
 
-![placeholder](/images/My-Like-03.jpg){: .align-center}
-
-![placeholder](/images/My-Like-04.jpg){: .align-center}
-
-![placeholder](/images/My-Like-05.jpg){: .align-center}
-
-![placeholder](/images/My-Like-02.jpg){: .align-center}
+![placeholder](/images/yuanhuan.jpg){: .align-center}
 
 
 ## Links of My Friends
