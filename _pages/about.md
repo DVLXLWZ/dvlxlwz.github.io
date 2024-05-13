@@ -14,8 +14,6 @@ I'm now interested in Fano varieties, rational curves on varieties, moduli space
 Learn from the great master -- Alexander Grothendieck:
 ![placeholder](/images/grr.png){: .align-center}
 
-Some of my personal hobbies: 
-
 Greatest Chinese calligraphy from master -- WANG Xizhi：
 
 ![placeholder](/images/sangluan.jpg){: .align-center}
