@@ -9,7 +9,7 @@ redirect_from:
 ---
 I'm a first-year graduate student from [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) (see also [MCM](http://www.mcm.ac.cn/) or [Institute of Mathematics](http://www.math.ac.cn/)). My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
 
-I'm now interested in Fano varieties, rational curves on varieties, moduli spaces and derived categories.
+I'm now interested in Fano varieties, rational curves on varieties, moduli spaces and enumerative geometry.
 
 Learn from the great master -- Alexander Grothendieck:
 ![placeholder](/images/grr.png){: .align-center}
