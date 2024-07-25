@@ -22,4 +22,6 @@ Greatest Chinese calligraphy from master -- WANG Xizhi：
 
 
 ## Links of My Friends
-> [Lyu Junzhe’s Homepage](https://taiataiat.github.io/)
+> [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu)
+
+> [Junzhe Lyu’s Homepage](https://taiataiat.github.io/)
