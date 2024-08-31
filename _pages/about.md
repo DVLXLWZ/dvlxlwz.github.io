@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first-year graduate student from [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) (see also [MCM](http://www.mcm.ac.cn/) or [Institute of Mathematics](http://www.math.ac.cn/)). My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
+I'm a second-year graduate student from [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) (see also [MCM](http://www.mcm.ac.cn/) or [Institute of Mathematics](http://www.math.ac.cn/)). My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
 
 I'm now interested in Fano varieties, rational curves on varieties, moduli spaces and enumerative geometry.
 
@@ -21,7 +21,11 @@ Greatest Chinese calligraphy from master -- WANG Xizhi：
 ![placeholder](/images/yuanhuan.jpg){: .align-center}
 
 
-## Links of My Friends
+## Some Links
+> [AMSS](http://english.amss.cas.cn/)
+
+> [MCM](http://www.mcm.ac.cn/)
+
 > [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu)
 
 > [Junzhe Lyu’s Homepage](https://taiataiat.github.io/)
