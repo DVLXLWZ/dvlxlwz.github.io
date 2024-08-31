@@ -22,9 +22,7 @@ Greatest Chinese calligraphy from master -- WANG Xizhi：
 
 
 ## Some Links
-> [AMSS](http://english.amss.cas.cn/)
-
-> [MCM](http://www.mcm.ac.cn/)
+> [AMSS](http://english.amss.cas.cn/); [MCM](http://www.mcm.ac.cn/).
 
 > [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu)
 
