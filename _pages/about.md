@@ -14,7 +14,7 @@ I'm now interested in Fano varieties, rational curves on varieties, moduli space
 ### Education
 
 > M.S.: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), supervisor: Baohua Fu.
-
+>
 > B.S.: 2019--2023, [Shandong University](https://www.sdu.edu.cn) ([Taishan](https://www.tsxt.sdu.edu.cn)).
 
 
