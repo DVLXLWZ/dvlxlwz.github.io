@@ -9,5 +9,5 @@ redirect_from:
 
 I'm now interested in Fano varieties, rational curves on varieties, moduli spaces, enumerative geometry (Donaldson-Thomas theory of 4-folds) and related topics.
 
-> xxxx degeneration xxxx Nekrasov xxxx, in praperation. 2024.
+> 1. xxxx degeneration xxxx Nekrasov xxxx, in praperation. 2024.
 
