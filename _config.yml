@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
@@ -83,7 +83,7 @@ author:
   name             : "LIU Xiaolong"
   avatar           : "MyPhoto.png"
   bio              : "I’m a second-year graduate student in the area of the algebraic geometry."
-  location         : "China"
+  location         : "Beijing, China"
   employer         :
   pubmed           :
   googlescholar    :
@@ -109,7 +109,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "DVLXLWZ"
+  twitter          : #"DVLXLWZ"
   vine             :
   weibo            :
   xing             :
