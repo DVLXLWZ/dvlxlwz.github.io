@@ -1,7 +1,6 @@
 ---
 permalink: /research
-title: "Liu, Xiaolong (刘 晓龙 / 劉 曉龍)"
-excerpt: "About me"
+title: "Research"
 author_profile: true
 ---
 I'm a second-year graduate student from [Institute of Mathematics](http://www.math.ac.cn/) of [Academy of Mathematics and System Sciences]((http://english.amss.cas.cn/)) in Chinese Academy of Sciences, Beijing. My Supervisor is [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/). 
