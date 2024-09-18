@@ -1,6 +1,6 @@
 ---
 title: "I Have No Papers Yet!!!"
-collection: reseach
+collection: research
 permalink: /research/2023-03-07-paper-title-number-3
 date: 2023-03-07
 ---
