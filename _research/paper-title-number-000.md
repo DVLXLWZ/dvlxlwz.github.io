@@ -1,7 +1,7 @@
 ---
 title: "I Have No Papers Yet!!!"
 collection: research
-permalink: /research/2023-03-07-paper-title-number-3
+permalink: /research/paper-title-number-000
 ---
 I Have No Papers Yet!!! I Have No Papers Yet!!!
 
