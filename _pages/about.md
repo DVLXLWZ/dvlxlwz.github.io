@@ -20,7 +20,14 @@ I'm now interested in Fano varieties, rational curves on varieties, moduli space
 
 ### Some Links
 > [AMSS](http://english.amss.cas.cn/); [MCM](http://www.mcm.ac.cn/).
- [Baohua Fu's Homepage](http://www.math.ac.cn/people/fbh/); [Yalong Cao's Homepage](https://sites.google.com/site/yalongcaoshomepage/home); [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu); [Junzhe Lyu’s Homepage](https://taiataiat.github.io/)
+>
+> [Baohua Fu's Homepage](http://www.math.ac.cn/people/fbh/);
+>
+> [Yalong Cao's Homepage](https://sites.google.com/site/yalongcaoshomepage/home);
+>
+> [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu);
+>
+> [Junzhe Lyu’s Homepage](https://taiataiat.github.io/)
 
 ### More
 Learn from the great master -- Alexander Grothendieck:
