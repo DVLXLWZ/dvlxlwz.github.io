@@ -5,11 +5,11 @@ permalink: /Blogs/2024-09-25-Some-Adivices-from-Some-Mathematicians-to-Students
 excerpt_separator: <!--more-->
 date: 2024-09-25
 ---
-Here I collect some general adivices from other mathematicians to students, especially for those who want to pursue a PhD degree in mathematics.
+Here I collect some general adivices from other mathematicians to students, especially for those who want to pursue a PhD degree in mathematics. We should learn and try to do.
 Some of them follows from [Prof. Jie Liu's homepage](http://www.jliumath.com/miscellaneou_en.html).
 <!--more-->
 
-## 1. To the reader: Preface to An Introduction to Riemannian Geometry, by Hung-Hsi Wu (in Chinese)
+## 1. To the reader: Preface to An Introduction to Riemannian Geometry, by Prof. Hung-Hsi Wu (in Chinese only)
 
 > 你们的事业的成长，应该像一棵树的成长一样。应该是顺其自然、无间断、和全面的。我希望你们的根能够在这个学院的肥沃土地下面尽量深入，以使你们的树干长得即粗且壮。 这样，将来无论树叶多么茂盛丰满，也永不会有水份供应不暇的毛病。在上空将不时会有狂风大雨，也会有行雷闪电。所以切勿长得太快太高。
 
@@ -64,4 +64,14 @@ Some of them follows from [Prof. Jie Liu's homepage](http://www.jliumath.com/mis
 伍鸿熙
 
 1985年6月于北京大学
+
+## 2. Several advice from Prof. Ravi Vakil, Prof. Terence Tao, Prof. Bjorn Poonen, Prof. John Baez.
+
+> Prof. Ravi Vakil: [For potential Ph.D. students](https://math.stanford.edu/~vakil/potentialstudents.html);
+>
+> Prof. Terence Tao: [Career advice](https://terrytao.wordpress.com/career-advice/);
+>
+> Prof. Bjorn Poonen: [Advice for Ph.D. students in math](https://math.mit.edu/~poonen/advice.html);
+>
+> Prof. John Baez: [Advice for the Young Scientist](https://math.ucr.edu/home/baez/advice.html).
 
