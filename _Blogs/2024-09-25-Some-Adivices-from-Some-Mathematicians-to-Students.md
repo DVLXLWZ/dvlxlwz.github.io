@@ -38,10 +38,15 @@ Some of them follows from [Prof. Jie Liu's homepage](http://www.jliumath.com/mis
 + （三）Poincaré 创造代数拓扑的一系列文章：
 
 > Analysis situs, J. École Polytechnique (2) 1 (1895), 1---121；
+> 
 > Complément, Rend. circ. mat. Palermo 13 (1899), 285---343；
+> 
 > Complément, Proc. London Math. Soc. 32 (1900), 277---308；
+> 
 > Complément, Bull. Soc. Math. France 30 (1902), 49---70；
+> 
 > Complément, J. Math. Pure Appl. (5) 8 (1902), 169---214；
+> 
 > Complément, Rend. circ. mat. Palermo 18 (1904), 45---110.
 
 这些文章都是你们基本上能够看懂的。同时我也可以保证，它们是会使你们感觉无限鼓舞的。
@@ -49,6 +54,7 @@ Some of them follows from [Prof. Jie Liu's homepage](http://www.jliumath.com/mis
 最后我们再回到”拿金牌“这个问题罢。一般人以为参加奥运会的唯一目的就是拿金牌。去年李宁拿了三面金牌，举国成庆，而童非一面也拿不到。所以用”拿金牌“的尺度来衡量， 成功和失败的分野，真是一目了然。但是”金牌得主“的李宁，他个人的想法又是怎么样呢？你们可以去图书馆翻看他在1984年底发表在报章上，以”童非是真正的英雄“为题的文章， 就可以看到另外一个观点。其实参加体育竞赛，或者是钻研数学，也只不过是人生的一部份而已。探求人生的意义，是我们至死的一天都学不完的大学问。下面录出的两段话，也许足 以提供一些与众不同的看法给大家作参考。第一段是近代奥运会始创人 Pierre de Coubertin 说的：
 
 > 运动的目的不在胜利而在竞争，
+> 
 > 人生的意义不在克服而在奋斗。
 
 另一段则是古代希腊奥运会的格言之一：
