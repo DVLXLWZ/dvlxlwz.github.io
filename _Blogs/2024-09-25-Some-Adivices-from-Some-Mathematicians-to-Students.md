@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 date: 2024-09-25
 ---
 Here I collect some general adivices from other mathematicians to students, especially for those who want to pursue a PhD degree in mathematics.
-Some of them from [Prof. Jie Liu's homepage](http://www.jliumath.com/miscellaneou_en.html).
+Some of them follows from [Prof. Jie Liu's homepage](http://www.jliumath.com/miscellaneou_en.html).
 <!--more-->
 
 ## 1. To the reader: Preface to An Introduction to Riemannian Geometry, by Hung-Hsi Wu (in Chinese)
