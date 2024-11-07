@@ -22,7 +22,15 @@ redirect_from:
 > [Shanghai Center for Mathematical Sciences, Fudan University](https://scms.fudan.edu.cn/)...
 
 
-## 
+## Some Professors Working on Mathematics
+
+> [Baohua Fu's Homepage](http://www.math.ac.cn/people/fbh/);
+>
+> [Yalong Cao's Homepage](https://sites.google.com/site/yalongcaoshomepage/home)...
 
 
 ## My Friends
+
+> [Junzhe Lyu’s Homepage](https://taiataiat.github.io/);
+>
+> [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu)...
