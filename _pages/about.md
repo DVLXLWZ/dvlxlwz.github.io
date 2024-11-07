@@ -26,10 +26,3 @@ Greatest Chinese calligraphy from master -- WANG Xizhi：
 ![placeholder](/images/sangluan.jpg){: .align-center}
 
 ![placeholder](/images/yuanhuan.jpg){: .align-center}
-
-### Some Links
-> [AMSS](http://english.amss.cas.cn/); [MCM](http://www.mcm.ac.cn/).
->
-> [Baohua Fu's Homepage](http://www.math.ac.cn/people/fbh/); [Yalong Cao's Homepage](https://sites.google.com/site/yalongcaoshomepage/home);
->
-> [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu); [Junzhe Lyu’s Homepage](https://taiataiat.github.io/)
