@@ -193,6 +193,9 @@ collections:
   Blogs:
     output: true
     permalink: /:collection/:path/
+  Links:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -266,6 +269,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _Links
+  - scope:
+      path: ""
+      type: Links
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
