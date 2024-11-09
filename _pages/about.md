@@ -13,9 +13,9 @@ I'm now interested in algebraic geometry, in particular the rational curves on v
 
 ## Education
 
-> **M.S.**: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), supervisor: [Baohua Fu](http://www.math.ac.cn/people/fbh/).
+> + **M.S.**: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), supervisor: [Baohua Fu](http://www.math.ac.cn/people/fbh/).
 >
-> **B.S.**: 2019--2023, [Shandong University](https://www.sdu.edu.cn) ([Taishan](https://www.tsxt.sdu.edu.cn)).
+> + **B.S.**: 2019--2023, [Shandong University](https://www.sdu.edu.cn) ([Taishan](https://www.tsxt.sdu.edu.cn)).
 
 ## More
 Learn from the great master -- Alexander Grothendieck:
