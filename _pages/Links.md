@@ -32,6 +32,12 @@ redirect_from:
 >
 > + [Jie Liu's Homepage](http://www.jliumath.com/)...
 
+> + [J.S. Milne’s Homepage](https://www.jmilne.org/math/);
+>
+> + [Jarod Alper’s Homepage](https://sites.math.washington.edu/~jarod/);
+>
+> + [David Mumford’s Homepage](https://www.dam.brown.edu/people/mumford/)...
+
 
 ## My Friends
 
@@ -43,6 +49,10 @@ redirect_from:
 
 > + [Upcoming conferences in algebraic geometry](https://math.stanford.edu/~vakil/conferences.html), maintained by Ravil Vakil;
 >
-> + [AG in arxiv](https://arxiv.org/list/math.AG/recent);
+> + [AG in arxiv](https://arxiv.org/list/math.AG/recent), arXiv is a free distribution service and an open-access archive;
 > 
-> + [香蕉空间(Banana space, in Chinese only)](https://www.bananaspace.org/wiki/%E9%A6%96%E9%A1%B5), 一个正在成长的中文数学社区...
+> + [香蕉空间(Banana space, in Chinese only)](https://www.bananaspace.org/wiki/%E9%A6%96%E9%A1%B5), 一个正在成长的中文数学社区;
+>
+> + [The Stacks Project](https://stacks.math.columbia.edu/), an open source textbook and reference work on algebraic geometry;
+>
+> + [Kerodon](https://kerodon.net/), an online resource for homotopy-coherent mathematics...
