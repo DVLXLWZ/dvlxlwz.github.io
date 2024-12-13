@@ -13,7 +13,7 @@ I'm now interested in algebraic geometry, in particular the geometry of several 
 
 ## Education
 
-> + **M.S.**: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), with [Baohua Fu](http://www.math.ac.cn/people/fbh/) and [Yalong Cao](https://sites.google.com/site/yalongcaoshomepage/home).
+> + **M.S.**: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), with [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/) and [Prof. Yalong Cao](https://sites.google.com/site/yalongcaoshomepage/home).
 >
 > + **B.S.**: 2019--2023, [Shandong University](https://www.sdu.edu.cn) ([Taishan](https://www.tsxt.sdu.edu.cn)).
 
