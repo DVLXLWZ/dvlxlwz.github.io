@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-I'm now interested in Fano varieties, rational curves on varieties, moduli spaces, enumerative geometry such as Donaldson-Thomas theory and related topics.
+I'm now interested in the geometry of several varieties, moduli theories, enumerative geometry (Donaldson-Thomas theories) and related topics.
 
 ## Preprints and papers in praperation
 > + **1. Cohomological Donaldson-Thomas invariants of orbifolds $[\mathbb C^4/\mathbb Z_r]$ via degeneration methods**. In praperation.
