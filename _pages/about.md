@@ -9,7 +9,7 @@ redirect_from:
 ---
 I'm a second-year graduate student from [Institute of Mathematics](http://www.math.ac.cn/) of [Academy of Mathematics and System Sciences]((http://english.amss.cas.cn/)) in [Chinese Academy of Sciences](https://english.cas.cn/), Beijing. 
 
-I'm now interested in algebraic geometry, in particular the geometry of several varieties, moduli theories, enumerative geometry (Donaldson-Thomas theory of 4-folds) and related topics.
+I'm now interested in algebraic geometry, in particular the geometry of several varieties, moduli theories, enumerative geometry (Donaldson-Thomas theory) and related topics.
 
 ## Education
 
