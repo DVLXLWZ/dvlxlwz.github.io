@@ -11,8 +11,6 @@ I'm now interested in the geometry of several varieties, moduli theories, enumer
 
 ## Preprints and papers in praperation
 > + **1. Cohomological $\mathrm{DT}\_4$-invariants of $[\mathbb C^4/\mathbb Z_r]$ and $\mathcal A_{r-1}\times\mathbb C^2$ via degeneration methods**. In praperation.
->
-> + **2. A magnificent problem of $\mathbb C^4$ via a special degeneration of the K-theoretic $\mathbf{DT}_4$**. In praperation.
 
 ## Accepted and published papers
 
