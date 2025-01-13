@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 
-# Seminars
+# 1. Seminars
 
-# Links
+# 2. Links
 
-## Some Institutes for Mathematicians
+## 2.1. Some Institutes for Mathematicians
 
 > + [Academy of Mathematics and System Sciences in Chinese Academy of Sciences](http://english.amss.cas.cn/), ([中文](http://www.amss.ac.cn/));
 >
@@ -26,7 +26,7 @@ redirect_from:
 > + [Shanghai Center for Mathematical Sciences, Fudan University](https://scms.fudan.edu.cn/)...
 
 
-## Some Professors Working on Mathematics
+## 2.2. Some Professors Working on Mathematics
 
 > + [Baohua Fu's Homepage](http://www.math.ac.cn/people/fbh/);
 >
@@ -43,13 +43,13 @@ redirect_from:
 > + [David Mumford’s Homepage](https://www.dam.brown.edu/people/mumford/)...
 
 
-## My Friends
+## 2.3. My Friends
 
 > + [Junzhe Lyu's Homepage](https://taiataiat.github.io/);
 >
 > + [Zhiyu Liu's Homepage](https://sites.google.com/view/zhiyuliu)...
 
-## Other Useful Links
+## 2.4. Other Useful Links
 
 > + [Upcoming conferences in algebraic geometry](https://math.stanford.edu/~vakil/conferences.html), maintained by Ravil Vakil;
 >
