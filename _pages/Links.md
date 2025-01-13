@@ -9,6 +9,8 @@ redirect_from:
 
 # 1. Seminars
 
+> [2025 Europe-Sino Seminar in Intersection Theory and Related Topics](https://dvlxlwz.github.io///seminars/Seminar2025-intersectionTheory).
+
 # 2. Links
 
 ## 2.1. Some Institutes for Mathematicians
