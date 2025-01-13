@@ -196,6 +196,9 @@ collections:
   Links:
     output: true
     permalink: /:collection/:path/
+  Pages_of_Seminars:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -278,6 +281,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+# Pages_of_Seminars
+  - scope:
+      path: ""
+      type: seminars
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: false
 
 # Sass/SCSS
 sass:
