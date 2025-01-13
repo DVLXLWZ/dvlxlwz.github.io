@@ -1,11 +1,13 @@
 ---
 layout: archive
-title: "Links"
+title: "Activities and some Links"
 permalink: /Links/
 author_profile: true
 redirect_from:
   - /resume
 ---
+
+## Seminars
 
 ## Some Institutes for Mathematicians
 
