@@ -7,7 +7,9 @@ redirect_from:
   - /resume
 ---
 
-## Seminars
+# Seminars
+
+# Links
 
 ## Some Institutes for Mathematicians
 
