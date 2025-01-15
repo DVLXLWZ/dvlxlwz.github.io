@@ -9,7 +9,7 @@ redirect_from:
 
 # 1. Seminars
 
-> [2025 Europe-Sino Seminar in Intersection Theory and Related Topics](https://dvlxlwz.github.io///seminars/Seminar2025-intersectionTheory).
+> Need to add.
 
 # 2. Links
 
