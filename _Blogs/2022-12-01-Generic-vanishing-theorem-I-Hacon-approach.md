@@ -1,5 +1,5 @@
 ---
-title: "Generic vanishing theorem I - Hacon's approach"
+title: "Generic vanishing theorem - Hacon's approach"
 collection: Blogs
 permalink: /Blogs/2022-12-01-Generic-vanishing-theorem-I-Hacon-approach
 excerpt_separator: <!--more-->
@@ -101,28 +101,8 @@ Let $pr\_i$ are projections from $A\times A^t$, then we have
 </body>
 </html>
 where the last isomorphism from $([1]\times[-1])\circ pr\_1=pr\_1$. Using the projection formula for the square ($f=[1]\times[-1]$):
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix {
-A \times A^t \ar[d]^f \ar[r]^{pr_2} & A^t \ar[d]^{[-1]} \\
-A \times A^t \ar[r]^{pr_2} & A^t
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+![ ](/CommutativeDiagrams/2025-01-24-095442.png){: .align-center}
+
 we get $\mathbb{D}\_{A^t}(\Phi\_A(F))\cong [-1]^* \Phi\_A(\mathbb{D}\_A(F))[g]$, well done. $\blacksquare$
 
 Here we need some lemmas of commutative algebra:
