@@ -158,8 +158,8 @@ Using this, we can define the specialization map which is analogue of Fulton's:
 In this section we need the natural object to define the ``zero of sections of vector bundles".
 
 > **Definition 2.1.** For a DM-morphism of Artin stacks $f:X\to Y$, an **obstruction theory**
-> is a morphism \\[\phi:\mathbb F\to L\_f\\] in $\mathbf D_{\coh}^{\leq0}(X)$ such that $h^0(\phi)$ is bijective and $h^{-1}(\phi)$ is surjective
-> where $\bb F$ is a perfect complex of tor-amplitude $[-d,0]$ for some $d\in \mathbb Z_{\geq0}$. It is called a **perfect obstruction theory** if $\mathbb F$ is a
+> is a morphism \\[\phi:\mathbb F\to L\_f\\] in $\mathbf D_{\text{coh}}^{\leq0}(X)$ such that $h^0(\phi)$ is bijective and $h^{-1}(\phi)$ is surjective
+> where $\mathbb F$ is a perfect complex of tor-amplitude $[-d,0]$ for some $d\in \mathbb Z_{\geq0}$. It is called a **perfect obstruction theory** if $\mathbb F$ is a
 > perfect complex of tor-amplitude $[-1,0]$.
 
 By the theory of cone stacks, the condition of obstruction theory is equivalent to that the induced 
@@ -171,7 +171,7 @@ a cone stack is smooth over $X$ if and only if it is a vector bundle stack.
 As the ordinary intersection theory, we also have the following:
 
 > **Proposition 2.2.** ([Kre99][^6], Prop. 4.3.2) Let $X$ be an Artin stack with affine stabilizers. Let $\mathfrak E$ be a vector bundle stack on $X$, that is, $\mathfrak E=\mathfrak C(E)$ for some perfect complex of tor-amplitude $[-1,0]$. Then the smooth pullback
-> \\[\pi\_{\mathfrak E}^*:\CH\_\*(X)\to\CH\_*(\mathfrak E)\\]
+> \\[\pi\_{\mathfrak E}^{\*}:\CH\_\*(X)\to\CH\_\*(\mathfrak E)\\]
 > is an isomorphism. Hence we can define the **Gysin pullback** is $0_{\mathfrak E}^!:=(\pi_{\mathfrak E}^*)^{-1}$.
 
 Finally as the definition of refined Gysin pullback, we can define its analogue:
@@ -200,8 +200,8 @@ has affine stabilizers. We define the **virtual pullback** as the composition
 >
 > If $X$ is a Deligne-Mumford stack over some field $k$ with affine stabilizers and perfect obstruction theory $\phi:\mathbb F\to L\_X$, then the **virtual fundamental class** is \\[[X]\_{\phi}^{\text{vir}}:=p^!\_{\mathrm{vir}}[\text{Spec k}]=0\_{\mathfrak C(\mathbb F)}^!(\mathfrak C\_X)\in\text{CH}\_{\mathrm{vdim}}(X)\\] where $p:X\to\text{Spec} k$ be the structure morphism and $\mathrm{vdim}$ is called the **virtual dimension** of it.
 
-> **Remark 2.4.** For the canonical choice of obstruction theory using derived enhancement. For a moduli stack $M$ (which is Deligne-Mumford) with its derived  moduli stack $\mathbf M$ and canonical embedding $i:M\subset\mathbf M$, usually the cotangent complex $\bb L_{\mathbf M}$ has very nice form which induce a  morphism 
-> \\[\bb L\_{\mathbf M}|_M=i^*\bb L\_{\mathbf M}\to\bb L\_{M}\\]
+> **Remark 2.4.** For the canonical choice of obstruction theory using derived enhancement. For a moduli stack $M$ (which is Deligne-Mumford) with its derived  moduli stack $\mathbf M$ and canonical embedding $i:M\subset\mathbf M$, usually the cotangent complex $\mathbb L_{\mathbf M}$ has very nice form which induce a  morphism 
+> \\[\mathbb L\_{\mathbf M}|_M=i^*\mathbb L\_{\mathbf M}\to\mathbb L\_{M}\\]
 > which will be an obstrunction theory. If $\mathbf M$ is quasi-smooth,
 > then it is perfect.
 
