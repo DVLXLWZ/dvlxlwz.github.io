@@ -52,7 +52,6 @@ The most basic model of these given in the Chapter
 > **Example 0.2.**
 Let $Y$ be a algebraic scheme over some field $k$ of pure dimension $n$ and a vector bundle $E$ of rank $e$ over it.
 For any section $s:Y\to E$ of bundle $E$, let $Z(s)$ be the zero locus of this section which forms the following fiber product:
-> 
 > ![ ](/CommutativeDiagrams/2025-01-24-142747.png){: .align-center}
 >
 >Then we define 
@@ -110,7 +109,7 @@ of normal cones:
 > ![ ](/CommutativeDiagrams/2025-01-24-144728.png){: .align-center}
 > with smooth vertical arrows, and a closed embedding $f'$, we have a cartesian:
 > ![ ](/CommutativeDiagrams/2025-01-24-144748.png){: .align-center}
-> for some dotted arrow. Here the map $N\_{f'}\to\mathfrak N\_f$ is induced by the canonical map $\mathbb L\_f|_{X'}\to\bb L\_{f'}$.
+> for some dotted arrow. Here the map $N\_{f'}\to\mathfrak N\_f$ is induced by the canonical map $\mathbb L\_f|_{X'}\to\mathbb L\_{f'}$.
 
 > **Remark 1.4.** - If $f:X\to Y$ be a closed embedding, then we have
 > \\[\mathfrak C\_f=[C\_f/T\_{Y/Y}|_X]=C\_f\subset\mathfrak N\_f=[N\_f/T\_{Y/Y}|_X]=N\_f.\\]
@@ -213,7 +212,7 @@ Several important properties of virtual pullback.
 >> - Virtual pullback has functoriality. If we have a commutative diagram of DM-morphisms of Artin stacks
 >>  ![ ](/CommutativeDiagrams/2025-01-24-144908.png){: .align-center}
 >> such that $X,Y$ have affine stabilizers.
->> Assume that we have a triple $(\phi_f:\bb F_f\to L_f,\phi_g:\bb F_g\to L_g,\phi_h:\bb F_h\to L_h)$ of perfect obstruction theories which is compactible, that is, there exists a morphism of distinguished triangles
+>> Assume that we have a triple $(\phi_f:\mathbb F_f\to L_f,\phi_g:\mathbb F_g\to L_g,\phi_h:\mathbb F_h\to L_h)$ of perfect obstruction theories which is compactible, that is, there exists a morphism of distinguished triangles
 >>  ![ ](/CommutativeDiagrams/2025-01-24-144927.png){: .align-center}
 >> such that $\phi_f=r\circ\phi_f'$ with canonical map $r:L_f'\to\tau^{\geq-1}L_f=L_f$.
 >> Then we have
