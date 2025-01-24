@@ -52,7 +52,7 @@ The most basic model of these given in the Chapter
 > **Example 0.2.**
 Let $Y$ be a algebraic scheme over some field $k$ of pure dimension $n$ and a vector bundle $E$ of rank $e$ over it.
 For any section $s:Y\to E$ of bundle $E$, let $Z(s)$ be the zero locus of this section which forms the following fiber product:
-> ![ ](/CommutativeDiagrams/2025-01-24-142747.png){: .align-center}
+> ![ ](/CommutativeDiagrams/2025-01-24-144649.png){: .align-center}
 >
 >Then we define 
 > \\[c\_{\mathrm{loc}}(E,s):=0^![Y]=0^*(C\_{Z(s)/Y})\in\text{CH}\_{n-e}(Z(s))\\] 
@@ -170,32 +170,32 @@ a cone stack is smooth over $X$ if and only if it is a vector bundle stack.
 As the ordinary intersection theory, we also have the following:
 
 > **Proposition 2.2.** ([Kre99][^6], Prop. 4.3.2) Let $X$ be an Artin stack with affine stabilizers. Let $\mathfrak E$ be a vector bundle stack on $X$, that is, $\mathfrak E=\mathfrak C(E)$ for some perfect complex of tor-amplitude $[-1,0]$. Then the smooth pullback
-> \\[\pi\_{\mathfrak E}^{\*}:\CH\_\*(X)\to\CH\_\*(\mathfrak E)\\]
+> \\[\pi\_{\mathfrak E}^{\*}:\text{CH}\_\*(X)\to\text{CH}\_\*(\mathfrak E)\\]
 > is an isomorphism. Hence we can define the **Gysin pullback** is $0_{\mathfrak E}^!:=(\pi_{\mathfrak E}^*)^{-1}$.
 
 Finally as the definition of refined Gysin pullback, we can define its analogue:
 
 > **Definition 2.3.** Let $f:X\to Y$ be a DM morphism of Artin stacks and let $\phi:\mathbb F\to L\_f$ be a perfect obstruction theory. Assume that $X$
 has affine stabilizers. We define the **virtual pullback** as the composition
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-\begin{align*}
-&f^!_{\mathrm{vir}}\colon\mathrm{CH}_*(Y)\stackrel{\mathrm{sp}_f}{\to}\mathrm{CH}_*(\mathfrak C_f)\stackrel{\iota_*}{\to}
-\mathrm{CH}_*(\mathfrak C(F))\stackrel{0^！}{\to}\mathrm{CH}_*(X).
-\end{align*}
-</p>
-</body>
-</html>
-
+> <html>
+> <head>
+>   <meta charset="utf-8">
+>   <meta name="viewport" content="width=device-width">
+>   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+>   <script id="MathJax-script" async
+>           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+>   </script>
+> </head>
+> <body>
+> <p>
+> \begin{align*}
+> &f^!_{\mathrm{vir}}\colon\mathrm{CH}_*(Y)\stackrel{\mathrm{sp}_f}{\to}\mathrm{CH}_*(\mathfrak C_f)\stackrel{\iota_*}{\to}
+> \mathrm{CH}_*(\mathfrak C(F))\stackrel{0^！}{\to}\mathrm{CH}_*(X).
+> \end{align*}
+> </p>
+> </body>
+> </html>
+> 
 >
 > If $X$ is a Deligne-Mumford stack over some field $k$ with affine stabilizers and perfect obstruction theory $\phi:\mathbb F\to L\_X$, then the **virtual fundamental class** is \\[[X]\_{\phi}^{\text{vir}}:=p^!\_{\mathrm{vir}}[\text{Spec k}]=0\_{\mathfrak C(\mathbb F)}^!(\mathfrak C\_X)\in\text{CH}\_{\mathrm{vdim}}(X)\\] where $p:X\to\text{Spec} k$ be the structure morphism and $\mathrm{vdim}$ is called the **virtual dimension** of it.
 
