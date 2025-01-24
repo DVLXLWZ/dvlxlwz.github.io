@@ -34,12 +34,14 @@ The idea comes from another description of DT invariants of Calabi-Yau $3$-fold 
 
 This description follows from a function, we call it the Behrend function:
 
-> **Definition 0.4.** Let $X$ a finite type $\mathbb C$-scheme. Suppose $X\subset M$ is an embedding of $X$ as a closed subscheme of a smooth scheme $M$. Let $\C_XM$ be the normal cone with projection $\pi: C\_XM\to X$. Define the **distinguished cycle** is \\[\mathfrak c\_{X/M}=\sum\_{C'}(-1)^{\dim\pi(C')}\mathrm{mult}(C')\pi(C')\in Z_*(X)\\]
+> **Definition 0.4.** Let $X$ a finite type $\mathbb C$-scheme. Suppose $X\subset M$ is an embedding of $X$ as a closed subscheme of a smooth scheme $M$. Let $C_XM$ be the normal cone with projection $\pi: C\_XM\to X$. Define the **distinguished cycle** is \\[\mathfrak c\_{X/M}=\sum\_{C'}(-1)^{\dim\pi(C')}\mathrm{mult}(C')\pi(C')\in Z_*(X)\\]
 > where the sum is over all irreducible components $C'$ of $C\_XM$. One can show that this determined by $X$ uniquely, so we let $\mathfrak c\_{X}=\mathfrak c\_{X/M}$.
 >
 > Write $\text{CF}\_{\mathbb Z}(X)$ for the group of $\mathbb Z$-valued constructible functions on $X$. The **local Euler obstruction** is a group isomorphism $\text{Eu}:Z_*(X)\to\text{CF}\_{\mathbb Z}(X)$ defined as: if $V$ is a prime cycle on $X$, then \\[\text{Eu}:V\mapsto\left(x\mapsto\int\_{\mu^{-1}(x)}c(\tilde{T})\cap s(\mu^{-1}(x),\tilde{V})\right)\\]
 > where $\mu:\tilde{V}\to V$ be the Nash blowup of $V$ with dual of universal quotient bundle $\tilde{T}$. Finally, we define the **Behrend function** as
 > \\[\nu_X:=\text{Eu}(\mathfrak c\_{X})\in\text{CF}(X).\\]
+
+> **Small Remark.** For the Nash blowup we refer to see Example 4.2.9 in [2022-12-12-blogs](https://dvlxlwz.github.io//Blogs/2022-12-12-Some-Gaps-and-Examples-in-Intersection-Theory-by-Fulton-I) and the refs in it.
 
 ## 1. Constructible Functions and Stack Functions
 ### Need to add.
