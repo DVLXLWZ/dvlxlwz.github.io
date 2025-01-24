@@ -115,8 +115,8 @@ of normal cones:
 > **Remark 1.4.** - If $f:X\to Y$ be a closed embedding, then we have
 > \\[\mathfrak C\_f=[C\_f/T\_{Y/Y}|_X]=C\_f\subset\mathfrak N\_f=[N\_f/T\_{Y/Y}|_X]=N\_f.\\]
 > 
-> - Note that if we have global factorization, that is,we have $f:X\subset Y'\to Y$ where $Y'\to Y$ is smooth, then $L\_f=[I/I^2\to\Omega\_{Y'/Y}|_X]$. Hence we have 
-> \\[\mathfrak C\_f=[C\_{X/Y'}/T\_{Y'/Y}|_X]\subset\mathfrak N\_f=[N\_{X/Y'}/T\_{Y'/Y}|\_X].\\]
+> - Note that if we have global factorization, that is,we have $f:X\subset Y'\to Y$ where $Y'\to Y$ is smooth, then $L\_f=[I/I^2\to\Omega\_{Y'/Y}\|_X]$. Hence we have 
+> \\[\mathfrak C\_f=[C\_{X/Y'}/T\_{Y'/Y}\|_X]\subset\mathfrak N\_f=[N\_{X/Y'}/T\_{Y'/Y}\|\_X].\\]
 >
 > - The commutative square in the definition always exists. Indeed, take any smooth cover $U\to Y$ where $U$ is a scheme, as $f$ is DM-morphism we know that $U\times_YX$ is a Deligne-Mumford stack. Take a étale cover $V\to U\times_YX$ where $V$ is a scheme. Then there always exists a scheme $S$ smooth over the ground field. Then we have the following commutative square:
 > ![ ](/CommutativeDiagrams/2025-01-24-144809.png){: .align-center}
@@ -125,8 +125,33 @@ of normal cones:
 Finally we will generalize the method of deformation to the normal cone as we discussed before.
 
 > **Definition 1.5.** For a DM-morphism of Artin stacks $f:X\to Y$, we define the deformation space $M^{\circ}\_f\to\mathbb P^1$ such that there exists $m:X\times\mathbb P^1\to M\_f^{\circ}$ such that $m\_{\neq0}=f$ and $m\_{=0}=0\_{\mathfrak C_f}:X\to\mathfrak C\_f$, as follows:
+>
+>> - If $f$ is a closed embedding of schemes, then this is Fulton's construction:
+>>   \\[M^{\circ}\_f=\text{Bl}\_{X\times\{0\}}(Y\times\mathbb P^1)\backslash\text{Bl}\_{X\times\{0\}}(Y\times\{0\}).\\]
+>> - If $f$ is an unramified morphism of algebraic spaces, then we have a commutative diagram
+>> ![ ](/CommutativeDiagrams/2025-01-24-144830.png){: .align-center}
+>> with étale surjective vertical arrows and a closed embedding $f'$ of schemes $X',Y'$. Then we define
+>> \\[M^{\circ}\_f:=[M^{\circ}\_{X'\times_XX'/Y'\times_YY'}\rightrightarrows  M^{\circ}\_{X'/Y'}]\\]
+>> where $X'\times_XX'\to X'\times\_YX'$ is base change of $\Delta\_f$ with closed embedding $X'\times\_YX'\subset Y'\times\_YY'$.
+>>
+>> - If $f$ is a DM-morphism of Artin stacks, then we have a commutative diagram
+>> ![ ](/CommutativeDiagrams/2025-01-24-144830.png){: .align-center}
+>> with smooth surjective vertical arrows and a closed embedding $f'$ of schemes $X',Y'$. Then we define
+>> \\[M^{\circ}\_f:=[M^{\circ}\_{X'\times_XX'/Y'\times_YY'}\rightrightarrows  M^{\circ}\_{X'/Y'}]\\]
+>> where $X'\times_XX'\to X'\times\_YX'$ is base change of $\Delta\_f$ (which is unramified) with closed embedding $X'\times\_YX'\subset Y'\times\_YY'$.
+>
+> This is called the **deformation to the intrinsic normal cone**.
 
+Note that the definition is independent of the choice of these diagrams and we refer [Man12][^4] for the proof.
+Moreover, the existence of morphism  $m:X\times\mathbb P^1\to M\_f^{\circ}$ is trivial for the case of closed embedding due to Fulton. Others follows by descent.
 
+Using this, we can define the specialization map which is analogue of Fulton's:
+
+> **Definition 1.6.** Let $f:X\to Y$ be a DM morphism of Artin stacks. We define the **specialization map**
+> \\[\mathrm{sp}\_f:\text{CH}\_\*(Y)\to\text{CH}\_\*(\mathfrak C\_f)\\]
+> to be the unique map that fits into the commutative diagram
+> ![ ](/CommutativeDiagrams/2025-01-24-144848.png){: .align-center}
+> for any $\zeta\neq0$.
 
 $\blacksquare$
 
