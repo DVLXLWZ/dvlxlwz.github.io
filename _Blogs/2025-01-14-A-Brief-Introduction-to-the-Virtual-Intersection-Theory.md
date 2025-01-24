@@ -171,7 +171,7 @@ As the ordinary intersection theory, we also have the following:
 
 > **Proposition 2.2.** ([Kre99][^6], Prop. 4.3.2) Let $X$ be an Artin stack with affine stabilizers. Let $\mathfrak E$ be a vector bundle stack on $X$, that is, $\mathfrak E=\mathfrak C(E)$ for some perfect complex of tor-amplitude $[-1,0]$. Then the smooth pullback
 > \\[\pi\_{\mathfrak E}^{\*}:\text{CH}\_\*(X)\to\text{CH}\_\*(\mathfrak E)\\]
-> is an isomorphism. Hence we can define the **Gysin pullback** is $0_{\mathfrak E}^!:=(\pi_{\mathfrak E}^*)^{-1}$.
+> is an isomorphism. Hence we can define the **Gysin pullback** is $0\_{\mathfrak E}^!:=(\pi\_{\mathfrak E}^*)^{-1}$.
 
 Finally as the definition of refined Gysin pullback, we can define its analogue:
 
