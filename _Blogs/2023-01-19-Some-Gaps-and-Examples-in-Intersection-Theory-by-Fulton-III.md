@@ -141,31 +141,8 @@ These two examples are so **weird**, we need to think these more some day!
 **Example 12.2.1.** (a). For the Grassmannian, we refer Example 12.2.2. For flag varieties, we refer [AP83][^7] Corollary 2.2.
 
 (b). The exact sequence $0\to\mathscr{O}\_X\to E\to T\_X\to0$ can be seen as follows
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix {
- &0\ar[d]&0\ar[d]& & \\
- &O_X\ar[d]&O_X\ar[d]& & \\
-0\ar[r]&E\ar[r]\ar[d]&O_X(1)^{\oplus(n+2)}\ar[dr]\ar[d]& & \\
-0\ar[r]&T_X\ar[r]\ar[d]&T_{\mathbb{P}^n}\ar[r]\ar[d]&O_X(d)\ar[r]& 0\\
- &0&0& & 
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+![ ](/CommutativeDiagrams/2025-01-24-101521.png){: .align-center}
+
 by some easy diagram chase. $\blacksquare$
 
 **Example 12.2.2.**
