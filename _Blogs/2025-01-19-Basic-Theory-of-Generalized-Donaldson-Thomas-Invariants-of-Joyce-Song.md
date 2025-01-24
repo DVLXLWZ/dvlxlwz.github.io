@@ -20,8 +20,8 @@ with a projective good moduli space $ M^{\alpha\text{-ss}}(\tau)$. They contain 
 
 We can show that there is an perfect obstruction theory of $\mathcal M^{\alpha\text{-ss}}(\tau)$ (and hence $\mathcal M^{\alpha\text{-st}}(\tau)$) comes from their derived enhancement. This is a general fact:
 
-> **Theorem 0.2.** Let $X$ be a smooth projective variety of dimension $n$. Then the natural derived moduli stack $\mathbb R\underline{Coh}(X)$ has cotangent complex \\[\mathbb L\_{\mathbb R\underline{Coh}(X)}\cong(\mathbb R\mathscr Hom(\mathbb F,\mathbb F)[1])^{\vee}\cong\mathbb R\mathscr Hom(\mathbb F,\mathbb F\otimes\omega\_X)[n-1]\\]
-> which induce an obstruction theory $\mathbb L\_{\mathbb R\underline{Coh}(X)}|_{\underline{Coh}(X)}\to\mathbb L\_{\underline{Coh}(X)}$.
+> **Theorem 0.2.** Let $X$ be a smooth projective variety of dimension $n$. Then the natural derived moduli stack $\mathbb R\underline{Coh}(X)$ has cotangent complex \\[\mathbb L\_{\mathbb R\underline{Coh}(X)}\cong(\mathbb R\mathscr Hom\_{\pi}(\mathbb F,\mathbb F)[1])^{\vee}\cong\mathbb R\mathscr Hom\_{\pi}(\mathbb F,\mathbb F\otimes\omega\_X)[n-1]\\]
+> where $\pi:\mathbb R\underline{Coh}(X)\times X\to\mathbb R\underline{Coh}(X)$ and universal sheaf $\mathbb F$ which induce an obstruction theory $\mathbb L\_{\mathbb R\underline{Coh}(X)}|_{\underline{Coh}(X)}\to\mathbb L\_{\underline{Coh}(X)}$.
 
 
 ## 1. Constructible Functions and Stack Functions
