@@ -46,10 +46,19 @@ This description follows from a function, we call it the Behrend function:
 Then we have the following fact:
 
 > **Theorem 0.5.** (Behrend) Let $M$ be a proper $\mathbb C$-scheme with a symmetric perfect obstruction theory, then 
-> \\[\int\_{[M]^{\text{vir}}1=\chi(X,\nu_X):=\sum\_{k\in\mathbb Z}k\chi(\nu_X^{-1}(k)).\\]
+> \\[\int\_{[M]^{\text{vir}}1=\chi(X,\nu\_X):=\sum\_{k\in\mathbb Z}k\chi(\nu_X^{-1}(k)).\\]
 
 > **Remark 0.6.** Here although we do not prove this theorem, we can give some idea of the reason why this result is true.
 > Here we focus on the case that consider the Calabi-Yau $3$-fold $X$ and $M:=M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$.
+> By the works of derived symplectic geometry in [BBJ19][^2], the moduli space $M$ is known to be locally written as critical loci of some function. That is for each point $p\in M$, there is an open neighborhood $p\in U$ such that $U\cong\mathrm{Crit}(w)$ where $Y$ is a smooth scheme and $w$ is a regular function on it.
+> So we need to consider the geometry of critical locus.
+>
+> Let $U$ be a complex manifold with a holomorphic function $f:U\to\mathbb C$. Then we can show that
+> \\[\nu\_{\mathrm{Crit}(f)}(x)=(-1)^{\dim U}(1-\text{MF}_f(x)),\quad x\in\mathrm{Crit}(f).\\]
+> Then as the virtual locus is just the perturb the section locally to give a nice zero locus, here Behrend function is also given by some perturbing, that is, the Milnor fibres. Of course, as a generalization of Milnor fibres, we can using vanishing cycle to give another description. As in [JS11][^1] Theorem 4.9, we have
+> \\[\chi\_{U\_0}(\phi\_f(\underline{\mathbb Q}[n-1]))(x)=\nu\_{\mathrm{Crit}(f)}(x),\quad x\in\mathrm{Crit}(f)\\]
+> where $\phi\_f$ be the vanishing-cycle functor.
+
 
 ## 1. Constructible Functions and Stack Functions
 ### Need to add.
@@ -82,5 +91,7 @@ $\blacksquare$
 
 
 [^1]: [JS11] Dominic Joyce and Yinan Song. A theory of generalized Donaldson-Thomas invariants. Amer. Math. Soc. 2011. See also [arXiv:0810.5645](https://arxiv.org/abs/0810.5645).
+
+[^2]: [BBJ19] Brav, C., Bussi, V., Joyce, D.: A Darboux theorem for derived schemes with shifted symplectic structure. J. Amer. Math. Soc. 32, 399–443 (2019)
 
 
