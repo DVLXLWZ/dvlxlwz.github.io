@@ -15,8 +15,13 @@ in [JS11][^1]. We work over $\mathbb C$, although these also work over any algeb
 > **Definition 0.1.** A **Calabi-Yau manifold** is a smooth projective variety $X$ over $\mathbb C$ such that $K\_X\cong\mathscr O\_X$.
 > A **strict Calabi-Yau manifold** is a Calabi-Yau manifold $X$ such that $H^i(X,\mathscr O\_X)=0$ for any $0<i<\dim X$.
 
-Then we fix a Calabi-Yau $3$-fold $X$ with a very ample line bundle $\mathscr O\_X(1)$ and a Gieseker stability condition $(\tau,G,\leq)$. Consider the moduli stack of semistable sheaves $\mathcal M^{\alpha-ss}(\tau)$ for some $\alpha\in K^{\text{num}}(\text{coh}(X))$. Then it is a proper Artin stack
-with a projective good moduli space $ M^{\alpha-ss}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha-st}(\tau)\subset\mathcal M^{\alpha-ss}(\tau)$ and $M^{\alpha-st}(\tau)\subset M^{\alpha-ss}(\tau)$ whcih need not be proper.
+Then we fix a Calabi-Yau $3$-fold $X$ with a very ample line bundle $\mathscr O\_X(1)$ and a Gieseker stability condition $(\tau,G,\leq)$. Consider the moduli stack of semistable sheaves $\mathcal M^{\alpha\text{-ss}}(\tau)$ for some $\alpha\in K^{\text{num}}(\text{coh}(X))$. Then it is a proper Artin stack
+with a projective good moduli space $ M^{\alpha\text{-ss}}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha\text{-st}}(\tau)\subset\mathcal M^{\alpha\text{-ss}}(\tau)$ and $M^{\alpha\text{-st}}(\tau)\subset M^{\alpha\text{-ss}}(\tau)$ which need not be proper.
+
+We can show that there is an perfect obstruction theory of $\mathcal M^{\alpha\text{-ss}}(\tau)$ (and hence $\mathcal M^{\alpha\text{-st}}(\tau)$) comes from their derived enhancement. This is a general fact:
+
+> **Theorem 0.2.** Let $X$ be a smooth projective variety of dimension $n$. Then the natural derived moduli stack $\mathbb R\underline{Coh}(X)$ has cotangent complex \\[\mathbb L\_{\mathbb R\underline{Coh}(X)}\cong(\mathbb R\mathscr Hom(\mathbb F,\mathbb F)[1])^{\vee}\cong\mathbb R\mathscr Hom(\mathbb F,\mathbb F\otimes\omega\_X)[n-1]\\]
+> which induce an obstruction theory $\mathbb L\_{\mathbb R\underline{Coh}(X)}|_{\underline{Coh}(X)}\to\mathbb L\_{\underline{Coh}(X)}$.
 
 
 ## 1. Constructible Functions and Stack Functions
