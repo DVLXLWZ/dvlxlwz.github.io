@@ -74,28 +74,8 @@ well done. $\blacksquare$
 For more things, a more advanced results about rational singularities we refer [RatKovacs17][^2], and papers [RatKovacs00][^1], [Dais02][^3] (Theorem 1.4) and [Kol96][^4] (section 11) are also introduced some results about rational singularities. $\blacksquare$
 
 **Proposition 5.13.** For the final step, we need to use the following result: if $f:Y\to X$ be a resolution of singularities ($X$ normal) with $E=f^{-1}(\mathrm{Sing}(X))$ and natural inclusions $\iota: \mathrm{Reg}(X)\to X$, $j:Y\backslash E\to Y$. Consider the diagram:
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix {
-Y\backslash E \ar[d]^{\cong} \ar[r]^j & Y\ar[d]_f \\
-\mathrm{Reg}(X) \ar[r]^{\iota} & X
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+![ ](/CommutativeDiagrams/2025-01-24-101841.png){: .align-center}
+
 Hence we have 
 
 <html>
