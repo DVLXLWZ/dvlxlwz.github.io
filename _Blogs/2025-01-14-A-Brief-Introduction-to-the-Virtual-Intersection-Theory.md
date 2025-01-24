@@ -88,7 +88,7 @@ two things:
 >
 > - Globalize the localized Chern classes, and then  we can get the virtual classes.
 
-As we have seen, the cones are main objects in intersection theory in [Ful98][^5]. In virtual
+As we have seen, the cones are main objects in intersection theory in [Ful98][^5] (See [Kre99][^6] for the intersection theory of Artin stacks). In virtual
 intersection theory, the cone stacks are the analogous main objects. But the general theory of cone stacks are very complicated
 (see [BF97][^2] or [my notes](https://dvlxlwz.github.io/files/virtual-fundamental-class.pdf)), we only select the things we need.
 
@@ -153,9 +153,31 @@ Using this, we can define the specialization map which is analogue of Fulton's:
 > ![ ](/CommutativeDiagrams/2025-01-24-144848.png){: .align-center}
 > for any $\zeta\neq0$.
 
-$\blacksquare$
+## 2. Perfect Obstruction Theory and Virtual Classes
 
+In this section we need the natural object to define the ``zero of sections of vector bundles".
 
+> **Definition 2.1.** For a DM-morphism of Artin stacks $f:X\to Y$, an **obstruction theory**
+> is a morphism \\[\phi:\mathbb F\to L\_f\\] in $\mathbf D_{\coh}^{\leq0}(X)$ such that $h^0(\phi)$ is bijective and $h^{-1}(\phi)$ is surjective
+> where $\bb F$ is a perfect complex of tor-amplitude $[-d,0]$ for some $d\in \mathbb Z_{\geq0}$. It is called a **perfect obstruction theory** if $\mathbb F$ is a
+> perfect complex of tor-amplitude $[-1,0]$.
+
+By the theory of cone stacks, the condition of obstruction theory is equivalent to that the induced 
+$\mathfrak N\_f\to\mathfrak C(\mathbb F)$ is a closed embedding.
+Note also that a cone stack $\mathfrak E$ is called a vector bundle stack on $X$,
+if $\mathfrak E=\mathfrak C(E)$ for some perfect complex of tor-amplitude $[-1,0]$. In [BF97][^2] they also showed that 
+a cone stack is smooth over $X$ if and only if it is a vector bundle stack.
+
+As the ordinary intersection theory, we also have the following:
+
+> **Proposition 2.2.** ([Kre99][^6], Prop. 4.3.2) Let $X$ be an Artin stack with affine stabilizers. Let $\mathfrak E$ be a vector bundle stack on $X$, that is, $\mathfrak E=\mathfrak C(E)$ for some perfect complex of tor-amplitude $[-1,0]$. Then the smooth pullback
+> \\[\pi\_{\mathfrak E}^*:\CH\_\*(X)\to\CH\_*(\mathfrak E)\\]
+> is an isomorphism. Hence we can define the **Gysin pullback** is $0_{\mathfrak E}^!:=(\pi_{\mathfrak E}^*)^{-1}$.
+
+Finally as the definition of refined Gysin pullback, we can define its analogue:
+
+> **Definition 2.3.** Let $f:X\to Y$ be a DM morphism of Artin stacks and let $\phi:\mathbb F\to L\_f$ be a perfect obstruction theory. Assume that $X$
+has affine stabilizers. We define the **virtual pullback** as the composition
 <html>
 <head>
   <meta charset="utf-8">
@@ -168,12 +190,36 @@ $\blacksquare$
 <body>
 <p>
 \begin{align*}
-&\mathrm{length}_{\mathscr{O}}(\mathscr{O}/(a_1g_2-a_2g_1,fa_1,fa_2))\\
-&=\mathrm{length}_{\mathscr{O}}(\mathscr{O}/(a_1,a_2))+\mathrm{length}_{\mathscr{O}}(\mathscr{O}/(f,a_1g_2-a_2g_1)).
+&f^!_{\mathrm{vir}}\colon\mathrm{CH}_*(Y)\stackrel{\mathrm{sp}_f}{\to}\mathrm{CH}_*(\mathfrak C_f)\stackrel{\iota_*}{\to}
+\mathrm{CH}_*(\mathfrak C(F))\stackrel{0^！}{\to}\mathrm{CH}_*(X).
 \end{align*}
 </p>
 </body>
 </html>
+
+>
+> If $X$ is a Deligne-Mumford stack over some field $k$ with affine stabilizers and perfect obstruction theory $\phi:\mathbb F\to L\_X$, then the **virtual fundamental class** is \\[[X]\_{\phi}^{\text{vir}}:=p^!\_{\mathrm{vir}}[\text{Spec k}]=0\_{\mathfrak C(\mathbb F)}^!(\mathfrak C\_X)\in\text{CH}\_{\mathrm{vdim}}(X)\\] where $p:X\to\text{Spec} k$ be the structure morphism and $\mathrm{vdim}$ is called the **virtual dimension** of it.
+
+> **Remark 2.4.** For the canonical choice of obstruction theory using derived enhancement. For a moduli stack $M$ (which is Deligne-Mumford) with its derived  moduli stack $\mathbf M$ and canonical embedding $i:M\subset\mathbf M$, usually the cotangent complex $\bb L_{\mathbf M}$ has very nice form which induce a  morphism 
+> \\[\bb L\_{\mathbf M}|_M=i^*\bb L\_{\mathbf M}\to\bb L\_{M}\\]
+>which will be an obstrunction theory. If $\mathbf M$ is quasi-smooth,
+>then it is perfect.
+
+
+## 3. Torus Localization
+
+## 4. Cosection Localization and Reduced Virtual Classes
+
+## 5. K-theoretic Virtual Structure and Virtual Riemann-Roch
+
+## 6. Find the way to generalize
+
+Note that in the definition of virtual pullbacks, we need two technical assumptions for defining virtual pullbacks:
+> - $f:X\to Y$ is DM-morphism;
+> - $X$ has affine stabilizers.
+
+Need to add. Using Motivic etale Borel-Moore cohomology.
+
 
 
 
@@ -181,12 +227,13 @@ $\blacksquare$
 
 [^2]: [BF97] K. Behrend and B. Fantechi. The intrinsic normal cone. Invent. Math., 128:45–88, 1997.
 
-[^3]: [LT96] Jun Li and Gang Tian. Virtual moduli cycles and gromov–witten invariants of algebraic varieties. J.
-Amer. Math. Soc., 11:119–174, 1996
+[^3]: [LT96] Jun Li and Gang Tian. Virtual moduli cycles and gromov–witten invariants of algebraic varieties. J. Amer. Math. Soc., 11:119–174, 1996
 
 [^4]: [Man12] Cristina Manolache. Virtual pull-backs. J. Algebraic Geom., 21:201–245, 2012.
 
 [^5]: [Ful98] William Fulton. Intersection Theory. Springer New York, 1998.
+
+[^6]: [Kre99] Andrew Kresch. Cycle groups for artin stacks. Invent. Math., 138:495–536, 1999
 
 
 
