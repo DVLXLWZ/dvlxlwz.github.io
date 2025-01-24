@@ -46,7 +46,7 @@ This description follows from a function, we call it the Behrend function:
 Then we have the following fact:
 
 > **Theorem 0.5.** (Behrend) Let $M$ be a proper $\mathbb C$-scheme with a symmetric perfect obstruction theory, then 
-> \\[\int\_{[M]^{\text{vir}}1=\chi(X,\nu\_X):=\sum\_{k\in\mathbb Z}k\chi(\nu_X^{-1}(k)).\\]
+> \\[\int\_{[M]^{\text{vir}}1=\chi(X,\nu\_X):=\sum\_{k\in\mathbb Z}k\chi(\nu\_X^{-1}(k)).\\]
 
 > **Remark 0.6.** Here although we do not prove this theorem, we can give some idea of the reason why this result is true.
 > Here we focus on the case that consider the Calabi-Yau $3$-fold $X$ and $M:=M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$.
@@ -59,7 +59,9 @@ Then we have the following fact:
 > \\[\chi\_{U\_0}(\phi\_f(\underline{\mathbb Q}[n-1]))(x)=\nu\_{\mathrm{Crit}(f)}(x),\quad x\in\mathrm{Crit}(f)\\]
 > where $\phi\_f$ be the vanishing-cycle functor.
 
-
+However, when $M^{\alpha\text{-ss}}(\tau)\neq M^{\alpha\text{-st}}(\tau)$, then locally $M^{\alpha\text{-ss}}(\tau)$ is not a critical locus. But it is for moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$! So we need to consider the Behrend function on Artin stacks. But  it is not obvious how to take
+its weighted Euler characteristics. For example, let us take $\alpha$ with Hilbert polynomial $P = (2, 0, 0, 0)$ so that the only semistable sheaf is $\mathscr O\_X^{\oplus 2}$. Then $\mathcal M^{\alpha\text{-ss}}(\tau)\cong B\text{GL}\_2(\mathbb C)$. Their euler number can not defined $1/(\chi(\text{GL}\_2(\mathbb C)))$
+as $\chi(\text{GL}\_2(\mathbb C))=0$.
 
 
 ## 1. Constructible Functions and Stack Functions
