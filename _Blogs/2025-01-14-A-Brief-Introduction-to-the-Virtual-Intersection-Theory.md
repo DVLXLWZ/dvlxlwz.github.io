@@ -101,9 +101,32 @@ intersection theory, the cone stacks are the analogous main objects. But the gen
 > \\[\mathfrak N\_f:=\mathfrak C(\mathbb L\_f)\\]
 > for the cotangent comples $\mathbb L\_f\in\mathbf D^{\leq0}_{\text{coh}}(X)$.
 
+This is an analogue of normal sheaves. But we also need the analogue
+of normal cones:
+
+> **Definition 1.3.** Let $f:X\to Y$ be a DM-morphism of Artin stacks. We define the **intrinsic normal cone** to be the unique subcone stack
+> \\[\mathfrak C\_f\subset\mathfrak N\_f\\]
+> satisfying the following property: for any commutative square
+> ![ ](/CommutativeDiagrams/2025-01-24-144728.png){: .align-center}
+> with smooth vertical arrows, and a closed embedding $f'$, we have a cartesian:
+> ![ ](/CommutativeDiagrams/2025-01-24-144748.png){: .align-center}
+> for some dotted arrow. Here the map $N\_{f'}\to\mathfrak N\_f$ is induced by the canonical map $\mathbb L\_f|_{X'}\to\bb L\_{f'}$.
+
+> **Remark 1.4.** - If $f:X\to Y$ be a closed embedding, then we have
+> \\[\mathfrak C\_f=[C\_f/T\_{Y/Y}|_X]=C\_f\subset\mathfrak N\_f=[N\_f/T\_{Y/Y}|_X]=N\_f.\\]
+> 
+> - Note that if we have global factorization, that is,we have $f:X\subset Y'\to Y$ where $Y'\to Y$ is smooth, then $L\_f=[I/I^2\to\Omega\_{Y'/Y}|_X]$. Hence we have 
+> \\[\mathfrak C\_f=[C\_{X/Y'}/T\_{Y'/Y}|_X]\subset\mathfrak N\_f=[N\_{X/Y'}/T\_{Y'/Y}|\_X].\\]
+>
+> - The commutative square in the definition always exists. Indeed, take any smooth cover $U\to Y$ where $U$ is a scheme, as $f$ is DM-morphism we know that $U\times_YX$ is a Deligne-Mumford stack. Take a étale cover $V\to U\times_YX$ where $V$ is a scheme. Then there always exists a scheme $S$ smooth over the ground field. Then we have the following commutative square:
+> ![ ](/CommutativeDiagrams/2025-01-24-144809.png){: .align-center}
+> Well done.
+
+Finally we will generalize the method of deformation to the normal cone as we discussed before.
+
+> **Definition 1.5.** For a DM-morphism of Artin stacks $f:X\to Y$, we define the deformation space $M^{\circ}\_f\to\mathbb P^1$ such that there exists $m:X\times\mathbb P^1\to M\_f^{\circ}$ such that $m\_{\neq0}=f$ and $m\_{=0}=0\_{\mathfrak C_f}:X\to\mathfrak C\_f$, as follows:
 
 
-![placeholder](/MyBlogs/my_pics/2023-01-19-1.png){: .align-center}
 
 $\blacksquare$
 
