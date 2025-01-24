@@ -202,8 +202,22 @@ has affine stabilizers. We define the **virtual pullback** as the composition
 
 > **Remark 2.4.** For the canonical choice of obstruction theory using derived enhancement. For a moduli stack $M$ (which is Deligne-Mumford) with its derived  moduli stack $\mathbf M$ and canonical embedding $i:M\subset\mathbf M$, usually the cotangent complex $\bb L_{\mathbf M}$ has very nice form which induce a  morphism 
 > \\[\bb L\_{\mathbf M}|_M=i^*\bb L\_{\mathbf M}\to\bb L\_{M}\\]
->which will be an obstrunction theory. If $\mathbf M$ is quasi-smooth,
->then it is perfect.
+> which will be an obstrunction theory. If $\mathbf M$ is quasi-smooth,
+> then it is perfect.
+
+Several important properties of virtual pullback.
+
+> **Proposition 2.5.**
+>> - Virtual pullback has bivariant properties, that is,
+>> it is commute with proper push-forward, flat pull-back and lci Gysin pullback (assume some affineness of stabilizers).
+>> - Virtual pullback has functoriality. If we have a commutative diagram of DM-morphisms of Artin stacks
+>>  ![ ](/CommutativeDiagrams/2025-01-24-144908.png){: .align-center}
+>> such that $X,Y$ have affine stabilizers.
+>> Assume that we have a triple $(\phi_f:\bb F_f\to L_f,\phi_g:\bb F_g\to L_g,\phi_h:\bb F_h\to L_h)$ of perfect obstruction theories which is compactible, that is, there exists a morphism of distinguished triangles
+>>  ![ ](/CommutativeDiagrams/2025-01-24-144927.png){: .align-center}
+>> such that $\phi_f=r\circ\phi_f'$ with canonical map $r:L_f'\to\tau^{\geq-1}L_f=L_f$.
+>> Then we have
+>> \\[h^!\_{\mathrm{vir}}=f^!\_{\mathrm{vir}}\circ g^!\_{\mathrm{vir}}.\\]
 
 
 ## 3. Torus Localization
