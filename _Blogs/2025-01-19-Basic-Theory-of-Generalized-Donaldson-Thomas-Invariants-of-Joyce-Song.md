@@ -15,6 +15,9 @@ in [JS11][^1]. We work over $\mathbb C$, although these also work over any algeb
 > **Definition 0.1.** A **Calabi-Yau manifold** is a smooth projective variety $X$ over $\mathbb C$ such that $K\_X\cong\mathscr O\_X$.
 > A **strict Calabi-Yau manifold** is a Calabi-Yau manifold $X$ such that $H^i(X,\mathscr O\_X)=0$ for any $0<i<\dim X$.
 
+Then we fix a Calabi-Yau $3$-fold $X$ with a very ample line bundle $\mathscr O\_X(1)$ and a Gieseker stability condition $(\tau,G,\leq)$. Consider the moduli stack of semistable sheaves $\mathcal M^{\alpha-ss}(\tau)$ for some $\alpha\in K^{\text{num}}(\text{coh}(X))$. Then it is a proper Artin stack
+with a projective good moduli space $ M^{\alpha-ss}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha-st}(\tau)\suibset\mathcal M^{\alpha-ss}(\tau)$ and $M^{\alpha-st}(\tau)\suibset  M^{\alpha-ss}(\tau)$ whcih need not be proper.
+
 
 ## 1. Constructible Functions and Stack Functions
 ### Need to add.
