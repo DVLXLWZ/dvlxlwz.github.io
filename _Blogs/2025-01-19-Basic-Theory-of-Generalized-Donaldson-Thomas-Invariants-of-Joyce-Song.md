@@ -60,6 +60,8 @@ Then we have the following fact:
 > where $\phi\_f$ be the vanishing-cycle functor.
 
 
+
+
 ## 1. Constructible Functions and Stack Functions
 ### Need to add.
  $\pi\|\_{\widetilde{L}}: \widetilde{L}\to L$
