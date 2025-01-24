@@ -10,8 +10,10 @@ in [JS11][^1].
 
 <!--more-->
 
+## 0. Review of Donaldson-Thomas Invariants of Calabi-Yau $3$-folds
 
-## Constructible Functions and Stack Functions
+
+## 1. Constructible Functions and Stack Functions
 ### Need to add.
  $\pi\|\_{\widetilde{L}}: \widetilde{L}\to L$
 
