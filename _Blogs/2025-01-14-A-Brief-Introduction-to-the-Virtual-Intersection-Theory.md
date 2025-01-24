@@ -20,7 +20,7 @@ reduced points. So what we count is
 where $[F(X)]$ is the fundamental class of $F(X)$.
 
 But note also that the most of the modern enumerative geometry come from the physics, especially the string theory. Recall that in the world of string theory, general relativity and quantum mechanics are unified at a cost:
-\\[\mathsf{SpaceTime}=\bb R^3\times\bb R^1\times X\\]
+\\[\mathsf{SpaceTime}=\mathbb R^3\times\mathbb R^1\times X\\]
 where $X$ is a Calabi-Yau $3$-fold which has an extra dimension. So in string theory, our world consist of $4$-dimensional space time 
 and a real $6$-dimensional manifold which is Calabi-Yau which exists in the microcosmos.
 
@@ -43,7 +43,7 @@ Now a world sheet is an algebraic curve of $X$, there are three basic idea to co
 
 All these are some bad moduli spaces by the Murphy's law of moduli spaces. Hence for the spaces $\mathcal M$ we consider
 could be very singular and has several components with possibly  different dimensions, for example, the Hilbert schemes. So in the intersection theory,
-the fundamental class $[\mathcal M]$ does not exists. So we need to find some (virtual) class $[\mathcal M]^{\vir}$ which can be used in the intersection
+the fundamental class $[\mathcal M]$ does not exists. So we need to find some (virtual) class $[\mathcal M]^{\text{vir}}$ which can be used in the intersection
 theory and counting some objects we want.
 
 The most basic model of these given in the Chapter
@@ -51,34 +51,11 @@ The most basic model of these given in the Chapter
 > **Example 0.2.**
 Let $Y$ be a algebraic scheme over some field $k$ of pure dimension $n$ and a vector bundle $E$ of rank $e$ over it.
 For any section $s:Y\to E$ of bundle $E$, let $Z(s)$ be the zero locus of this section which forms the following fiber product:
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-\[\begin{tikzcd}
-	{Z(s)} && Y \\
-	Y && E
-	\arrow[from=1-1, to=1-3]
-	\arrow["i"', from=1-1, to=2-1]
-	\arrow["\ulcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-3]
-	\arrow["s"', hook, from=1-3, to=2-3]
-	\arrow["0", hook, from=2-1, to=2-3]
-\end{tikzcd}\]
- </p>
-</body>
-</html>
-
-Then we define 
-\\[c_{\mathrm{loc}}(E,s):=0^![Y]=0^*(C_{Z(s)/Y})\in\CH_{n-e}(Z(s))\\] 
-be the **localized Chern class** of $E,s$.
-
+![placeholder](/MyBlogs/my_pics/2025-01-24-142747.png){: .align-center}
+>
+>Then we define 
+> \\[c\_{\mathrm{loc}}(E,s):=0^![Y]=0^*(C\_{Z(s)/Y})\in\text{CH}\_{n-e}(Z(s))\\] 
+>be the **localized Chern class** of $E,s$.
 
 
 
