@@ -5,12 +5,15 @@ permalink: /Blogs/2025-01-19-Basic-Theory-of-Generalized-Donaldson-Thomas-Invari
 excerpt_separator: <!--more-->
 date: 2025-01-19
 ---
-This is a basic and quick introduction of the theory of generalized Donaldson-Thomas invariants of Calabi-Yau $3$-folds due to Joyce-Song
-in [JS11][^1].
+This is a basic and quick introduction of the theory of generalized Donaldson-Thomas invariants of strict Calabi-Yau $3$-folds due to Joyce-Song
+in [JS11][^1]. We work over $\mathbb C$, although these also work over any algebraically closed field of characteristic zero.
 
 <!--more-->
 
 ## 0. Review of Donaldson-Thomas Invariants of Calabi-Yau $3$-folds
+
+> **Definition 0.1.** A **Calabi-Yau manifold** is a smooth projective variety $X$ over $\mathbb C$ such that $K\_X\cong\mathscr O\_X$.
+> A **strict Calabi-Yau manifold** is a Calabi-Yau manifold $X$ such that $H^i(X,\mathscr O\_X)=0$ for any $0<i<\dim X$.
 
 
 ## 1. Constructible Functions and Stack Functions
