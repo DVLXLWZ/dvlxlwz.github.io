@@ -169,28 +169,8 @@ Fix $X$ be a smooth projective variety over $\mathbb{C}$ and $a:X\to\mathrm{Alb}
 </body>
 </html>
 Consider the Cartesian diagram
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix {
-X' \ar[d]^b \ar[r] & X \ar[d]^a \\
-A^t \ar[r]^{\phi_L} & A
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+![ ](/CommutativeDiagrams/2025-01-24-095843.png){: .align-center}
+
 As $\phi\_L$ finite etale, one get $\phi\_L^* (R^ka\_* (\omega\_X))=R^kb\_* (\omega\_{X'})$. Hence by Kollár's vanishing theorem (Theorem 0 (i)), well done. $\blacksquare$
 
 Recall that the main theorem:
@@ -209,29 +189,9 @@ Hacon actually showed a more general result (a conjecture by Green-Lazarsfeld):
 
 **Theorem 6.1.1** (Green-Lazarsfeld conjecture). Let $X$ be a smooth complex projective variety, and let $P\_X$ denote a universal line bundle on $X\times Pic^0(X)$. Then one has $R^ipr\_{2,∗}P\_X = 0$ for $i <\dim a(X)$.
 
-*Proof.* See Schnell's notes Theorem 26.1. If let $P\_A$ be the Poincare bundle over $A\times A^t$, then one must has $P\_X\cong(a\times id)^* P\_A$. COnsider the Cartesian diagram:
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix {
-X \ar[d]^a & X\times A^t \ar[l]^{pr_1} \ar[d]^{a\times id} \ar[dr]^{pr_2} &\\
-A & A\times A^t \ar[l]^{p_1} \ar[r]^{p_2} & A^t
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+*Proof.* See Schnell's notes Theorem 26.1. If let $P\_A$ be the Poincare bundle over $A\times A^t$, then one must has $P\_X\cong(a\times id)^* P\_A$. Consider the Cartesian diagram:
+![ ](/CommutativeDiagrams/2025-01-24-100259.png){: .align-center}
+
 By Grothendieck duality, projection formula and flat base change and $P\_X\cong(a\times id)^* P\_A$, we get
 <html>
 <head>
