@@ -53,7 +53,7 @@ The most basic model of these given in the Chapter
 Let $Y$ be a algebraic scheme over some field $k$ of pure dimension $n$ and a vector bundle $E$ of rank $e$ over it.
 For any section $s:Y\to E$ of bundle $E$, let $Z(s)$ be the zero locus of this section which forms the following fiber product:
 > 
-> ![ ](/CommutativeDiagrams/my_pics/2025-01-24-142747.png){: .align-center}
+> ![ ](/CommutativeDiagrams/2025-01-24-142747.png){: .align-center}
 >
 >Then we define 
 > \\[c\_{\mathrm{loc}}(E,s):=0^![Y]=0^*(C\_{Z(s)/Y})\in\text{CH}\_{n-e}(Z(s))\\] 
