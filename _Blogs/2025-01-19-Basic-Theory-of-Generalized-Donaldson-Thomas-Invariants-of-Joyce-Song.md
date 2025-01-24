@@ -18,10 +18,19 @@ in [JS11][^1]. We work over $\mathbb C$, although these also work over any algeb
 Then we fix a Calabi-Yau $3$-fold $X$ with a very ample line bundle $\mathscr O\_X(1)$ and a Gieseker stability condition $(\tau,G,\leq)$. Consider the moduli stack of semistable sheaves $\mathcal M^{\alpha\text{-ss}}(\tau)$ for some $\alpha\in K^{\text{num}}(\text{coh}(X))$. Then it is a proper Artin stack
 with a projective good moduli space $ M^{\alpha\text{-ss}}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha\text{-st}}(\tau)\subset\mathcal M^{\alpha\text{-ss}}(\tau)$ and $M^{\alpha\text{-st}}(\tau)\subset M^{\alpha\text{-ss}}(\tau)$ which need not be proper.
 
-We can show that there is an perfect obstruction theory of $\mathcal M^{\alpha\text{-ss}}(\tau)$ (and hence $\mathcal M^{\alpha\text{-st}}(\tau)$) comes from their derived enhancement. This is a general fact:
+We can show that there is a perfect obstruction theory of $\mathcal M^{\alpha\text{-ss}}(\tau)$ (and hence $\mathcal M^{\alpha\text{-st}}(\tau)$) comes from their derived enhancement. This is a general fact:
 
 > **Theorem 0.2.** Let $X$ be a smooth projective variety of dimension $n$. Then the natural derived moduli stack $\mathbb R\underline{Coh}(X)$ has cotangent complex \\[\mathbb L\_{\mathbb R\underline{Coh}(X)}\cong(\mathbb R\mathscr Hom\_{\pi}(\mathbb F,\mathbb F)[1])^{\vee}\cong\mathbb R\mathscr Hom\_{\pi}(\mathbb F,\mathbb F\otimes\omega\_X)[n-1]\\]
 > where $\pi:\mathbb R\underline{Coh}(X)\times X\to\mathbb R\underline{Coh}(X)$ and universal sheaf $\mathbb F$ which induce an obstruction theory $\mathbb L\_{\mathbb R\underline{Coh}(X)}|_{\underline{Coh}(X)}\to\mathbb L\_{\underline{Coh}(X)}$.
+
+Hence by this fact, we know that for the Calabi-Yau $3$-fold $X$, $\mathcal M^{\alpha\text{-ss}}(\tau)$ (and hence $\mathcal M^{\alpha\text{-st}}(\tau)$) has
+a perfect obstruction theory. But by the theory of Behrend–Fantechi or general virtual pullbacks, the virtual classes can not construct over a general Artin stack which is not Deligne-Mumfold. However, the good moduli space $\mathcal M^{\alpha\text{-st}}(\tau)\to M^{\alpha\text{-st}}(\tau)$ is actually a $B\mathbb G_m$-gerbe and we can descend the obstruction theory of $\mathcal M^{\alpha\text{-st}}(\tau)$ to $M^{\alpha\text{-st}}(\tau)$, up to some twist (but the $\mathbb R\mathscr Hom(\mathbb F,\mathbb F)$ does not change after the twist). Hence by the theory of Behrend–Fantechi, we get a virtual class 
+\\[[M^{\alpha\text{-st}}(\tau)]^{\text{vir}}\in\text{CH}_0(M^{\alpha\text{-st}}(\tau)).\\]
+
+> **Definition 0.3.** For a Calabi-Yau $3$-fold $X$ such that $M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$, the **Donnaldson-Thomas invariants** is defined by \\[\text{DT}^{\alpha}(\tau):=\int\_{[M^{\alpha\text{-st}}(\tau)]^{\text{vir}}}1\in\mathbb Z.\\]
+
+The goal of generalized Donaldson-Thomas invariants is to define the DT invariant for any $\alpha$ even $M^{\alpha\text{-ss}}(\tau)\neq M^{\alpha\text{-st}}(\tau)$.
+The idea comes from another description of DT invariants of Calabi-Yau $3$-fold $X$ such that $M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$.
 
 
 ## 1. Constructible Functions and Stack Functions
