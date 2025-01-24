@@ -34,28 +34,8 @@ We may let $\mathscr{O}\_E(n):=\mathscr{O}\_{P(E)}(n)$.
 ## Chapter 2. Divisors
 ### Section 2.6. Gysin Map for Divisors
 **Example 2.6.3.**(a) Let $L$ be a line bundle over $X$ with complement of zero section $L-\\{0\\}$. For $k\geq 0$, we of course get
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-$$
-\begin{xy}
-\xymatrix{
-\mathrm{CH}_{k+1}(X) \ar[r]^{i_*} \ar[dr]_{c_1(L)\cap -} & \mathrm{CH}_{k+1}(L) \ar[d]^{\cong,i^*} \ar[r] & \mathrm{CH}_{k+1}(L-\{0\}) \ar[r] & 0\\
-  & \mathrm{CH}_k(X) \ar[ur]_{\eta^*}  & & 
-}
-\end{xy}
-$$
-</p>
-</body>
-</html>
+![ ](/CommutativeDiagrams/2025-01-24-100827.png){: .align-center}
+
 as after checking the cocycle condition, we get the normal bundle $N\_{X/L}\cong L$ and by Proposition 2.6(d) we get $i^* i\_* \alpha=c\_1(L)\cap\alpha$. $\blacksquare$
 
 (b) Here $X\subset\mathbb{P}^n$ with affine cone $V\subset\mathbb{A}^{n+1}$. I think here $V$ be the **pointed affine cone**: since we have 
