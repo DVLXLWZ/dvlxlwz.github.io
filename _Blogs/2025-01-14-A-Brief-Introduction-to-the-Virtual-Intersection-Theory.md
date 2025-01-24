@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 date: 2025-01-14
 ---
 This is a basic and quick introduction of the virtual intersection theory introduced by [BF97][^2] and [Man12][^4] and give some more properties of these theories.
+This generalize the constructions and results in [my notes](https://dvlxlwz.github.io/files/virtual-fundamental-class.pdf).
 <!--more-->
 
 ## 0. Background and History
@@ -14,7 +15,7 @@ The virtual intersection theory comes from the goal to define the modern enumera
 in the moduli space of the objects you want to consider.
 We have seen this in the problems of classical enumerative geometry:
 
-> **Example 0.1.** For example, for a general cubic 3-fold $X$, the Fano scheme $F(X)$ (Hilbert scheme of lines) consist of several isolated
+> **Example 0.1.** For example, for a general cubic $3$-fold $X$, the Fano scheme $F(X)$ (Hilbert scheme of lines) consist of several isolated
 reduced points. So what we count is 
 \\[N=\int_{[F(X)]}1=27,\\] 
 where $[F(X)]$ is the fundamental class of $F(X)$.
@@ -51,13 +52,53 @@ The most basic model of these given in the Chapter
 > **Example 0.2.**
 Let $Y$ be a algebraic scheme over some field $k$ of pure dimension $n$ and a vector bundle $E$ of rank $e$ over it.
 For any section $s:Y\to E$ of bundle $E$, let $Z(s)$ be the zero locus of this section which forms the following fiber product:
-![placeholder](/MyBlogs/my_pics/2025-01-24-142747.png){: .align-center}
+![placeholder](/CommutativeDiagrams/my_pics/2025-01-24-142747.png){: .align-center}
 >
 >Then we define 
 > \\[c\_{\mathrm{loc}}(E,s):=0^![Y]=0^*(C\_{Z(s)/Y})\in\text{CH}\_{n-e}(Z(s))\\] 
 >be the **localized Chern class** of $E,s$.
 
+In this example, by the basic theory of refined Gysin-pullbacks we have $i\_*c\_{\mathrm{loc}}(E,s)=c\_e(E)\cap[Y]$. So if $s$ intersect
+with zero section transversally, then $[Z(s)]=c\_{\mathrm{loc}}(E,s)=c_e(E)\cap[Y]$ up to pushforward.
 
+In our opinion, we wish our moduli space $\mathcal M$has this form locally (the spaces of this type are called the quasi-smooth scheme/stacks). Then we using the similar idea to perturbthe section to get several localized Chern class and then glue them up. Then we can get the virtual class $[\mathcal M]^{\text{vir}}$.
+If it is of dimension zero, then we can define our counting-invariant is 
+\\[I(\mathcal M)=\int\_{[\mathcal M]^{\text{vir}}}1.\\]
+If is has positive dimension, we can integral some Euler classes of bundles over it.
+
+But it seems that this construction depends on the choice 
+of that sections of bundles! To solve this, we will consider 
+a two-term chain complex $T\_Y|\_{Z(s)}\to E|\_{Z(s)}$ given by 
+$ds|\_{Z(s)}$. We only need these data to recover the construction above. This complex is called the (dual of) obstruction theory.
+
+So by this idea, it seems that we only need to consider  this complex globally and then we can also define the virtual class and then we  need  not to do some gluing-process. This is the basic idea of Behrend–Fantechi's famous work [BF97][^2] to define virtual classes via the perfect obstruction theory.
+
+Finally we discuss some history of these theories. Note that the first goal to define the virtual class is to define the Gromov-Witten invariants algebraically. The first paper defining virtual class and Gromov-Witten invariants (algebraically) is [LT96][^3] due to Li-Tian. Then via papers [Beh97][^1]
+and [BF97][^2] of Behrend and Fantechi, these theories are clearly completed.
+Then using this we can define Donldsaon-Thomas type invariants and several other invariants.
+
+We denote $\mathbb L\_f$ be the Illusie's total cotangent complex and $L_f:=\tau^{\geq-1}\mathbb L\_f$ be the truncated cotangent complex.
+
+## 1. Deformation to the Intrinsic Normal Cones
+
+To globalize the local model due to Fulton, we need to do the following
+two things:
+> - We need to generalize the theory of deformation to the normal cone due to Fulton. We need to define the deformation space of any DM-morphism of Artin stacks. In particular, we can define this for $\mathcal M\to\text{Spec}\mathbb C$.
+>
+> - Globalize the localized Chern classes, and then  we can get the virtual classes.
+
+As we have seen, the cones are main objects in intersection theory in [Ful98][^5]. In virtual
+intersection theory, the cone stacks are the analogous main objects. But the general theory of cone stacks are very complicated
+(see [BF97][^2] or [my notes](https://dvlxlwz.github.io/files/virtual-fundamental-class.pdf)), we only select the things we need.
+
+> **Definition 1.1.** Let $X$ be an Artin stack and let $F\in\mathbf D^{\leq0}_{\text{coh}}(X)$. An **abelian cone stack** associated to $F$ is the cone stack
+> \\[\mathfrak C(F):=h^1/h^0(F^{\vee}):=[E^1/E^0]\\]
+> where $\tau^{[0,1]}(F^{\vee})=[E^0\to E^1]$ and the action of $E^0$ (can be seen via $\underline{\text{Spec}}\text{Sym}$
+> to be a group scheme over $X$) on $E^1$ defined via $a:E^0\to E^1$ by $e^0\cdot e^1=a(e^0)+e^1$.
+
+> **Definition 1.2.** For a DM-morphism of Artin stacks $f:X\to Y$, we define its **intrinsic normal sheaf** to be 
+> \\[\mathfrak N\_f:=\mathfrak C(\mathbb L\_f)\\]
+> for the cotangent comples $\mathbb L\_f\in\mathbf D^{\leq0}_{\text{coh}}(X)$.
 
 
 
