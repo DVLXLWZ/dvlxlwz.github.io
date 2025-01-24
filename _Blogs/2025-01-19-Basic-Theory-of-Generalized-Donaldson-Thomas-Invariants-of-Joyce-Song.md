@@ -43,6 +43,14 @@ This description follows from a function, we call it the Behrend function:
 
 > **Small Remark.** For the Nash blowup we refer to see Example 4.2.9 in [2022-12-12-blogs](https://dvlxlwz.github.io//Blogs/2022-12-12-Some-Gaps-and-Examples-in-Intersection-Theory-by-Fulton-I) and the refs in it.
 
+Then we have the following fact:
+
+> **Theorem 0.5.** (Behrend) Let $M$ be a proper $\mathbb C$-scheme with a symmetric perfect obstruction theory, then 
+> \\[\int\_{[M]^{\text{vir}}1=\chi(X,\nu_X):=\sum\_{k\in\mathbb Z}k\chi(\nu_X^{-1}(k)).\\]
+
+> **Remark 0.6.** Here although we do not prove this theorem, we can give some idea of the reason why this result is true.
+> Here we focus on the case that consider the Calabi-Yau $3$-fold $X$ and $M:=M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$.
+
 ## 1. Constructible Functions and Stack Functions
 ### Need to add.
  $\pi\|\_{\widetilde{L}}: \widetilde{L}\to L$
