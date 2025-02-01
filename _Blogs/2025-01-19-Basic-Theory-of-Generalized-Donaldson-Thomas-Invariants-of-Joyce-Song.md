@@ -132,7 +132,7 @@ We now can relate $\mathrm{CF}(\mathfrak{F})$ and $\mathrm{SF}(\mathfrak{F})$:
 \pi\_{\mathfrak{F}}^{\mathrm{stk}} (\sum\_{i=1}^n c\_i [(\mathfrak{R}\_i, \rho\_i)]) = \sum\_{i=1}^n c\_i \mathrm{CF}\_{\rho\_i}^{\mathrm{stk}} (\rho\_i) \mathbf{1}\_{\mathfrak{R}\_i},
 \\]
 >
-> where $\mathbf{1}\_{\mathfrak{R}\_i}$ is the function 1 in $\mathrm{CF}(\mathfrak{R}\_i)$. Then [50, Prop. 3.3] shows $\pi\_{\mathfrak{F}}^{\mathrm{stk}} \circ \iota\_{\mathfrak{F}}$ is the identity on $\mathrm{CF}(\mathfrak{F})$. Thus, $\iota\_{\mathfrak{F}}$ is injective and $\pi\_{\mathfrak{F}}^{\mathrm{stk}}$ is surjective. In general $\iota\_{\mathfrak{F}}$ is far from surjective, and $\underline{\mathrm{SF}}, \mathrm{SF}(\mathfrak{F})$ are much larger than $\mathrm{CF}(\mathfrak{F})$.
+> where $\mathbf{1}\_{\mathfrak{R}\_i}$ is the function in $\mathrm{CF}(\mathfrak{R}\_i)$. Then we can show that $\pi\_{\mathfrak{F}}^{\mathrm{stk}} \circ \iota\_{\mathfrak{F}}$ is the identity on $\mathrm{CF}(\mathfrak{F})$. Thus, $\iota\_{\mathfrak{F}}$ is injective and $\pi\_{\mathfrak{F}}^{\mathrm{stk}}$ is surjective. In general $\iota\_{\mathfrak{F}}$ is far from surjective, and $\underline{\mathrm{SF}}, \mathrm{SF}(\mathfrak{F})$ are much larger than $\mathrm{CF}(\mathfrak{F})$.
 
 Some operators:
 
@@ -160,10 +160,14 @@ Some operators:
 (\sum\_{i=1}^m c\_i[(\mathfrak{R}\_i, \rho\_i)]) \otimes (\sum\_{j=1}^n d\_j[(\mathfrak{G}\_j, \sigma\_j)]) = \sum\_{i,j} c\_i d\_j[(\mathfrak{R}\_i \times \mathfrak{G}\_j, \rho\_i \times \sigma\_j)].
 \\]
 
+There are several functorial and commutative properties of these pullback pushforward we will omit these. We refer Theorem 2.8, 2.9 in [JS11][^1].
+
 
 ### 1.3. Projections of Virtual Ranks
 
 As we have seen, aiming to define the generalized DT-invariants we need to find a **logarithm** of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a **virtual** stack whose stabilizer groups have one-dimensional maximal torus. Here we will introduce a projection which will maps the stack functions to the stack functions with some fixed *virtual* rank of stabilizer groups.
+
+
 
 
 ### 1.4. Stack Function Spaces Twisted by Euler Characteristics
