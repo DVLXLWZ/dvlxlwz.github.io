@@ -61,16 +61,20 @@ Then we have the following fact:
 
 However, when $M^{\alpha\text{-ss}}(\tau)\neq M^{\alpha\text{-st}}(\tau)$, then locally $M^{\alpha\text{-ss}}(\tau)$ is not a critical locus. But it is for moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$! So we need to consider the Behrend function on Artin stacks. But  it is not obvious how to take
 its weighted Euler characteristics. For example, let us take $\alpha$ with Hilbert polynomial $P = (2, 0, 0, 0)$ so that the only semistable sheaf is $\mathscr O\_X^{\oplus 2}$. Then $\mathcal M^{\alpha\text{-ss}}(\tau)\cong B\text{GL}\_2(\mathbb C)$. Their euler number can not defined $1/(\chi(\text{GL}\_2(\mathbb C)))$
-as $\chi(\text{GL}\_2(\mathbb C))=0$.
+or its $\mathbb C^*$-rigidification $1/(\chi(\text{PGL}\_2(\mathbb C)))$
+as $\chi(\text{GL}\_2(\mathbb C))=\chi(\text{PGL}\_2(\mathbb C))=0$.
 
-An issue caused here is that, for a strictly semistable sheaf E, the dimension of the maximal torus of $\text{Aut}(E)$ is greater than one. A crucial idea in Joyce  is that, by taking the `logarithm' of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a `virtual'
+An issue caused here is that, for a strictly semistable sheaf E, the dimension of the maximal torus of $\text{Aut}(E)$ is greater than one. A crucial idea in Joyce  is that, by taking the **logarithm** of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a **virtual**
 stack whose stabilizer groups have one-dimensional maximal torus. Then by getting
 rid of the one-dimensional maximal torus and integrating over the Behrend function,
 the desired DT invariant (called generalized DT invariant) is defined.
 
 
 ## 1. Constructible Functions and Stack Functions
-### Need to add.
+### 1.1. Constructible Functions
+
+
+### 1.2. Stack Functions
 
 
 ## 2. Ringle-Hall Algebra and Its Applications
