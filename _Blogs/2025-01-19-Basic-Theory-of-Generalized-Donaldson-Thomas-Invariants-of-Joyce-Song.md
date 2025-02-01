@@ -233,6 +233,22 @@ Here we will focus on and assume our abelian category $\mathcal A$ and $K(\mathc
 Note that these properties holds for $\mathrm{Coh}(X)$ of smooth projective variety $X$ with $K(\mathrm{Coh}(X))=K^{\text{num}}(\mathrm{Coh}(X))$;
 the caetgory of reps of quiver with relations.
 
+We will use the following notation:
+
+- Define the ‘positive cone’ $C(A)$ in $K(A)$ to be
+\\[
+C(A) = \{[E] \in K(A) : 0 \not\equiv E \in A\} \subset K(A).
+\\]
+
+- Write $\mathfrak{M}\_A$ for the moduli stack of objects in $A$. It is an Artin $\mathbb{K}$-stack, locally of finite type. Elements of $\mathfrak{M}\_A(\mathbb{K})$ correspond to isomorphism classes $[E]$ of objects $E$ in $A$, and the stabilizer group $\text{Iso}\_{\mathfrak{M}\_A}([E])$ in $\mathfrak{M}\_A$ is isomorphic as an algebraic $\mathbb{K}$-group to the automorphism group $\text{Aut}(E)$.
+
+- For $\alpha \in C(A)$, write $\mathfrak{M}\_A^\alpha$ for the substack of objects $E \in A$ in class $\alpha$ in $K(A)$. It is an open and closed $\mathbb{K}$-substack of $\mathfrak{M}\_A$.
+
+- Write $\mathfrak{E}\_{\text{fact}\_A}$ for the moduli stack of short exact sequences $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ in $A$. It is an Artin $\mathbb{K}$-stack, locally of finite type.
+
+- For $j = 1, 2, 3$ write $\pi\_j : \mathfrak{E}\_{\text{fact}\_A} \to \mathfrak{M}\_A$ for the 1-morphism of Artin stacks projecting $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ to $E\_j$. Then $\pi\_2$ is _representable_, and $\pi\_1 \times \pi\_3 : \mathfrak{E}\_{\text{fact}\_A} \to \mathfrak{M}\_A \times \mathfrak{M}\_A$ is of _finite type_.
+
+
 
 ## 3. Generalized Donaldson-Thomas Invariants
 
