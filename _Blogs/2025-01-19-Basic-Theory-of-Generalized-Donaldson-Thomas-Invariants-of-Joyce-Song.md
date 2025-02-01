@@ -234,12 +234,19 @@ Note that these properties holds for $\mathrm{Coh}(X)$ of smooth projective vari
 the caetgory of reps of quiver with relations.
 
 
-
 ## 3. Generalized Donaldson-Thomas Invariants
 
+### 3.1. Generalized DT-Invariants
+
+### 3.2. Compare with usually DT-Invariants
+
+### 3.3. Joyce-Song Pairs and Deformation-Invariant
 
 ## 4. BPS Invariants and Integrality
 
+### 4.1. An Example
+
+### 4.2. BPS Invariants and the Conjecture of the Integrality
 
 
 
