@@ -190,6 +190,8 @@ In our idea, if $\mathfrak{R}$ has abelian stabilizer groups, then $\Pi^\mu([(\m
 \\]
 >
 > Here $X^{(t)}$ is the subvariety of $X$ fixed by $t$, and $l^{(t)} : [X^{(t)} / C\_G((t))] \to [X/G]$ is the obvious 1-morphism of Artin stacks.
+>
+> We can show that $\Pi^\mu ([(\mathfrak{R}, \rho)])$ is indeoendent of $X,G,T^G$ and $\mathfrak R\cong[X/G]$.
 
 
 ### 1.4. Stack Function Spaces Twisted by Euler Characteristics
