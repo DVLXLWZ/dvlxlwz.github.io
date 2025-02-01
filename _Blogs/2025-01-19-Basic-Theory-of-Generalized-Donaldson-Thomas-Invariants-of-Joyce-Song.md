@@ -119,6 +119,7 @@ There are several functorial and commutative properties of these pullback pushfo
 
 ### 1.3. Projections of Virtual Ranks
 
+As we have seen, aiming to define the generalized DT-invariants we need to find a **logarithm** of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a **virtual** stack whose stabilizer groups have one-dimensional maximal torus. Here we will introduce a projection which will maps the stack functions to the stack functions with some fixed *virtual* rank of stabilizer groups.
 
 
 ### 1.4. Stack Function Spaces Twisted by Euler Characteristics
