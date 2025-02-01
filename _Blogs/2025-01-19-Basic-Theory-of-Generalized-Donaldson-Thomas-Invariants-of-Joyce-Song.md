@@ -64,15 +64,21 @@ its weighted Euler characteristics. For example, let us take $\alpha$ with Hilbe
 or its $\mathbb C^*$-rigidification $1/(\chi(\text{PGL}\_2(\mathbb C)))$
 as $\chi(\text{GL}\_2(\mathbb C))=\chi(\text{PGL}\_2(\mathbb C))=0$.
 
-An issue caused here is that, for a strictly semistable sheaf E, the dimension of the maximal torus of $\text{Aut}(E)$ is greater than one. A crucial idea in Joyce  is that, by taking the **logarithm** of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a **virtual**
+An issue caused here is that, for a strictly semistable sheaf $E$, the dimension of the maximal torus of $\text{Aut}(E)$ is greater than one. A crucial idea in Joyce  is that, by taking the **logarithm** of the moduli stack $\mathcal M^{\alpha\text{-ss}}(\tau)$, we can regard it as a **virtual**
 stack whose stabilizer groups have one-dimensional maximal torus. Then by getting
 rid of the one-dimensional maximal torus and integrating over the Behrend function,
 the desired DT invariant (called generalized DT invariant) is defined.
 
 
 ## 1. Constructible Functions and Stack Functions
+
+Here are some basic definitions we need in the whole theory.
+
 ### 1.1. Constructible Functions
 
+> **Definition 1.1.** Let $\mathbb{K}$ be an algebraically closed field of characteristic zero, and $\mathfrak{F}$ an Artin $\mathbb{K}$-stack. We call $C \subseteq \mathfrak{F}(\mathbb{K})$ constructible if $C = \bigcup_{i \in I} \mathfrak{F}_i(\mathbb{K})$, where $\{\mathfrak{F}_i : i \in I\}$ is a finite collection of finite type Artin $\mathbb{K}$-substacks $\mathfrak{F}_i$ of $\mathfrak{F}$. We call $S \subseteq \mathfrak{F}(\mathbb{K})$ locally constructible if $S \cap C$ is constructible for all constructible $C \subseteq \mathfrak{F}(\mathbb{K})$.
+
+A function $f : \mathfrak{F}(\mathbb{K}) \to \mathbb{Q}$ is called constructible if $f(\mathfrak{F}(\mathbb{K}))$ is finite and $f^{-1}(c)$ is a constructible set in $\mathfrak{F}(\mathbb{K})$ for each $c \in f(\mathfrak{F}(\mathbb{K})) \setminus \{0\}$. A function $f : \mathfrak{F}(\mathbb{K}) \to \mathbb{Q}$ is called locally constructible if $f \cdot \delta_C$ is constructible for all constructible $C \subseteq \mathfrak{F}(\mathbb{K})$, where $\delta_C$ is the characteristic function of $C$. Write $\text{CF}(\mathfrak{F})$ and $\text{LCF}(\mathfrak{F})$ for the $\mathbb{Q}$-vector spaces of $\mathbb{Q}$-valued constructible and locally constructible functions on $\mathfrak{F}$.
 
 ### 1.2. Stack Functions
 
