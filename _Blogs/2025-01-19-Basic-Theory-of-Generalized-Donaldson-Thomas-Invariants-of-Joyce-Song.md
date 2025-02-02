@@ -6,13 +6,13 @@ excerpt_separator: <!--more-->
 date: 2025-01-19
 ---
 This is a basic and quick introduction of the theory of generalized Donaldson-Thomas invariants of strict Calabi-Yau $3$-folds due to Joyce-Song
-in [JS11][^1]. We work over $\mathbb C$, although these also work over any algebraically closed field of characteristic zero.
+in [JS11][^1]. We work over $\mathbb C$ to defined consider the generalized DT-invariants. But most of the theory before that we will work over any algebraically closed field $\mathbb K$ of characteristic zero.
 
 <!--more-->
 
 ## 0. Review of Donaldson-Thomas Invariants of Calabi-Yau $3$-folds
 
-> **Definition 0.1.** A **Calabi-Yau manifold** is a smooth projective variety $X$ over $\mathbb C$ such that $K\_X\cong\mathscr O\_X$.
+> **Definition 0.1.** A **Calabi-Yau manifold** is a smooth projective variety $X$ over $\mathbb K$ such that $K\_X\cong\mathscr O\_X$.
 > A **strict Calabi-Yau manifold** is a Calabi-Yau manifold $X$ such that $H^i(X,\mathscr O\_X)=0$ for any $0<i<\dim X$.
 
 Then we fix a Calabi-Yau $3$-fold $X$ with a very ample line bundle $\mathscr O\_X(1)$ and a Gieseker stability condition $(\tau,G,\leq)$. Consider the moduli stack of semistable sheaves $\mathcal M^{\alpha\text{-ss}}(\tau)$ for some $\alpha\in K^{\text{num}}(\text{coh}(X))$. Then it is a proper Artin stack
@@ -45,10 +45,10 @@ This description follows from a function, we call it the Behrend function:
 
 Then we have the following fact:
 
-> **Theorem 0.5.** (Behrend) Let $M$ be a proper $\mathbb C$-scheme with a symmetric perfect obstruction theory, then 
+> **Theorem 0.5.** (Behrend) Let $M$ be a proper $\mathbb K$-scheme with a symmetric perfect obstruction theory, then 
 > \\[\int\_{[M]^{\text{vir}}}1=\chi(X,\nu\_X):=\sum\_{k\in\mathbb Z}k\chi(\nu\_X^{-1}(k)).\\]
 
-> **Remark 0.6.** Here although we do not prove this theorem, we can give some idea of the reason why this result is true.
+> **Remark 0.6.** Here although we do not prove this theorem, we can give some idea of the reason why this result is true. Here we let $\mathbb K=\mathbb C$.
 > Here we focus on the case that consider the Calabi-Yau $3$-fold $X$ and $M:=M^{\alpha\text{-ss}}(\tau)=M^{\alpha\text{-st}}(\tau)$.
 > By the works of derived symplectic geometry in [BBJ19][^2], the moduli space $M$ is known to be locally written as critical loci of some function. That is for each point $p\in M$, there is an open neighborhood $p\in U$ such that $U\cong\mathrm{Crit}(w)$ where $Y$ is a smooth scheme and $w$ is a regular function on it.
 > So we need to consider the geometry of critical locus.
@@ -310,13 +310,22 @@ that tell us that taking the **logarithm** of the moduli stack of semistable obj
 
 > **Theorem 2.5.** We have $\bar{\epsilon}^{\alpha}(\tau)\in\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_A)\subset\text{SF}\_{\text{al}}(\mathfrak{M}\_A)$.
 
+Using these, we can define the generalized Donaldson-Thomas invariants.
+
 ## 3. Generalized Donaldson-Thomas Invariants
+
+Let $X$ be a strict projective Calabi-Yau $3$-fold over $\mathbb C$. Let $\mathfrak M:=\underline{Coh}(X)$ be the moduli stack of coherent sheaves
+and $\mathcal M^{\alpha\text{-ss}}(\tau)$ be the stack of semistable objects for some $\alpha\in K^{\text{num}}(\text{coh}(X))$ with a projective good moduli space $ M^{\alpha\text{-ss}}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha\text{-st}}(\tau)\subset\mathcal M^{\alpha\text{-ss}}(\tau)$ and $M^{\alpha\text{-st}}(\tau)\subset M^{\alpha\text{-ss}}(\tau)$ which need not be proper.
 
 ### 3.1. Generalized DT-Invariants
 
-### 3.2. Compare with usually DT-Invariants
+We will define a **global Behrend function of $\mathfrak M$ first:
 
-### 3.3. Joyce-Song Pairs and Deformation-Invariant
+> **Theorem 3.1.** 
+
+### 3.2. Compare with Usually DT-Invariants
+
+### 3.3. Where We Use the "Strict"?
 
 ## 4. BPS Invariants and Integrality
 
