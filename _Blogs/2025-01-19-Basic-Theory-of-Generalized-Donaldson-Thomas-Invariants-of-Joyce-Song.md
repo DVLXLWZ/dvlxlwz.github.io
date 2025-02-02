@@ -269,7 +269,25 @@ So our $\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A}), \wideha
 
 Finally we will taking the logarithm of the moduli stack of semistable objects and  we can regard it as a virtual stack whose stabilizer groups have one-dimensional maximal torus, that is, lies in $\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A})$. 
 
+Now let $\mathbb K, A, K(A)$ be abelian categories with K-group, and $(\tau, T, \leq)$ be a permissible (that is, $A$ is $\tau$-Artinian and the moduli stack of $\alpha$-semistable objects is of finite type for $\alpha\in C(A)$) weak stability condition on $A$. Let $\mathfrak M^{\alpha\text{-ss}}\_{A}(\tau),\mathfrak M^{\alpha\text{-st}}\_{A}(\tau)$ be the moduli stack of semistable, stable objects.
 
+> **Definition 2.4.** Define stack functions $\delta\_{\text{ss}}^{\alpha}(\tau) = \delta\_{\mathfrak{M}^{\alpha\text{-ss}}(\tau)}$ in $\text{SF}\_{\text{al}}(\mathfrak{M}\_A)$ for $\alpha \in C(A)$. We define elements $\bar{\epsilon}^{\alpha}(\tau)$ in $\text{SF}\_{\text{al}}(\mathfrak{M}\_A)$ by
+>
+> \\[
+\bar{\epsilon}^{\alpha}(\tau) =
+\sum\_{n \geq 1, \, \alpha\_1, \ldots, \alpha\_n \in C(A): \, \alpha\_1 + \cdots + \alpha\_n = \alpha, \, \tau(\alpha\_i) = \tau(\alpha), \, \text{all } i}
+\frac{(-1)^{n-1}}{n} \delta\_{\text{ss}}^{\alpha\_1}(\tau) \* \delta\_{\text{ss}}^{\alpha\_2}(\tau) \* \cdots \* \delta\_{\text{ss}}^{\alpha\_n}(\tau),
+\\]
+>
+> where $\*$ is the Ringel-Hall multiplication in $\text{SF}\_{\text{al}}(\mathfrak{M}\_A)$. Then we can prove that
+>
+> \\[
+\delta\_{\text{ss}}^{\alpha}(\tau) =
+\sum\_{n \geq 1, \, \alpha\_1, \ldots, \alpha\_n \in C(A): \, \alpha\_1 + \cdots + \alpha\_n = \alpha, \, \tau(\alpha\_i) = \tau(\alpha), \, \text{all } i}
+\frac{1}{n!} \bar{\epsilon}^{\alpha\_1}(\tau) \* \bar{\epsilon}^{\alpha\_2}(\tau) \* \cdots \* \bar{\epsilon}^{\alpha\_n}(\tau).
+\\]
+>
+> There are only finitely many nonzero terms above, because as the family of $\tau$-semistable sheaves in class $\alpha$ is bounded, there are only finitely ways to write $\alpha = \alpha\_1 + \cdots + \alpha\_n$ with $\tau$-semistable sheaves in class $\alpha\_i$ for all $i$.
 
 ## 3. Generalized Donaldson-Thomas Invariants
 
