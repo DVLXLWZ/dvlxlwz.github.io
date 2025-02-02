@@ -319,7 +319,7 @@ and $\mathcal M^{\alpha\text{-ss}}(\tau)$ be the stack of semistable objects for
 
 ### 3.1. Generalized DT-Invariants
 
-We will define a **global Behrend function of $\mathfrak M$ first:
+We will define a **global Behrend function of $\mathfrak M$** first:
 
 > **Theorem 3.1.** Let $X$ be a Calabi-Yau 3-fold over $\mathbb{C}$, and $\mathfrak{M}$ the moduli stack of coherent sheaves on $X$. The **Behrend function** $\nu\_{\mathfrak{M}} : \mathfrak{M}(\mathbb{C}) \to \mathbb{Z}$ is a natural locally constructible function on $\mathfrak{M}$. For all $E\_1, E\_2 \in \operatorname{coh}(X)$, it satisfies:  
 > \\[
@@ -334,6 +334,37 @@ We will define a **global Behrend function of $\mathfrak M$ first:
 > Here the correspondence between $[\lambda] \in \mathbb{P}(Ext^1(E\_2,E\_1))$ and $F \in \operatorname{coh}(X)$ is that $[\lambda] \in \mathbb{P}(Ext^1(E\_2,E\_1))$ lifts to some $0 \neq \lambda \in Ext^1(E\_2,E\_1)$, which corresponds to a short exact sequence $0 \to E\_1 \to F \to E\_2 \to 0$ in $\operatorname{coh}(X)$ in the usual way. The function $[\lambda] \mapsto \nu\_{\mathfrak{M}}(F)$ is a constructible function $\mathbb{P}(Ext^1(E\_2,E\_1)) \to \mathbb{Z}$, and the integrals are integrals of constructible functions using the Euler characteristic as measure.
 
 Here they uses gauge theory and transcendental complex analytic geometry methods.
+
+> **Definition 3.2.** Define a Lie algebra $\tilde{L}(X)$ to be the $\mathbb{Q}$-vector space with basis of symbols $\tilde{\lambda}^{\alpha}$ for $\alpha \in K^{\text{num}}(\text{coh}(X))$, with Lie bracket
+> \\[
+[\tilde{\lambda}^{\alpha}, \tilde{\lambda}^{\beta}] = (-1)^{\bar{\chi}(\alpha, \beta)} \bar{\chi}(\alpha, \beta) \tilde{\lambda}^{\alpha + \beta},
+\\]
+>
+ As $\bar{\chi}$ is antisymmetric, this satisfies the Jacobi identity, and makes $\tilde{L}(X)$ into an infinite-dimensional Lie algebra over $\mathbb{Q}$.
+>
+> Define a $\mathbb{Q}$-linear map $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ by
+> \\[
+\tilde{\Psi} \times \mathbb{Q}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \gamma^{\alpha} \tilde{\lambda}^{\alpha},
+\\]
+> where $\gamma^{\alpha} \in \mathbb{Q}$ is defined as follows. Write $f|\_{\mathcal{M}^{\alpha}}=\sum\_{i=1}^n\delta_i[(U_i\times[\text{Spec}\mathbb C/\mathbb G\_m],\rho_i)]$ where $\delta_i\in\mathbb Q$ and $U_i$ is a quasiprojective variety, and set
+> \\[
+\gamma^{\alpha} = \sum\_{i=1}^{n} \delta\_i \chi(U\_i, \rho\_i^* (\nu\_{\mathcal{M}})),
+\\]
+>
+> where $\rho\_i^* (\nu\_{\mathcal{M}})$ is the pullback of the Behrend function $\nu\_{\mathcal{M}}$ to a constructible function on $U\_i \times [\text{Spec }\mathbb C / \mathbb{G}\_m]$, or equivalently on $U\_i$, and $\chi(U\_i, \rho\_i^* (\nu\_{\mathcal{M}}))$ is the Euler characteristic of $U\_i$ weighted by $\rho\_i^* (\nu\_{\mathcal{M}})$. Define $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathcal{M}) \rightarrow \tilde{L}(X)$ by $\tilde{\Psi} = \tilde{\Psi} ^{\chi,\mathbb{Q}} \circ{\Pi}\_{\mathcal{M}}^{\chi,\mathbb{Q}}$.
+>
+> Here is an alternative way to write $\tilde{\Psi}^{\chi,\mathbb{Q}}$, $\tilde{\Psi}$ using constructible functions. Define a $\mathbb{Q}$-linear map $\Pi\_{\text{CF}} :\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q}) \rightarrow \text{CF}(\mathcal{M})$ by
+> \\[
+\Pi\_{\text{CF}} : \sum\_{i=1}^{n} \delta\_i [(U\_i \times [\text{Spec } C / \mathbb{G}\_m], \rho\_i)] \mapsto \sum\_{i=1}^{n} \delta\_i \text{CF}^{\text{na}}(\rho\_i)(1\_{U\_i}).
+\\]
+> Then we have
+> \\[
+\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathcal{M}^{\alpha}, (\Pi\_{\text{CF}}(f) \cdot \nu\_{\mathcal{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha},
+\\]
+> and
+> \\[
+\tilde{\Psi}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathcal{M}^{\alpha}, (\Pi\_{\text{CF}} \circ \tilde{\Pi}\_{\mathcal{M}}^{\chi,\mathbb{Q}}(f) \cdot \nu\_{\mathcal{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha}.
+\\]
 
 ### 3.2. Compare with Usually DT-Invariants
 
