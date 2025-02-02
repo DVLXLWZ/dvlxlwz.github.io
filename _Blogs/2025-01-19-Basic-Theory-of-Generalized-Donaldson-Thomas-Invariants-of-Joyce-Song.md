@@ -267,7 +267,7 @@ So our $\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A}), \wideha
 
 > **Proposition 2.3.** $\widehat{\text{SF}}\_{\text{al}}(\mathfrak{M}\_{\mathcal A}, \chi, \mathbb{Q})$ is spanned over $\mathbb{Q}$ by elements of the form $[(U \times [\text{Spec } \mathbb{K}/\mathbb{G}\_{m}^{k}], \rho)]$ with algebra stabilizers, for $U$ a quasiprojective $\mathbb{K}$-variety and $k \geq 0$. Also $\widehat{\text{SF}}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A}, \chi, \mathbb{Q})$ is spanned over $\mathbb{Q}$ by $[(U \times [\text{Spec} \mathbb{K}/\mathbb{G}\_{m}^{k}], \rho)]$ with algebra stabilizers, for $U$ a quasiprojective $\mathbb{K}$-variety.
 
-Finally we will taking the logarithm of the moduli stack of semistable objects and  we can regard it as a virtual stack whose stabilizer groups have one-dimensional maximal torus, that is, lies in $\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A})$. 
+Finally we will taking the **logarithm** of the moduli stack of semistable objects and  we can regard it as a virtual stack whose stabilizer groups have one-dimensional maximal torus, that is, lies in $\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_{\mathcal A})$. 
 
 Now let $\mathbb K, A, K(A)$ be abelian categories with K-group, and $(\tau, T, \leq)$ be a permissible (that is, $A$ is $\tau$-Artinian and the moduli stack of $\alpha$-semistable objects is of finite type for $\alpha\in C(A)$) weak stability condition on $A$. Let $\mathfrak M^{\alpha\text{-ss}}\_{A}(\tau),\mathfrak M^{\alpha\text{-st}}\_{A}(\tau)$ be the moduli stack of semistable, stable objects.
 
@@ -288,6 +288,27 @@ Now let $\mathbb K, A, K(A)$ be abelian categories with K-group, and $(\tau, T, 
 \\]
 >
 > There are only finitely many nonzero terms above, because as the family of $\tau$-semistable sheaves in class $\alpha$ is bounded, there are only finitely ways to write $\alpha = \alpha\_1 + \cdots + \alpha\_n$ with $\tau$-semistable sheaves in class $\alpha\_i$ for all $i$.
+
+> **Small Remark.** Here is a way to interpret these informally in terms of **log and exp**: working in a completed version, so that appropriate classes of infinite sums make sense, for fixed $t \in T$ we have
+>
+> \\[
+\sum\_{\alpha \in C(A): \tau(\alpha) = t} \tilde{\epsilon}^\alpha(\tau) = \log \left[ \bar{\delta}\_0 + \sum\_{\alpha \in C(A): \tau(\alpha) = t} \bar{\delta}\_\text{ss}^\alpha(\tau) \right],
+\\]
+>
+> and
+> 
+> \\[
+\bar{\delta}\_0 + \sum\_{\alpha \in C(A): \tau(\alpha) = t} \bar{\delta}\_\text{ss}^\alpha(\tau) = \exp \left[ \sum\_{\alpha \in C(A): \tau(\alpha) = t} \tilde{\epsilon}^\alpha(\tau) \right],
+\\]
+>
+> where $\bar{\delta}\_0$ is the identity 1 in $\widetilde{\text{SF}}\_{\text{al}}(\mathfrak{M}\_A)$. For $\alpha \in C(A)$ and $t = \tau(\alpha)$, using the power series $\log(1 + x) = \sum\_{n \geq 1} \frac{(-1)^{n-1}}{n} x^n$ and $\exp(x) = 1 + \sum\_{n \geq 1} \frac{1}{n!} x^n$ we see that (3.4)-(3.5) are the restrictions of (3.6)-(3.7) to $\mathfrak{M}\_A^\alpha$. This makes clear why (3.4) and (3.5) are inverse, since log and exp are inverse. Thus, knowing the $\tilde{\epsilon}^\alpha(\tau)$ is equivalent to knowing the $\bar{\delta}\_\text{ss}^\alpha(\tau)$.
+>
+> If $\mathfrak{M}\_\text{ss}^\alpha(\tau) = \mathfrak{M}\_\text{st}^\alpha(\tau)$ then $\tilde{\epsilon}^\alpha(\tau) = \bar{\delta}\_\text{ss}^\alpha(\tau)$. The difference between $\tilde{\epsilon}^\alpha(\tau)$ and $\bar{\delta}\_\text{ss}^\alpha(\tau)$ is that $\tilde{\epsilon}^\alpha(\tau)$ 'counts' strictly semistable sheaves in a special, complicated way.
+
+Here is an **important and highly nontrivial property** of the $\tilde{\epsilon}^\alpha(\tau)$, which does not hold for $\delta\_{\text{ss}}^{\alpha}(\tau)$,
+that tell us that taking the **logarithm** of the moduli stack of semistable objects and  we can regard it as a virtual stack whose stabilizer groups have one-dimensional maximal torus:
+
+> **Theorem 2.5.** We have $\bar{\epsilon}^{\alpha}(\tau)\in\text{SF}\_{\text{al}}^{\text{ind}}(\mathfrak{M}\_A)\subset\text{SF}\_{\text{al}}(\mathfrak{M}\_A)$.
 
 ## 3. Generalized Donaldson-Thomas Invariants
 
