@@ -235,19 +235,31 @@ the caetgory of reps of quiver with relations.
 
 We will use the following notation:
 
-- Define the ‘positive cone’ $C(A)$ in $K(A)$ to be
+- Define the ‘positive cone’ $C(\mathcal A)$ in $K(\mathcal A)$ to be
 \\[
-C(A) = \{[E] \in K(A) : 0 \not\equiv E \in A\} \subset K(A).
+C(\mathcal A) = \{[E] \in K(\mathcal A) : 0 \not\equiv E \in\mathcal A\} \subset K(\mathcal A).
 \\]
 
-- Write $\mathfrak{M}\_A$ for the moduli stack of objects in $A$. It is an Artin $\mathbb{K}$-stack, locally of finite type. Elements of $\mathfrak{M}\_A(\mathbb{K})$ correspond to isomorphism classes $[E]$ of objects $E$ in $A$, and the stabilizer group $\text{Iso}\_{\mathfrak{M}\_A}([E])$ in $\mathfrak{M}\_A$ is isomorphic as an algebraic $\mathbb{K}$-group to the automorphism group $\text{Aut}(E)$.
+- Write $\mathfrak{M}\_{\mathcal A}$ for the moduli stack of objects in $\mathcal A$. It is an Artin $\mathbb{K}$-stack, locally of finite type. Elements of $\mathfrak{M}\_{\mathcal A}(\mathbb{K})$ correspond to isomorphism classes $[E]$ of objects $E$ in $\mathcal A$, and the stabilizer group $\text{Iso}\_{\mathfrak{M}\_{\mathcal A}}}([E])$ in $\mathfrak{M}\_{\mathcal A}$ is isomorphic as an algebraic $\mathbb{K}$-group to the automorphism group $\text{Aut}(E)$.
 
-- For $\alpha \in C(A)$, write $\mathfrak{M}\_A^\alpha$ for the substack of objects $E \in A$ in class $\alpha$ in $K(A)$. It is an open and closed $\mathbb{K}$-substack of $\mathfrak{M}\_A$.
+- For $\alpha \in C(A)$, write $\mathfrak{M}\_{\mathcal A}^\alpha$ for the substack of objects $E \in {\mathcal A}$ in class $\alpha$ in $K(\mathcal A})$. It is an open and closed $\mathbb{K}$-substack of $\mathfrak{M}\_{\mathcal A}$.
 
-- Write $\mathfrak{E}\_{\text{fact}\_A}$ for the moduli stack of short exact sequences $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ in $A$. It is an Artin $\mathbb{K}$-stack, locally of finite type.
+- Write $\mathfrak{Exact}\_{\mathcal A}$ for the moduli stack of short exact sequences $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ in $A$. It is an Artin $\mathbb{K}$-stack, locally of finite type.
 
-- For $j = 1, 2, 3$ write $\pi\_j : \mathfrak{E}\_{\text{fact}\_A} \to \mathfrak{M}\_A$ for the 1-morphism of Artin stacks projecting $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ to $E\_j$. Then $\pi\_2$ is _representable_, and $\pi\_1 \times \pi\_3 : \mathfrak{E}\_{\text{fact}\_A} \to \mathfrak{M}\_A \times \mathfrak{M}\_A$ is of _finite type_.
+- For $j = 1, 2, 3$ write $\pi\_j : \mathfrak{Exact}\_{\mathcal A} \to \mathfrak{M}\_{\mathcal A}$ for the 1-morphism of Artin stacks projecting $0 \to E\_1 \to E\_2 \to E\_3 \to 0$ to $E\_j$. Then $\pi\_2$ is _representable_, and $\pi\_1 \times \pi\_3 : \mathfrak{Exact}\_{\mathcal A} \to \mathfrak{M}\_{\mathcal A} \times \mathfrak{M}\_{\mathcal A}$ is of _finite type_.
 
+
+> **Definition 2.1.** Define bilinear operations $\*$ on the stack function spaces $\underline{\text{SF}}, \text{SF}(\mathfrak{M}\_{\mathcal A})$ and $\underline{\widehat{\text{SF}}}, \widehat{\text{SF}}(\mathfrak{M}\_{\mathcal A, \chi, \mathbb{Q})$ by
+>
+>\\[
+f * g = (\pi\_2)\_\*((\pi\_1 \times \pi\_3)^\*(f \otimes g)),
+\\]
+>
+> using pushforwards, pullbacks and tensor products we defined. They are well-defined as $\pi\_2$ is representable, and $\pi\_1 \times \pi\_3$ is of finite type. We can sbhow that this $\*$ is associative, and makes $\underline{\text{SF}}, \text{SF}(\mathfrak{M}\_{\mathcal A})$ and $\underline{\widehat{\text{SF}}}, \widehat{\text{SF}}(\mathfrak{M}\_{\mathcalA, \chi, \mathbb{Q})$ into noncommutative $\mathbb{Q}$-algebras, with identity $\bar{\delta}\_{[0]}$, where $[0] \in \mathfrak{M}\_{\mathcal A}$ is the zero object. We call them **Ringel-Hall algebras*. The natural inclusions and projections $\Pi\_{\mathfrak{M}\_A}^{\chi,\mathbb{Q}}$ between these spaces are algebra morphisms.
+
+> **Definition 2.2.** Suppose $[(\mathfrak{R}, \rho)]$ is a generator of $\text{SF}(\mathfrak{M}\_{\mathcal A})$. Let $r \in \mathfrak{R}(\mathbb{K})$ with $\rho\_\*(r) = [E] \in \mathfrak{M}\_{\mathcal A}(\mathbb{K})$\. Then $\rho$ induces an injective morphism of stabilizer $\mathbb{K}$-groups $\rho\_\* : \text{Iso}\_{\mathfrak{R}}(r) \rightarrow \text{Iso}\_{\mathfrak{M}\_A}([E]) \cong \text{Aut}(E)$ as $\rho$ is representable this is injective. Hence induces an isomorphism of $\text{Iso}\_{\mathfrak{R}}(r)$ with a $\mathbb{K}$-subgroup of $\text{Aut}(E)$. Now $\text{Aut}(E) = \text{End}(E)^{\times}$ is the $\mathbb{K}$-group of invertible elements in a finite-dimensional $\mathbb{K}$-algebra $\text{End}(E) = \text{Hom}(E, E)$. We say that $[(\mathfrak{R}, \rho)]$ has **algebra stabilizers** if whenever $r \in \mathfrak{R}(\mathbb{K})$ with $\rho\_\*(r) = [E]$, the $\mathbb{K}$-subgroup $\rho\_\*(\text{Iso}\_{\mathfrak{R}}(r))$ in $\text{Aut}(E)$ is the $\mathbb{K}$-group $A^{\times}$ of invertible elements in a $\mathbb{K}$-subalgebra $A$ in $\text{End}(E)$.
+>
+> Write $\text{SF}\_{\text{al}}(\mathfrak{M}\_{\mathcal A}), \widehat{\text{SF}}\_{\text{al}}(\mathfrak{M}\_{\mathcal A, \chi, \mathbb{Q})$ for the subspaces spanned over $\mathbb{Q}$ by $[(\mathfrak{R}, \rho)]$ with algebra stabilizers. These are subalgebras of Ringel-Hall algebras and one can show that they are closed under $\Pi^{\text{vir}}{n}$. We define 
 
 
 ## 3. Generalized Donaldson-Thomas Invariants
