@@ -342,32 +342,32 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 >
  As $\bar{\chi}$ is antisymmetric, this satisfies the Jacobi identity, and makes $\tilde{L}(X)$ into an infinite-dimensional Lie algebra over $\mathbb{Q}$.
 >
-> Define a $\mathbb{Q}$-linear map $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ by
+> Define a $\mathbb{Q}$-linear map $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathfrak{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ by
 > \\[
-\tilde{\Psi} \times \mathbb{Q}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \gamma^{\alpha} \tilde{\lambda}^{\alpha},
+\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \gamma^{\alpha} \tilde{\lambda}^{\alpha},
 \\]
 > where $\gamma^{\alpha} \in \mathbb{Q}$ is defined as follows. Write $f|\_{\mathcal{M}^{\alpha}}=\sum\_{i=1}^n\delta_i[(U_i\times[\text{Spec}\mathbb C/\mathbb G\_m],\rho_i)]$ where $\delta_i\in\mathbb Q$ and $U_i$ is a quasiprojective variety, and set
 > \\[
-\gamma^{\alpha} = \sum\_{i=1}^{n} \delta\_i \chi(U\_i, \rho\_i^* (\nu\_{\mathcal{M}})),
+\gamma^{\alpha} = \sum\_{i=1}^{n} \delta\_i \chi(U\_i, \rho\_i^* (\nu\_{\mathfrak{M}})),
 \\]
 >
-> where $\rho\_i^* (\nu\_{\mathcal{M}})$ is the pullback of the Behrend function $\nu\_{\mathcal{M}}$ to a constructible function on $U\_i \times [\text{Spec }\mathbb C / \mathbb{G}\_m]$, or equivalently on $U\_i$, and $\chi(U\_i, \rho\_i^* (\nu\_{\mathcal{M}}))$ is the Euler characteristic of $U\_i$ weighted by $\rho\_i^* (\nu\_{\mathcal{M}})$. Define $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathcal{M}) \rightarrow \tilde{L}(X)$ by $\tilde{\Psi} = \tilde{\Psi} ^{\chi,\mathbb{Q}} \circ{\Pi}\_{\mathcal{M}}^{\chi,\mathbb{Q}}$.
+> where $\rho\_i^* (\nu\_{\mathfrak{M}})$ is the pullback of the Behrend function $\nu\_{\mathfrak{M}}$ to a constructible function on $U\_i \times [\text{Spec }\mathbb C / \mathbb{G}\_m]$, or equivalently on $U\_i$, and $\chi(U\_i, \rho\_i^* (\nu\_{\mathfrak{M}}))$ is the Euler characteristic of $U\_i$ weighted by $\rho\_i^* (\nu\_{\mathfrak{M}})$. Define $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathfrak{M}) \rightarrow \tilde{L}(X)$ by $\tilde{\Psi} = \tilde{\Psi} ^{\chi,\mathbb{Q}} \circ{\Pi}\_{\mathfrak{M}}^{\chi,\mathbb{Q}}$.
 >
-> Here is an alternative way to write $\tilde{\Psi}^{\chi,\mathbb{Q}}$, $\tilde{\Psi}$ using constructible functions. Define a $\mathbb{Q}$-linear map $\Pi\_{\text{CF}} :\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q}) \rightarrow \text{CF}(\mathcal{M})$ by
+> Here is an alternative way to write $\tilde{\Psi}^{\chi,\mathbb{Q}}$, $\tilde{\Psi}$ using constructible functions. Define a $\mathbb{Q}$-linear map $\Pi\_{\text{CF}} :\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathfrak{M}, \chi, \mathbb{Q}) \rightarrow \text{CF}(\mathfrak{M})$ by
 > \\[
 \Pi\_{\text{CF}} : \sum\_{i=1}^{n} \delta\_i [(U\_i \times [\text{Spec } C / \mathbb{G}\_m], \rho\_i)] \mapsto \sum\_{i=1}^{n} \delta\_i \text{CF}^{\text{na}}(\rho\_i)(1\_{U\_i}).
 \\]
 > Then we have
 > \\[
-\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathcal{M}^{\alpha}, (\Pi\_{\text{CF}}(f) \cdot \nu\_{\mathcal{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha},
+\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathfrak{M}^{\alpha}, (\Pi\_{\text{CF}}(f) \cdot \nu\_{\mathfrak{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha},
 \\]
 > and
 > \\[
-\tilde{\Psi}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathcal{M}^{\alpha}, (\Pi\_{\text{CF}} \circ \tilde{\Pi}\_{\mathcal{M}}^{\chi,\mathbb{Q}}(f) \cdot \nu\_{\mathcal{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha}.
+\tilde{\Psi}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathfrak{M}^{\alpha}, (\Pi\_{\text{CF}} \circ \tilde{\Pi}\_{\mathfrak{M}}^{\chi,\mathbb{Q}}(f) \cdot \nu\_{\mathfrak{M}})|\_{\mathfrak{M}^{\alpha}}) \tilde{\lambda}^{\alpha}.
 \\]
 
-> **Theorem 3.3.** Maps $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathcal{M}) \rightarrow \tilde{L}(X)$ and
-> $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ are Lie algebra morphisms.
+> **Theorem 3.3.** Maps $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathfrak{M}) \rightarrow \tilde{L}(X)$ and
+> $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathfrak{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ are Lie algebra morphisms.
 
 > **Definition 3.4.**
 
