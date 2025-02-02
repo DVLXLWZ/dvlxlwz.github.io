@@ -366,6 +366,11 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 \tilde{\Psi}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathcal{M}^{\alpha}, (\Pi\_{\text{CF}} \circ \tilde{\Pi}\_{\mathcal{M}}^{\chi,\mathbb{Q}}(f) \cdot \nu\_{\mathcal{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha}.
 \\]
 
+> **Theorem 3.3.** Maps $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathcal{M}) \rightarrow \tilde{L}(X)$ and
+> $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathcal{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ are Lie algebra morphisms.
+
+> **Definition 3.4.**
+
 ### 3.2. Compare with Usually DT-Invariants
 
 ### 3.3. Where We Use the "Strict"?
