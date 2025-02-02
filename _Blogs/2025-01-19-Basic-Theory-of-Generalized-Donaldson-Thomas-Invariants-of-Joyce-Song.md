@@ -321,11 +321,25 @@ and $\mathcal M^{\alpha\text{-ss}}(\tau)$ be the stack of semistable objects for
 
 We will define a **global Behrend function of $\mathfrak M$ first:
 
-> **Theorem 3.1.** 
+> **Theorem 3.1.** Let $X$ be a Calabi-Yau 3-fold over $\mathbb{C}$, and $\mathfrak{M}$ the moduli stack of coherent sheaves on $X$. The **Behrend function** $\nu\_{\mathfrak{M}} : \mathfrak{M}(\mathbb{C}) \to \mathbb{Z}$ is a natural locally constructible function on $\mathfrak{M}$. For all $E\_1, E\_2 \in \operatorname{coh}(X)$, it satisfies:  
+> \\[
+\nu\_{\mathfrak{M}}(E\_1 \oplus E\_2) = (-1)^{\bar{X}([E\_1],[E\_2])} \nu\_{\mathfrak{M}}(E\_1) \nu\_{\mathfrak{M}}(E\_2),
+\\] 
+> and 
+> \\[
+\int\_{[\lambda] \in \mathbb{P}(Ext^1(E\_2,E\_1))} \nu\_{\mathfrak{M}}(F) \, d\chi - \int\_{[\bar{\lambda}] \in \mathbb{P}(Ext^1(E\_1,E\_2))} \nu\_{\mathfrak{M}}(\tilde{F}) \, d\chi \\
+= (\dim Ext^1(E\_2, E\_1) - \dim Ext^1(E\_1, E\_2)) \nu\_{\mathfrak{M}}(E\_1 \oplus E\_2).
+\\] 
+>
+> Here the correspondence between $[\lambda] \in \mathbb{P}(Ext^1(E\_2,E\_1))$ and $F \in \operatorname{coh}(X)$ is that $[\lambda] \in \mathbb{P}(Ext^1(E\_2,E\_1))$ lifts to some $0 \neq \lambda \in Ext^1(E\_2,E\_1)$, which corresponds to a short exact sequence $0 \to E\_1 \to F \to E\_2 \to 0$ in $\operatorname{coh}(X)$ in the usual way. The function $[\lambda] \mapsto \nu\_{\mathfrak{M}}(F)$ is a constructible function $\mathbb{P}(Ext^1(E\_2,E\_1)) \to \mathbb{Z}$, and the integrals are integrals of constructible functions using the Euler characteristic as measure.
+
+Here they uses gauge theory and transcendental complex analytic geometry methods.
 
 ### 3.2. Compare with Usually DT-Invariants
 
 ### 3.3. Where We Use the "Strict"?
+
+
 
 ## 4. BPS Invariants and Integrality
 
