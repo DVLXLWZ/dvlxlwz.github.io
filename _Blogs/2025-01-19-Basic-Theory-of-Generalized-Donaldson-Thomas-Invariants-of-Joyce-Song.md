@@ -380,7 +380,7 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 
 These are **invariants** since the following theorem:
 
-> **Theorem 3.5.** Using the expression of generalized DT invariants by the Joyce-Song stable pair invariants (see section 5.4 in [JS11][^1]) and the fact that the Chern character maps $K^{\text{num}}(\text{Coh}(X))$ into a subgroup of $H^{2*}(X,\mathbb Q)$ which force $K^{\text{num}}(\text{Coh}(X))$ depends only on the underlying topological space of $X$ (see section 4.5 in [JS11][^1]), we can show that the **generalized Donaldson-Thomas invariants** $\bar{\text{DT}}^\alpha(\tau) \in \mathbb{Q}$ are unchanged under continuous deformations of complex structures.
+> **Theorem 3.5.** Using the expression of generalized DT invariants by the Joyce-Song stable pair invariants (see section 5.4 in [JS11][^1]) and the fact that the Chern character maps $K^{\text{num}}(\text{Coh}(X))$ into a subgroup(a lattice) of $H^{2*}(X,\mathbb Q)$ which force $K^{\text{num}}(\text{Coh}(X))$ depends only on the underlying topological space of $X$ (see section 4.5 in [JS11][^1]), we can show that the **generalized Donaldson-Thomas invariants** $\bar{\text{DT}}^\alpha(\tau) \in \mathbb{Q}$ are unchanged under continuous deformations of complex structures.
 
 ### 3.2. Compare with Usually DT-Invariants
 
@@ -401,11 +401,17 @@ Now we compare this and the ordinary DT-invariants above.
 
 ### 3.3. Where We Use the "Strict"?
 
+There are two places we use $H^1(X,\mathscr O\_X)=0$:
+
+- In the proof of **Theorem 3.1** about the global stacky Behrend function, we use a fact that $\mathfrak M$ is locally isomorphjic to the moduli stack of vector bundles. The proof of this fact uses the Seidel-Thomas twists by $\mathscr O\_X(-n)$. We need $\mathscr O\_X(-n)$ is a spherical object, that is, if $H^1(X,\mathscr O\_X)=0$.
+- In the proof of **Theorem 3.5.**, we use the fact that the Chern character maps $K^{\text{num}}(\text{Coh}(X))$ into a subgroup of $H^{2*}(X,\mathbb Q)$ which force $K^{\text{num}}(\text{Coh}(X))$ depends only on the underlying topological space of $X$. This is right for $H^1(X,\mathscr O\_X)=0$.
 
 
 ## 4. BPS Invariants and Integrality
 
-### 4.1. An Example
+First we consider an example:
+
+### 4.1. An Example of Generaized DT-Invariants
 
 ### 4.2. BPS Invariants and the Conjecture of the Integrality
 
