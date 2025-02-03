@@ -412,10 +412,10 @@ There are two places we use $H^1(X,\mathscr O\_X)=0$:
 Note that by a direct calculation (as section 6.1 in [JS11][^1]), we find that given a rigid $\tau$-stable sheaf $E$ in class $\alpha$, the sheaves $mE$ contribute $1/m^2$ to $\bar{\text{DT}}^{m\alpha}(\tau)$ for all $m\geq 1$. Therefore we may guess that the generalized DT-invariants comes from some another invariants of integral value with weights of form $1/m^2$. So we might to define:
 
 > **Definition 4.1.** Let $X$ be a strict projective Calabi-Yau 3-fold over $\mathbb{C}$, let $\mathscr O\_X(1)$ be a very ample line bundle on $X$, and let $(\tau, G, \leq)$ be Gieseker stability and $(\mu, M, \leq)$ be $\mu$-stability on $\text{coh}(X)$ w.r.t. $\mathscr O\_X(1)$. We define the **BPS-invariants** as
-> \\[\widehat{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m|\alpha}\frac{\mu(m)}{m^2}\bar{\text{DT}}^{\alpha/m}(\tau)\\]
+> \\[\widehat{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m\|\alpha}\frac{\mu(m)}{m^2}\bar{\text{DT}}^{\alpha/m}(\tau)\\]
 > where $\mu$ is the Mobius function. Hence we have $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m\|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ as we expected.
 
-This $\widehat{\text{DT}}^{\alpha}(\tau)$ is an analogue of invariants $\Omega(\alpha)$ in [KS08][^3] which aim to count BPS states. Our coefficients $1/m^2$ in $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ are related to the **dilogarithms** $\text{Li}\_2(t)=\sum\_{m\geq1}t^m/m^2$ in [KS08][^3]. 
+This $\widehat{\text{DT}}^{\alpha}(\tau)$ is an analogue of invariants $\Omega(\alpha)$ in [KS08][^3] which aim to count BPS states. Our coefficients $1/m^2$ in $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m\|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ are related to the **dilogarithms** $\text{Li}\_2(t)=\sum\_{m\geq1}t^m/m^2$ in [KS08][^3]. 
 
 Note that if $\mathcal M^{\alpha\text{-ss}}(\tau)=\mathcal M^{\alpha\text{-st}}(\tau)$, then $\mathcal M^{\alpha/m\text{-ss}}(\tau)=\emptyset$ for $m\geq2$. Hence in this case $\bar{\text{DT}}^\alpha(\tau)={\text{DT}}^\alpha(\tau)=\widehat{\text{DT}}^{\alpha}(\tau)$.
 
