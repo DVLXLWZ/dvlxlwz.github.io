@@ -378,9 +378,26 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 >
 > We can also have an alternative expression as above and we will omit this.
 
+These are **invariants** since the following theorem:
 
+> **Theorem 3.5.** Using the expression of generalized DT invariants by the Joyce-Song stable pair invariants (see section 5.4 in [JS11][^1]) and the fact that the Chern character maps $K^{\text{num}}(\text{Coh}(X))$ into a subgroup of $H^{2*}(X,\mathbb Q)$ which force $K^{\text{num}}(\text{Coh}(X))$ depends only on the underlying topological space of $X$ (see section 4.5 in [JS11][^1]), we can show that the **generalized Donaldson-Thomas invariants** $\bar{\text{DT}}^\alpha(\tau) \in \mathbb{Q}$ are unchanged under continuous deformations of complex structures.
 
 ### 3.2. Compare with Usually DT-Invariants
+
+Now we compare this and the ordinary DT-invariants above.
+
+> **Theorem 3.6.** If $\mathcal M^{\alpha\text{-ss}}(\tau)=\mathcal M^{\alpha\text{-st}}(\tau)$, then
+> \\[\bar{\text{DT}}^\alpha(\tau)={\text{DT}}^\alpha(\tau):=\int\_{[M^{\alpha\text{-st}}(\tau)]^{\text{vir}}}1\in\mathbb Z.\\]
+>
+>> *Proof.* In this case we have $\bar{\epsilon}^{\alpha}(\tau)=\delta^{\alpha}\_{\text{ss}}(\tau)=[(\mathcal M^{\alpha\text{-st}}(\tau),\iota)]$.
+>> Let $\pi:\mathcal M^{\alpha\text{-st}}(\tau)\to M^{\alpha\text{-st}}(\tau)$ be the good moduli space and then we have
+>> \\[\bar{\text{DT}}^\alpha(\tau)=-\chi^{\text{na}}(\mathcal M^{\alpha\text{-st}}(\tau),\nu_{\mathcal M^{\alpha\text{-st}}(\tau)})\\]
+>> as the definition and that $\chi$ is a motivic invariants and $\pi$ is a $B\mathbb G_m$-gerbe. Then
+>> \\[-\chi^{\text{na}}(\mathcal M^{\alpha\text{-st}}(\tau),\nu\_{\mathcal M^{\alpha\text{-st}}(\tau)})
+=\chi^{\text{na}}(\mathcal M^{\alpha\text{-st}}(\tau),\pi^*\nu\_{M^{\alpha\text{-st}}(\tau)})
+=\chi^{\text{na}}(M^{\alpha\text{-st}}(\tau),\nu\_{M^{\alpha\text{-st}}(\tau)}).\\]
+>> Hence \\[\bar{\text{DT}}^\alpha(\tau)={\text{DT}}^\alpha(\tau):=\int\_{[M^{\alpha\text{-st}}(\tau)]^{\text{vir}}}1 \\]
+>> by Behrend's result.
 
 ### 3.3. Where We Use the "Strict"?
 
