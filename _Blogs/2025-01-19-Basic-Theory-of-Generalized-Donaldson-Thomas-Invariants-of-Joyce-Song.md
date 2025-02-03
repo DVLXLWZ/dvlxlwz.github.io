@@ -314,7 +314,7 @@ Using these, we can define the generalized Donaldson-Thomas invariants.
 
 ## 3. Generalized Donaldson-Thomas Invariants
 
-Let $X$ be a strict projective Calabi-Yau $3$-fold over $\mathbb C$. Let $\mathfrak M:=\underline{Coh}(X)$ be the moduli stack of coherent sheaves
+Let $X$ be a **strict** projective Calabi-Yau $3$-fold over $\mathbb C$. Let $\mathfrak M:=\underline{Coh}(X)$ be the moduli stack of coherent sheaves
 and $\mathcal M^{\alpha\text{-ss}}(\tau)$ be the stack of semistable objects for some $\alpha\in K^{\text{num}}(\text{coh}(X))$ with a projective good moduli space $ M^{\alpha\text{-ss}}(\tau)$. They contain open locus of stable objects $\mathcal M^{\alpha\text{-st}}(\tau)\subset\mathcal M^{\alpha\text{-ss}}(\tau)$ and $M^{\alpha\text{-st}}(\tau)\subset M^{\alpha\text{-ss}}(\tau)$ which need not be proper.
 
 ### 3.1. Generalized DT-Invariants
@@ -346,7 +346,7 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 > \\[
 \tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \gamma^{\alpha} \tilde{\lambda}^{\alpha},
 \\]
-> where $\gamma^{\alpha} \in \mathbb{Q}$ is defined as follows. Write $f|\_{\mathcal{M}^{\alpha}}=\sum\_{i=1}^n\delta_i[(U_i\times[\text{Spec}\mathbb C/\mathbb G\_m],\rho_i)]$ where $\delta_i\in\mathbb Q$ and $U_i$ is a quasiprojective variety, and set
+> where $\gamma^{\alpha} \in \mathbb{Q}$ is defined as follows. Write $f|\_{\mathfrak{M}^{\alpha}}=\sum\_{i=1}^n\delta_i[(U_i\times[\text{Spec}\mathbb C/\mathbb G\_m],\rho_i)]$ where $\delta_i\in\mathbb Q$ and $U_i$ is a quasiprojective variety, and set
 > \\[
 \gamma^{\alpha} = \sum\_{i=1}^{n} \delta\_i \chi(U\_i, \rho\_i^* (\nu\_{\mathfrak{M}})),
 \\]
@@ -359,7 +359,7 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 \\]
 > Then we have
 > \\[
-\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathfrak{M}^{\alpha}, (\Pi\_{\text{CF}}(f) \cdot \nu\_{\mathfrak{M}})|\_{\mathcal{M}^{\alpha}}) \tilde{\lambda}^{\alpha},
+\tilde{\Psi}^{\chi,\mathbb{Q}}(f) = \sum\_{\alpha \in K^{\text{num}}(\text{coh}(X))} \chi^{\text{na}} (\mathfrak{M}^{\alpha}, (\Pi\_{\text{CF}}(f) \cdot \nu\_{\mathfrak{M}})|\_{\mathfrak{M}^{\alpha}}) \tilde{\lambda}^{\alpha},
 \\]
 > and
 > \\[
@@ -369,7 +369,16 @@ Here they uses gauge theory and transcendental complex analytic geometry methods
 > **Theorem 3.3.** Maps $\tilde{\Psi} : \text{SF}\_{\text{al}}^{ind}(\mathfrak{M}) \rightarrow \tilde{L}(X)$ and
 > $\tilde{\Psi}^{\chi,\mathbb{Q}}:\widehat{\text{SF}}\_{\text{al}}^{ind}(\mathfrak{M}, \chi, \mathbb{Q})\to \tilde{L}(X)$ are Lie algebra morphisms.
 
-> **Definition 3.4.**
+> **Definition 3.4.** Let $X$ be a strict projective Calabi-Yau 3-fold over $\mathbb{C}$, let $\mathscr O\_X(1)$ be a very ample line bundle on $X$, and let $(\tau, G, \leq)$ be Gieseker stability and $(\mu, M, \leq)$ be $\mu$-stability on $\text{coh}(X)$ w.r.t. $\mathscr O\_X(1)$. We define **generalized Donaldson-Thomas invariants** $\bar{\text{DT}}^\alpha(\tau) \in \mathbb{Q}$ and $\bar{\text{DT}}^\alpha(\mu) \in \mathbb{Q}$ for all $\alpha \in C(\text{coh}(X))$ by
+>
+> \\[
+\tilde{\Psi}(\bar{\epsilon}^{\alpha}(\tau)) = -\bar{\text{DT}}^\alpha(\tau)\tilde{\lambda}^{\alpha} \quad \text{and} \quad 
+\tilde{\Psi}(\bar{\epsilon}^{\alpha}(\mu)) = -\bar{\text{DT}}^\alpha(\mu)\tilde{\lambda}^{\alpha}.
+\\]
+>
+> We can also have an alternative expression as above and we will omit this.
+
+
 
 ### 3.2. Compare with Usually DT-Invariants
 
