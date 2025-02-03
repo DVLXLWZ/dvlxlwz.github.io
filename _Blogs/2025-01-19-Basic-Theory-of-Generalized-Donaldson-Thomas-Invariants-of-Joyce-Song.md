@@ -413,11 +413,11 @@ Note that by a direct calculation (as section 6.1 in [JS11][^1]), we find that g
 
 > **Definition 4.1.** Let $X$ be a strict projective Calabi-Yau 3-fold over $\mathbb{C}$, let $\mathscr O\_X(1)$ be a very ample line bundle on $X$, and let $(\tau, G, \leq)$ be Gieseker stability and $(\mu, M, \leq)$ be $\mu$-stability on $\text{coh}(X)$ w.r.t. $\mathscr O\_X(1)$. We define the **BPS-invariants** as
 > \\[\widehat{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m|\alpha}\frac{\mu(m)}{m^2}\bar{\text{DT}}^{\alpha/m}(\tau)\\]
-> where $\mu$ is the Mobius function. Hence we have $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ as we expected.
+> where $\mu$ is the Mobius function. Hence we have $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m\|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ as we expected.
 
 This $\widehat{\text{DT}}^{\alpha}(\tau)$ is an analogue of invariants $\Omega(\alpha)$ in [KS08][^3] which aim to count BPS states. Our coefficients $1/m^2$ in $\bar{\text{DT}}^{\alpha}(\tau)=\sum\_{m\geq1,m|\alpha}\frac{1}{m^2}\widehat{\text{DT}}^{\alpha/m}(\tau)$ are related to the **dilogarithms** $\text{Li}\_2(t)=\sum\_{m\geq1}t^m/m^2$ in [KS08][^3]. 
 
-Note that if $$\mathcal M^{\alpha\text{-ss}}(\tau)=\mathcal M^{\alpha\text{-st}}(\tau)$, then $\mathcal M^{\alpha/m\text{-ss}}(\tau)=\emptyset$ for $m\geq2$. Hence in this case $\bar{\text{DT}}^\alpha(\tau)={\text{DT}}^\alpha(\tau)=\widehat{\text{DT}}^{\alpha}(\tau)$.
+Note that if $\mathcal M^{\alpha\text{-ss}}(\tau)=\mathcal M^{\alpha\text{-st}}(\tau)$, then $\mathcal M^{\alpha/m\text{-ss}}(\tau)=\emptyset$ for $m\geq2$. Hence in this case $\bar{\text{DT}}^\alpha(\tau)={\text{DT}}^\alpha(\tau)=\widehat{\text{DT}}^{\alpha}(\tau)$.
 
 > **Conjecture.** Let $X$ be a strict projective Calabi-Yau 3-fold over $\mathbb{C}$, let $\mathscr O\_X(1)$ be a very ample line bundle on $X$, and let $(\tau, G, \leq)$ be Gieseker stability and $(\mu, M, \leq)$ be $\mu$-stability on $\text{coh}(X)$ w.r.t. $\mathscr O\_X(1)$. Let $(\tau,T,\leq)$ is **generic**, that is, for all $\alpha,\beta\in C(\text{Coh}(X))$ with $\tau(\alpha)=\tau(\beta)$ we have $\bar{\chi}(\alpha,\beta)=0$. Then $\widehat{\text{DT}}^{\alpha}(\tau)\in\mathbb Z$ for any $\alpha\in C(\text{Coh}(X))$.
 
