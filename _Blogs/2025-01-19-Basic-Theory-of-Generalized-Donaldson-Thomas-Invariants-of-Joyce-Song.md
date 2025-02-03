@@ -407,13 +407,9 @@ There are two places we use $H^1(X,\mathscr O\_X)=0$:
 - In the proof of **Theorem 3.5.**, we use the fact that the Chern character maps $K^{\text{num}}(\text{Coh}(X))$ into a subgroup of $H^{2*}(X,\mathbb Q)$ which force $K^{\text{num}}(\text{Coh}(X))$ depends only on the underlying topological space of $X$. This is right for $H^1(X,\mathscr O\_X)=0$.
 
 
-## 4. BPS Invariants and Integrality
+## 4. BPS Invariants and the Integrality
 
-First we consider an example:
-
-### 4.1. An Example of Generaized DT-Invariants
-
-### 4.2. BPS Invariants and the Conjecture of the Integrality
+Note that by a direct calculation (as section 6.1 in [JS11][^1]), we find that given a rigid $\tau$-stable sheaf $E$ in class $\alpha$, the sheaves $mE$ contribute $1/m^2$ to $\bar{\text{DT}}^{m\alpha}(\tau) for all $m\geq 1$. Therefore we may guess that the generalized DT-invariants comes from some another invariants of integral value with weights of form $1/m^2$.
 
 
 
