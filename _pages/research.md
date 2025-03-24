@@ -10,9 +10,9 @@ redirect_from:
 I'm now interested in the geometry of several varieties, moduli theories, derived geometry, enumerative geometry (such as Donaldson-Thomas theory, especially of CY $4$-folds) and related topics.
 
 ## Works in progress
-> + **1. DT-invariants of special toric CY $4$-folds and the crepant resolution conjecture of $[\mathbb C^4/\mathbb Z_r]$ via degeneration**. In praperation.
+> + **1. DT-invariants of toric Calabi-Yau $4$-folds and the crepant resolution conjecture of $[\mathbb C^4/\mathbb Z_r]$ via degeneration formula**. In praperation.
 
-> + **2. Invariants of Quasimaps and GLSM via derived algebraic geometry**. In praperation.
+> + **2. Invariants of Quasimaps in the setting of GLSM via derived algebraic geometry**. In praperation.
 
 ## Preprints in Arxiv
 
