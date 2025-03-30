@@ -12,8 +12,6 @@ I'm now interested in the geometry of several varieties, moduli theories, derive
 ## Works in progress
 > + **1. DT-invariants of toric Calabi-Yau fourfolds and the crepant resolution conjecture of $[\mathbb C^4/\mathbb Z_r]$ via degeneration formula**. In praperation.
 
-> + **2. Invariants of quasimaps in the setting of GLSM via derived algebraic geometry**. In praperation.
-
 ## Preprints in Arxiv
 
 Do not exist for now...
