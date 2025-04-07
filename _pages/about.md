@@ -13,11 +13,11 @@ I am now a second-year graduate student from **Institute of Mathematics** of [Ac
 I am now doing research on **algebraic geometry**, in particular I'm interested in the geometry of **moduli spaces, derived geometry, enumerative geometry** (such as **Donaldson-Thomas theory**) and related topics.
 
 
-## More
-Learn from the great master -- Alexander Grothendieck:
+## Above the Mathematics
+- Learn from the great master -- **Alexander Grothendieck**:
 ![placeholder](/images/grr.png){: .align-center}
 
-Greatest Chinese calligraphy from master -- WANG Xizhi：
+- **某臨池不輟，尤重行草，以追晉唐之妙也。平日亦攻小楷，然晉人小楷古奧難工，遂轉習唐人书，尤尊歐法。此乃書聖王羲之行草雙絕，觀之令人頓生『此生難企』之嘆：**
 
 ![placeholder](/images/sangluan.jpg){: .align-center}
 
