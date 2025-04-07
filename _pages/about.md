@@ -7,15 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a second-year graduate student from [Institute of Mathematics](http://www.math.ac.cn/) of [Academy of Mathematics and System Sciences]((http://english.amss.cas.cn/)) in [Chinese Academy of Sciences](https://english.cas.cn/), Beijing. 
 
-I'm now interested in algebraic geometry, in particular the geometry of several varieties, moduli theories, enumerative geometry (such as Donaldson-Thomas theory) and related topics.
+I am now a second-year graduate student from **Institute of Mathematics** of [Academy of Mathematics and System Sciences](http://english.amss.cas.cn/) in [Chinese Academy of Sciences](https://english.cas.cn/) in Beijing under the supervision of [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/) and [Prof. Yalong Cao](https://sites.google.com/site/yalongcaoshomepage/home). I got my bachelor degree from [Shandong University](https://www.en.sdu.edu.cn/) ([Taishan](https://www.tsxt.sdu.edu.cn)) in 2023.
 
-## Education
+I am now doing research on algebraic geometry, in particular I'm interested in the geometry of moduli spaces, derived geometry, enumerative geometry (such as Donaldson-Thomas theory) and related topics.
 
-> + **M.S.**: 2023--now, [AMSS,CAS](http://english.amss.cas.cn/), with [Prof. Baohua Fu](http://www.math.ac.cn/people/fbh/) and [Prof. Yalong Cao](https://sites.google.com/site/yalongcaoshomepage/home).
->
-> + **B.S.**: 2019--2023, [Shandong University](https://www.sdu.edu.cn) ([Taishan](https://www.tsxt.sdu.edu.cn)).
 
 ## More
 Learn from the great master -- Alexander Grothendieck:
