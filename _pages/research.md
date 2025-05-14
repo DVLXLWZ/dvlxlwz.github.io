@@ -14,7 +14,7 @@ I'm now interested in the geometry of several varieties, moduli theories, derive
 
 ## Preprints in Arxiv
 
- - **Donaldson-Thomas invariants of special toric Calabi-Yau fourfolds and $[\mathbb C^4/\mathbb Z_r]$ via degeneration methods**.
+ - **Zero dimensional Donaldson-Thomas invariants of $[\mathbb C^4/\mathbb Z_r]$**.
      - In praperation, to be appear soon.
 
  - **...**
