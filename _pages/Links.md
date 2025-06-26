@@ -55,4 +55,6 @@ redirect_from:
 >
 > + [The Stacks Project](https://stacks.math.columbia.edu/), an open source textbook and reference work on algebraic geometry;
 >
-> + [Kerodon](https://kerodon.net/), an online resource for homotopy-coherent mathematics...
+> + [Kerodon](https://kerodon.net/), an online resource for homotopy-coherent mathematics;
+>
+> + [xiaolongliu-math](https://sites.google.com/view/xiaolongliu-math/), my formal homepage...
