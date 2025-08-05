@@ -1,25 +1,25 @@
 # main links links
 main:
-  - title: "Research"
-    url: /research/
+#  - title: "Research"
+#    url: /research/
   
-  - title: "Notes"
-    url: /notes/ 
+#  - title: "Notes"
+#    url: /notes/ 
 
-  - title: "Talks"
-    url: /talks/    
+#  - title: "Talks"
+#    url: /talks/    
 
 #  - title: "Teaching"
 #    url: /teaching/
         
-  - title: "Blog Posts"
-    url: /Blogs/
+#  - title: "Blog Posts"
+#    url: /Blogs/
     
 #  - title: "CV"
 #    url: /cv/
 
-  - title: "Links"
-    url: /Links/
+#  - title: "Links"
+#    url: /Links/
     
 #  - title: "Pages_of_Seminars"
 #    url: /Pages_of_Seminars/
