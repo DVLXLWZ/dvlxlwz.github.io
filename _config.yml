@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "LIU Xiaolong"
-  avatar           : "MyPhoto.png"
-  bio              : "I’m a second-year graduate student in the area of the algebraic geometry."
+  avatar           : ""
+  bio              : "Please go to [this new homepage](https://sites.google.com/view/xiaolongliu-math/homepage)."
   location         : "Beijing, China"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "liuxiaolong@amss.ac.cn"
+  email            : " "
   researchgate     :
   uri              :
   bitbucket        :
